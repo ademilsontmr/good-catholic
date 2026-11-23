@@ -20,7 +20,7 @@ export default function NovenaForLegalCasesCatholic() {
         <meta name="description" content="Novena for legal cases — 9-day Catholic prayer for court hearings, lawsuits, and just outcomes. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="novena for legal cases, catholic prayer court case, novena justice lawsuit" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Legal Cases: 9-Day Prayer for Court & Justice" description="Novena for legal cases — 9-day Catholic prayer for court hearings, lawsuits, and just outcomes. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

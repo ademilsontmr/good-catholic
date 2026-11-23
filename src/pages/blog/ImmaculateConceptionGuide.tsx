@@ -21,7 +21,7 @@ export default function ImmaculateConceptionGuide() {
         <meta name="description" content="What is the Immaculate Conception? Clear Catholic teaching — not Jesus' birth, but Mary's freedom from original sin — dogma, Bible, Lourdes, feast day." />
         <meta name="keywords" content="immaculate conception, what is the immaculate conception, immaculate conception catholic, immaculate conception dogma, mary immaculate conception, december 8 holy day, immaculate conception explained" />
         <link rel="canonical" href="https://guidecatholic.com/blog/immaculate-conception-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Immaculate Conception Explained: Catholic Dogma Guide"

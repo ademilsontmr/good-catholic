@@ -20,7 +20,7 @@ export default function BibleVersesAboutLove() {
         <meta name="description" content={"Bible verses about love for Catholics — 1 Corinthians 13, John 15, 1 John 4, and RSV-CE scriptures on charity and marriage."} />
         <meta name="keywords" content={"bible verses about love, 1 corinthians 13, scripture about love"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-love/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Love: Scripture on Charity, Marriage and God's Heart"}

@@ -44,7 +44,7 @@ export default function SaintTheodoreGuerin() {
           content="st theodore guerin, mother theodore guerin, saint mother theodore guerin feast day, sisters of providence saint mary-of-the-woods, indiana first saint, patron saint of indianapolis, theodore guerin prayer, saint mary-of-the-woods shrine"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

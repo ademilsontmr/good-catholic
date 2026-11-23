@@ -21,7 +21,7 @@ export default function CatholicMentalHealthGuide() {
         <meta name="description" content="The Catholic approach to mental health: how faith integrates with psychology, finding Catholic therapists, and spiritual help for depression and anxiety." />
         <meta name="keywords" content="catholic mental health, christian depression anxiety, catholic therapist, faith and psychology, spiritual depression treatment, catholic counseling, mental health prayer, catholic approach to therapy" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-mental-health-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Mental Health: Faith-Based Guide to Depression, Anxiety & Healing"

@@ -21,7 +21,7 @@ export default function StJosephNovenaSellingHouse() {
         <meta name="description" content="St. Joseph Novena for selling a house — 9-day Catholic prayer with full text, how to pray when listing your home, and devotion traditions in the United States." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-selling-house/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="St. Joseph Novena for Selling a House: 9-Day Catholic Prayer Guide" description="St. Joseph Novena for selling a house — 9-day Catholic prayer with full text, how to pray when listing your home, and devotion traditions in the United States." url="https://guidecatholic.com/blog/st-joseph-novena-selling-house/" datePublished="2026-05-30" />
       <BreadcrumbSchema

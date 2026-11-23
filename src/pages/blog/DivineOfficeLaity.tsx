@@ -24,7 +24,7 @@ export default function DivineOfficeLaity() {
         <meta name="description" content="A lay Catholic's starter plan for the Divine Office: which book or app to choose, a realistic Morning and Night Prayer routine, and fixes for common obstacles." />
         <meta name="keywords" content="divine office for laity, how to start liturgy of the hours, christian prayer one volume, liturgy of the hours app, lay catholic breviary, morning and night prayer routine" />
         <link rel="canonical" href="https://guidecatholic.com/blog/divine-office-laity/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Start Praying the Divine Office as a Layperson"

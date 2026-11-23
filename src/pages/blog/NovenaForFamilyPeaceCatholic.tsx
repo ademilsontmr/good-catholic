@@ -20,7 +20,7 @@ export default function NovenaForFamilyPeaceCatholic() {
         <meta name="description" content="Novena for family peace — 9-day Catholic prayer for unity, reconciliation, and harmony at home. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="novena for family peace, catholic prayer family unity, novena reconciliation home" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-family-peace-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Family Peace: 9-Day Prayer for Unity at Home" description="Novena for family peace — 9-day Catholic prayer for unity, reconciliation, and harmony at home. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-family-peace-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

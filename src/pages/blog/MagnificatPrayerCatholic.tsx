@@ -21,7 +21,7 @@ export default function MagnificatPrayerCatholic() {
         <meta name="description" content="The Magnificat (Luke 1:46–55) with full Catholic text in English and Latin, Mary's song of praise, and when Catholics pray it at Vespers and in daily devotion." />
         <meta name="keywords" content="magnificat prayer, magnificat full text, mary's song catholic, magnificat latin, my soul magnifies the lord" />
         <link rel="canonical" href="https://guidecatholic.com/blog/magnificat-prayer-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Magnificat Prayer: Full Text (Mary's Song) & When to Pray It" description="The Magnificat (Luke 1:46–55) with full Catholic text in English and Latin, Mary's song of praise, and when Catholics pray it at Vespers and in daily devotion." url="https://guidecatholic.com/blog/magnificat-prayer-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

@@ -20,7 +20,7 @@ export default function StFrancisBlessingOfAnimalsOctober42026() {
         <meta name="description" content={"St. Francis feast & blessing of animals 2026 is Sunday, Oct 4. Etiquette, Canticle of the Sun, creation care, and U.S. parish tips beyond the photo op."} />
         <meta name="keywords" content={"blessing of the animals 2026, st francis feast day 2026, october 4 st francis, st francis blessing pets"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-francis-blessing-of-animals-october-4-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St. Francis Feast Day 2026 (Oct 4): Blessing of Animals & How to Keep It"}

@@ -21,7 +21,7 @@ export default function SaintMaximilianKolbe() {
         <meta name="description" content="Discover Saint Maximilian Kolbe — the Polish Franciscan priest who volunteered to die in place of a stranger at Auschwitz." />
         <meta name="keywords" content="saint maximilian kolbe, martyr of auschwitz, maximilian kolbe auschwitz, militia immaculata, kolbe patron of drug addicts, feast day august 14" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-maximilian-kolbe/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Maximilian Kolbe: Martyr of Auschwitz & Apostle of Mary"

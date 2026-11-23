@@ -21,7 +21,7 @@ export default function CatholicViewOnGhosts() {
         <meta name="description" content="Do Roman Catholics believe in ghosts? Clear Church teaching — purgatory, demons vs souls, haunted houses, and how Catholics should respond with prayer." />
         <meta name="keywords" content="do roman catholics believe in ghosts, do catholics believe in ghosts, catholic view on ghosts, souls in purgatory ghosts, haunted houses catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-view-on-ghosts/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Do Roman Catholics Believe in Ghosts? Church Teaching"

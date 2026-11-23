@@ -47,7 +47,7 @@ export default function CatholicFeastDatesHub() {
         />
         <meta name="keywords" content="catholic feast days, catholic liturgical calendar, holy days of obligation usa, catholic church calendar, when is ash wednesday, catholic holidays" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-feast-days/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <CollectionPageSchema
         name="Catholic Feast Days Calendar: Complete Guide to Important Church Dates"

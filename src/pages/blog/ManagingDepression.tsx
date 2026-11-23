@@ -21,7 +21,7 @@ export default function ManagingDepression() {
         <meta name="description" content="Discover a Catholic approach to managing depression. Learn about spiritual resources, professional treatment, and finding hope through faith during dark times." />
         <meta name="keywords" content="managing depression, Catholic mental health, depression and faith, spiritual depression, finding hope" />
         <link rel="canonical" href="https://guidecatholic.com/blog/managing-depression/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Managing Depression: A Catholic Approach to Mental Health"

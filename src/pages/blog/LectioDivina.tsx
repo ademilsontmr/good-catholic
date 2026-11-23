@@ -21,7 +21,7 @@ export default function LectioDivina() {
         <meta name="description" content="How to practice Lectio Divina step by step: the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice." />
         <meta name="keywords" content="lectio divina how to, lectio divina steps, praying with scripture, lectio divina catholic, how to do lectio divina" />
         <link rel="canonical" href="https://guidecatholic.com/blog/lectio-divina-how-to-practice/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Lectio Divina: How to Pray with Scripture Step by Step"

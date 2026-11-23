@@ -20,7 +20,7 @@ export default function BibleVersesForMen() {
         <meta name="description" content={"Bible Verses for Men for Catholics — Joshua 1:9 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for men, catholic bible verses for men, bible verses men"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-men/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Men: Scriptures Catholics Pray and Memorize"}

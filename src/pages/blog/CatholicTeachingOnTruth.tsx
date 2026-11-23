@@ -21,7 +21,7 @@ export default function CatholicTeachingOnTruth() {
         <meta name="description" content="What is truth? The Catholic Church teaches that truth is real, objective, and knowable — and that Jesus Christ is not just a teacher of truth but Truth itself." />
         <meta name="keywords" content="what is truth catholic, pilate what is truth, catholic teaching on truth, objective truth catholic, relativism and catholicism, jesus i am the truth" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-truth-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Truth? The Catholic Answer to Pilate's Question"

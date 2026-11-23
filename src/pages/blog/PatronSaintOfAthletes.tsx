@@ -63,7 +63,7 @@ export default function PatronSaintOfAthletes() {
           content="patron saint of athletes, patron saint of sports, catholic prayer before a game, patron saint of runners, patron saint of football, patron saint of soccer, st sebastian athletes, pier giorgio frassati, prayer for injured athlete, coach prayer catholic"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

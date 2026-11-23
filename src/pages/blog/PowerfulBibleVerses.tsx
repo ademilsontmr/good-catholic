@@ -20,7 +20,7 @@ export default function PowerfulBibleVerses() {
         <meta name="description" content={"Powerful Bible Verses for Catholics — Romans 8:31 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"powerful bible verses, catholic powerful bible verses, bible verses powerful"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/powerful-bible-verses/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Powerful Bible Verses: Scriptures Catholics Pray and Memorize"}

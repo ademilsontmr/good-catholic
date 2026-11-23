@@ -21,7 +21,7 @@ export default function CatholicTeachingOnDrugs() {
         <meta name="description" content="Catholic teaching on drugs and substance abuse: the distinction between medicinal use and sinful abuse, and the Catholic path to recovery." />
         <meta name="keywords" content="catholic teaching on drugs, drug use sin catholic, substance abuse catholic, addiction catholic church, marijuana catholic, drug addiction recovery catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-drugs/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Drugs: What the Church Says About Substance Abuse"

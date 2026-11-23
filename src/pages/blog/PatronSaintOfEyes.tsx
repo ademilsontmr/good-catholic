@@ -63,7 +63,7 @@ export default function PatronSaintOfEyes() {
           content="patron saint of eyes, patron saint of eyesight, patron saint of vision, patron saint of the blind, prayer to st lucy for eyes, prayer before eye surgery catholic, prayer before cataract surgery, st lucy feast day 2026, st odile, st raphael healing"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

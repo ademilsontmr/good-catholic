@@ -69,7 +69,7 @@ export default function PatronSaintOfSailors() {
           content="patron saint of sailors, patron saint of seafarers, patron saint of fishermen, patron saint of the navy, patron saint of the sea, stella maris, our lady star of the sea, ave maris stella, prayer for sailors catholic, blessing of the fleet"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

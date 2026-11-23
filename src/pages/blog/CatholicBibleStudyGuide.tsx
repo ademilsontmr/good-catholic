@@ -21,7 +21,7 @@ export default function CatholicBibleStudyGuide() {
         <meta name="description" content="How to study the Bible as a Catholic: which translation to use, the four senses of Scripture, Lectio Divina, study programs, and a 30-day reading plan." />
         <meta name="keywords" content="catholic bible study guide, how to study the bible catholic, catholic scripture study, bible study methods catholic, lectio divina bible study, catholic bible study groups" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-bible-study-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Bible Study Guide: How to Study Scripture the Catholic Way"

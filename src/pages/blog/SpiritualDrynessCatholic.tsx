@@ -68,7 +68,7 @@ export default function SpiritualDrynessCatholic() {
           content="spiritual dryness catholic, dryness in prayer, i feel nothing when i pray, spiritual desolation, spiritual rut, lukewarm catholic, acedia, dark night of the senses, desolation st ignatius"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

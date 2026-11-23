@@ -63,7 +63,7 @@ export default function MortalVsVenialSinCatholic() {
           content="mortal vs venial sin, mortal sin, venial sin, list of mortal sins catholic, what makes a sin mortal, do I need to confess venial sins, can I receive communion with venial sin, grave matter, catholic sin"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

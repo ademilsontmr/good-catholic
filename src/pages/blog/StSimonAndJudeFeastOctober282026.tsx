@@ -20,7 +20,7 @@ export default function StSimonAndJudeFeastOctober282026() {
         <meta name="description" content={"St. Simon and Jude feast day is Wednesday, October 28, 2026. Start the St. Jude novena October 20, Mass tips, and U.S. Catholic customs for the apostles' feast."} />
         <meta name="keywords" content={"st jude feast day 2026, simon and jude october 28, feast of st jude 2026, st simon and jude feast day"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-simon-and-jude-feast-day-october-28-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St. Simon and Jude Feast Day (October 28, 2026): Novena Timing & Mass"}

@@ -20,7 +20,7 @@ export default function CanADivorcedCatholicRemarry() {
         <meta name="description" content="Can a divorced Catholic get remarried in the Church? Civil divorce vs nullity, valid bonds (CCC 1650, 2384), the tribunal path, and Communion." />
         <meta name="keywords" content="can a divorced catholic get remarried, divorced catholic remarriage, catholic annulment remarry, divorce communion catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/can-a-divorced-catholic-get-remarried/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Can a Divorced Catholic Get Remarried in the Church?"

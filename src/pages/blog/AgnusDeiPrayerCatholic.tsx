@@ -21,7 +21,7 @@ export default function AgnusDeiPrayerCatholic() {
         <meta name="description" content="The Agnus Dei (Lamb of God) prayer with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation." />
         <meta name="keywords" content="agnus dei prayer, lamb of god prayer catholic, agnus dei full text, agnus dei latin mass, catholic mass prayers" />
         <link rel="canonical" href="https://guidecatholic.com/blog/agnus-dei-prayer-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Agnus Dei: Full Text of the Lamb of God Prayer at Mass"

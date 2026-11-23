@@ -21,7 +21,7 @@ export default function FruitsOfHolySpirit() {
         <meta name="description" content="The 12 Fruits of the Holy Spirit from Galatians 5: what each fruit means, how they differ from the 7 Gifts, and how to cultivate them in daily life." />
         <meta name="keywords" content="fruits of the holy spirit, 12 fruits of the holy spirit, fruits of holy spirit catholic, galatians 5 fruits, gifts vs fruits holy spirit" />
         <link rel="canonical" href="https://guidecatholic.com/blog/fruits-of-the-holy-spirit/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The 12 Fruits of the Holy Spirit: Complete Catholic Guide"

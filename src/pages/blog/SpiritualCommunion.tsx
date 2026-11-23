@@ -21,7 +21,7 @@ export default function SpiritualCommunion() {
         <meta name="description" content="Learn what spiritual communion is, the prayer of St. Alphonsus Liguori, when to make it, and its meaning for Catholics who cannot receive the Eucharist." />
         <meta name="keywords" content="spiritual communion, how to make spiritual communion, spiritual communion prayer, act of spiritual communion, st alphonsus spiritual communion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-make-spiritual-communion/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Make a Spiritual Communion: The Prayer and Its Meaning"

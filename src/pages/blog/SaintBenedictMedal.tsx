@@ -21,7 +21,7 @@ export default function SaintBenedictMedal() {
         <meta name="description" content="The Saint Benedict Medal: its history, what each symbol means, the Vade Retro prayer, how to have it blessed, and how Catholics use it for protection." />
         <meta name="keywords" content="saint benedict medal, st benedict medal meaning, vade retro satana, saint benedict medal prayer, how to use st benedict medal" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-benedict-medal/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Saint Benedict Medal: History, Meaning, and How to Use It"

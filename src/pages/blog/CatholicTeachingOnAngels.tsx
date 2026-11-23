@@ -21,7 +21,7 @@ export default function CatholicTeachingOnAngels() {
         <meta name="description" content="What does the Catholic Church really teach about angels? Guardian angels, archangels, the fall of Lucifer, and how Catholics relate to these spiritual beings." />
         <meta name="keywords" content="catholic teaching on angels, what does the catholic church teach about angels, guardian angels catholic, archangels catholic, angels in the bible, do angels exist catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-angels/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Angels: What the Church Really Believes"

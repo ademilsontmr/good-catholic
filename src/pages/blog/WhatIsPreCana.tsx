@@ -20,7 +20,7 @@ export default function WhatIsPreCana() {
         <meta name="description" content="What is Pre-Cana? How US dioceses prepare couples for marriage: Engaged Encounter, parish classes, sacrament, communication, NFP, finances, and timelines." />
         <meta name="keywords" content="what is pre cana, pre cana catholic, catholic pre cana classes, marriage preparation catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-pre-cana/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Pre-Cana? Catholic Marriage Preparation Explained"

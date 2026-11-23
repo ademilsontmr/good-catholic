@@ -21,7 +21,7 @@ export default function DivinePraisesCatholic() {
         <meta name="description" content="The Divine Praises with full Catholic text in English, what each praise means, and when Catholics pray them, especially after Benediction." />
         <meta name="keywords" content="divine praises catholic, divine praises prayer text, blessed be god, benediction prayers, eucharistic adoration prayers" />
         <link rel="canonical" href="https://guidecatholic.com/blog/divine-praises-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Divine Praises: Full Catholic Text, Meaning & When to Pray Them"

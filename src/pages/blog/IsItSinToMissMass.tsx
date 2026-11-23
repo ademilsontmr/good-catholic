@@ -21,7 +21,7 @@ export default function IsItSinToMissMass() {
         <meta name="description" content="Is missing Sunday Mass a mortal sin? Learn what the Catholic Church teaches about the Sunday obligation, valid excuses, and what to do if you miss Mass." />
         <meta name="keywords" content="is it a sin to miss mass, missing sunday mass catholic, sunday mass obligation, mortal sin miss mass, valid excuse miss mass catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/is-it-a-sin-to-miss-mass/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Is It a Sin to Miss Mass on Sunday? The Catholic Teaching"

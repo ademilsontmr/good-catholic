@@ -20,7 +20,7 @@ export default function CanCatholicsMarryNonCatholics() {
         <meta name="description" content="Can a Catholic marry a non-Catholic? Canon law on mixed marriages, disparity of cult, permissions, promises about children, and sacramental form in the USA." />
         <meta name="keywords" content="can a catholic marry a non catholic, mixed marriage catholic church, disparity of cult, catholic marry protestant" />
         <link rel="canonical" href="https://guidecatholic.com/blog/can-catholics-marry-non-catholics/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Can a Catholic Marry a Non-Catholic? Mixed Marriage Rules"

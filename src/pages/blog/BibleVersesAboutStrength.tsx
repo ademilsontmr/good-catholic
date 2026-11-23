@@ -20,7 +20,7 @@ export default function BibleVersesAboutStrength() {
         <meta name="description" content={"Bible verses about strength for Catholics — Philippians 4:13, Isaiah 40:31, Joshua 1:9, and RSV-CE scriptures when you need courage."} />
         <meta name="keywords" content={"bible verses about strength, scripture for strength, philippians 4:13"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-strength/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Strength: Scriptures for Courage and Endurance"}

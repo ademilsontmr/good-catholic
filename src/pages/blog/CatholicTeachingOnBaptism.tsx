@@ -22,7 +22,7 @@ export default function CatholicTeachingOnBaptism() {
         <meta name="description" content="What Catholic Baptism is and what it does: its biblical roots, its effects according to the Catechism, the indelible character, and why infants are baptized." />
         <meta name="keywords" content="catholic baptism explained, what does baptism do catholic, effects of baptism, baptismal character, infant baptism catholic, catechism on baptism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-baptism-explained/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Baptism Explained: What It Is and What It Does"

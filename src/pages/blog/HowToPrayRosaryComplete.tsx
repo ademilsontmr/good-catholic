@@ -13,6 +13,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { RosaryHubCTA } from "@/components/blog/RosaryHubCTA";
 import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function HowToPrayRosaryComplete() {
@@ -23,7 +24,7 @@ export default function HowToPrayRosaryComplete() {
         <meta name="description" content="Which Rosary mysteries to pray each day: Joyful, Sorrowful, Glorious and Luminous, the seasonal Sunday custom, and a meditation with Scripture for all 20." />
         <meta name="keywords" content="rosary mysteries by day, which mysteries today, joyful mysteries monday saturday, luminous mysteries thursday, sorrowful mysteries tuesday friday, glorious mysteries wednesday sunday, rosary meditations scripture" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-the-rosary-complete-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Rosary Mysteries by Day of the Week, With Meditations"
@@ -78,6 +79,7 @@ export default function HowToPrayRosaryComplete() {
                 <p className="text-lg text-text leading-relaxed font-medium">Today&apos;s mysteries: Monday and Saturday, Joyful. Tuesday and Friday, Sorrowful. Wednesday and Sunday, Glorious. Thursday, Luminous. Many Catholics also pray the Joyful on Sundays of Advent and Christmas and the Sorrowful on Sundays of Lent.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
+              <RosaryHubCTA />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Weekly Schedule</h2>
               <div className="bg-background-muted/50 border border-border rounded-xl p-6 mb-8 text-sm text-text">

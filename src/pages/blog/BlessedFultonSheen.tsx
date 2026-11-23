@@ -46,7 +46,7 @@ export default function BlessedFultonSheen() {
           content="blessed fulton sheen, fulton sheen feast day, archbishop fulton sheen, life is worth living, fulton sheen holy hour, fulton sheen beatification, fulton sheen prayer, fulton sheen peoria, fulton sheen biography"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

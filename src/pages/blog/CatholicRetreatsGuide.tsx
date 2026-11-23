@@ -21,7 +21,7 @@ export default function CatholicRetreatsGuide() {
         <meta name="description" content="Everything about Catholic retreats — types of retreats, how to find one near you, how to prepare, how to make the most of it, and how to make a retreat at home." />
         <meta name="keywords" content="catholic retreats guide, how to find catholic retreat, ignatian retreat, silent retreat catholic, catholic retreat centers usa, weekend retreat catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-retreats-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Retreats: How to Find, Choose & Make the Most of a Spiritual Retreat"

@@ -20,7 +20,7 @@ export default function StAndrewChristmasNovena2026() {
         <meta name="description" content="St. Andrew Christmas Novena 2026 starts Nov 30 — pray 15 times daily until Dec 24, traditional prayer text, Advent pairing, and Immaculate Conception Dec 8." />
         <meta name="keywords" content="st andrew christmas novena 2026, christmas novena st andrew, november 30 christmas novena, st andrew feast day 2026, hail and blessed be the hour" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-andrew-christmas-novena-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="St. Andrew Christmas Novena 2026: Dates, Prayer & How to Begin"
@@ -175,7 +175,7 @@ export default function StAndrewChristmasNovena2026() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Advent resources</h2>
               <p className="text-text leading-relaxed mb-6">
                 <Link to="/blog/advent-2026-start-date-when-does-advent-begin/" className="text-accent underline underline-offset-2">When Advent 2026 begins</Link> ·{" "}
-                <Link to="/blog/immaculate-conception-december-8-2026-holy-day-usa/" className="text-accent underline underline-offset-2">Immaculate Conception Dec 8, 2026</Link> ·{" "}
+                <Link to="/blog/immaculate-conception/" className="text-accent underline underline-offset-2">Immaculate Conception Dec 8, 2026</Link> ·{" "}
                 <Link to="/blog/advent/" className="text-accent underline underline-offset-2">What is Advent?</Link>
               </p>
 

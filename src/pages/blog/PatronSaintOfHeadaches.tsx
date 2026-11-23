@@ -58,7 +58,7 @@ export default function PatronSaintOfHeadaches() {
           content="patron saint of headaches, patron saint of migraines, prayer for headache relief catholic, st teresa of avila headaches, st denis headaches, st acacius, fourteen holy helpers, catholic prayer for migraine"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

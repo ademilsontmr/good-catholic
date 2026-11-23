@@ -21,7 +21,7 @@ export default function IncorruptibleSaints() {
         <meta name="description" content="What are Incorruptible Saints? Catholic saints whose bodies have not decomposed for centuries, the scientific studies, and what it means for our faith." />
         <meta name="keywords" content="incorruptible saints, incorrupt bodies of saints, st bernadette incorrupt, padre pio incorrupt, miracles of the body catholic, incorruptibility science" />
         <link rel="canonical" href="https://guidecatholic.com/blog/incorruptible-saints-miracle/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Incorruptible Saints: The Miracle of Sacred Bodies"

@@ -21,7 +21,7 @@ export default function CatholicTeachingOnEuthanasia() {
         <meta name="description" content="Catholic teaching on euthanasia and assisted suicide from the Catechism (CCC 2276-2279), Evangelium Vitae, and the theology of suffering." />
         <meta name="keywords" content="catholic teaching on euthanasia, catholic church assisted suicide, euthanasia catechism, evangelium vitae, right to die catholic, end of life catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-euthanasia/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Euthanasia & Assisted Suicide"

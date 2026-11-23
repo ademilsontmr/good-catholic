@@ -21,7 +21,7 @@ export default function WhyMenReturnToCatholicChurch() {
         <meta name="description" content="Young men are leading the Catholic revival of 2025–2026: the crisis of masculinity, the saints as models, the Traditional Latin Mass, and the call to heroism." />
         <meta name="keywords" content="why men return to catholic church, young men catholicism, catholic masculinity, men and faith, catholic revival young men, masculinity and religion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-young-men-return-to-catholic-church/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why Young Men Are Returning to the Catholic Church"

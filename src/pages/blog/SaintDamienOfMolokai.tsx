@@ -47,7 +47,7 @@ export default function SaintDamienOfMolokai() {
           content="st damien of molokai, saint damien, father damien, damien de veuster, father damien feast day, prayer to st damien, kalaupapa, molokai leper colony, patron saint of hansen's disease, patron saint of outcasts"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

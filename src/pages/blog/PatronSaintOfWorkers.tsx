@@ -75,7 +75,7 @@ export default function PatronSaintOfWorkers() {
           content="patron saint of workers, patron saint of work, patron saint of jobs, patron saint of job seekers, st joseph the worker, prayer for work catholic, st cajetan, patron saint of the unemployed, prayer before work"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

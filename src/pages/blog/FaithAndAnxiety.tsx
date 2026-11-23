@@ -21,7 +21,7 @@ export default function FaithAndAnxiety() {
         <meta name="description" content="Discover how Catholic faith helps overcome anxiety. Learn spiritual practices for mental health, when to seek professional help, and finding God's peace." />
         <meta name="keywords" content="faith and anxiety, Catholic mental health, overcoming anxiety, spiritual peace, anxiety relief" />
         <link rel="canonical" href="https://guidecatholic.com/blog/faith-and-anxiety/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Faith and Anxiety: Finding Peace Through Catholic Spirituality"

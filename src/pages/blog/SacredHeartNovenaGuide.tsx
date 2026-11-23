@@ -21,7 +21,7 @@ export default function SacredHeartNovenaGuide() {
         <meta name="description" content="Guide to the Sacred Heart Novena: the 12 promises of Jesus, how to pray the 9-day novena step by step, the First Friday devotion, and where to pray online." />
         <meta name="keywords" content="sacred heart novena guide, how to pray sacred heart novena, novena to sacred heart of jesus, sacred heart prayer 9 days, first friday devotion, sacred heart feast day" />
         <link rel="canonical" href="https://guidecatholic.com/blog/sacred-heart-novena-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Sacred Heart Novena Guide: How to Pray the 9-Day Prayer to the Heart of Jesus"

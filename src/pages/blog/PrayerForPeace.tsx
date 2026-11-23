@@ -31,7 +31,7 @@ export default function PrayerForPeace() {
         <title>{TITLE} | Guide Catholic</title>
         <meta name="description" content={DESCRIPTION} />
         <link rel="canonical" href={PAGE} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE} datePublished="2026-10-20" dateModified="2026-10-20" />
       <BreadcrumbSchema

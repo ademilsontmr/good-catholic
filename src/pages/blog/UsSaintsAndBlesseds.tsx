@@ -70,7 +70,7 @@ export default function UsSaintsAndBlesseds() {
           content="american saints, us saints, saints from the united states, us blesseds, american catholic saints list, first american saint, us catholic saints calendar, american saints feast days, saints of america"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

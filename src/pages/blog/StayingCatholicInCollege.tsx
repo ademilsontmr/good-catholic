@@ -21,7 +21,7 @@ export default function StayingCatholicInCollege() {
         <meta name="description" content="How to stay Catholic in college: finding a Newman Center, navigating secular culture, keeping your faith, and growing spiritually during your college years." />
         <meta name="keywords" content="staying catholic in college, catholic college students, newman center, catholic campus ministry, how to stay catholic, faith in college, catholic young adults" />
         <link rel="canonical" href="https://guidecatholic.com/blog/staying-catholic-in-college/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Staying Catholic in College: A Practical Guide for Catholic Students"

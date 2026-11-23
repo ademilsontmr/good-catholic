@@ -20,7 +20,7 @@ export default function BibleVersesAboutGodsPlan() {
         <meta name="description" content={"Bible Verses About God's Plan for Catholics — Jeremiah 29:11 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about god's plan, catholic bible verses about god's plan, bible verses god's plan"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-gods-plan/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About God's Plan: Scriptures Catholics Pray and Memorize"}

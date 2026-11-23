@@ -22,7 +22,7 @@ export default function WhyDidGodMakeMeCatholic() {
         <title>Why Did God Make Me? Catholic Meaning of Life | Guide Catholic</title>
         <meta name="description" content="Why did God make me? The Catholic answer: to know him, love him, and serve him in this life, and to be happy with him forever in heaven." />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why Did God Make Me? The Catholic Meaning of Life"

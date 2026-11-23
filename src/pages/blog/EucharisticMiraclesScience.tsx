@@ -21,7 +21,7 @@ export default function EucharisticMiraclesScience() {
         <meta name="description" content="The scientific evidence behind Eucharistic miracles like Lanciano, Buenos Aires, and Tixtla: blood types, DNA, and medical findings that defy explanation." />
         <meta name="keywords" content="eucharistic miracles science, lanciano miracle scientific study, buenos aires eucharist miracle, miracles and science, ab blood type eucharist, tixtla miracle mexico" />
         <link rel="canonical" href="https://guidecatholic.com/blog/eucharistic-miracles-science/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Eucharistic Miracles and Science: What Do the Medical Labs Say?"

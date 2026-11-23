@@ -20,7 +20,7 @@ export default function BibleVersesAboutForgiveness() {
         <meta name="description" content={"Bible Verses About Forgiveness for Catholics — Matthew 6:14 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about forgiveness, catholic bible verses about forgiveness, bible verses forgiveness"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-forgiveness/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Forgiveness: Scriptures Catholics Pray and Memorize"}

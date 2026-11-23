@@ -21,7 +21,7 @@ export default function HowToStudyBibleCatholic() {
         <meta name="description" content="How to study the Bible as a Catholic: Lectio Divina, the four senses of Scripture, study Bibles, commentaries, apps, and a practical daily reading plan." />
         <meta name="keywords" content="how to study the bible catholic, catholic bible study, how to read the bible catholic, lectio divina, catholic bible study methods, bible study guide catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-study-the-bible-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Study the Bible as a Catholic: Methods, Resources & Tips"

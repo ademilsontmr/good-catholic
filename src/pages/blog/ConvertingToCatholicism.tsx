@@ -21,7 +21,7 @@ export default function ConvertingToCatholicism() {
         <meta name="description" content="Thinking about converting to Catholicism? What to expect, what will change, how to tell your family, and famous converts who found a home in the Church." />
         <meta name="keywords" content="converting to catholicism, convert to catholicism, catholic conversion, converting from protestantism to catholicism, becoming catholic adult, catholic convert stories" />
         <link rel="canonical" href="https://guidecatholic.com/blog/converting-to-catholicism/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Converting to Catholicism: What to Expect, What Changes & Real Stories"

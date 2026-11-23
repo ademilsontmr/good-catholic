@@ -63,7 +63,7 @@ export default function PatronSaintOfAddiction() {
           content="patron saint of addiction, patron saint of addicts, patron saint of recovery, patron saint of alcoholics, patron saint of drug addiction, st maximilian kolbe addiction, matt talbot, catholic prayer for someone struggling with addiction, st mark ji tianxiang"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

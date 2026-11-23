@@ -21,7 +21,7 @@ export default function PropheciesOfFatima() {
         <meta name="description" content="Discover the three secrets of Fatima, their prophetic messages, and how they relate to Catholic prophecy, Russia, and the conversion of nations." />
         <meta name="keywords" content="Fatima prophecies, three secrets of Fatima, Catholic prophecy, Our Lady of Fatima, end times prophecy" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prophecies-of-fatima/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Prophecies of Fatima: The Three Secrets and Their Fulfillment"

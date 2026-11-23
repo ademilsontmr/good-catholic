@@ -20,7 +20,7 @@ export default function StJosephNovenaForEmployment() {
         <meta name="description" content="St. Joseph Novena for employment: a 9-day Catholic prayer for finding a job, with full text, a step-by-step guide, FAQs, and prayer for financial stability." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-for-employment/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="St. Joseph Novena for Employment: 9-Day Prayer to Find a Job (Full Text)" description="St. Joseph Novena for employment: a 9-day Catholic prayer for finding a job, with full text, a step-by-step guide, FAQs, and prayer for financial stability." url="https://guidecatholic.com/blog/st-joseph-novena-for-employment/" datePublished="2026-05-30" />
       <BreadcrumbSchema

@@ -20,7 +20,7 @@ export default function StRitaNovenaImpossibleCauses() {
         <meta name="description" content="St. Rita novena for impossible causes — 9-day Catholic prayer for difficult marriages, family wounds, and desperate situations. Feast May 22, full steps." />
         <meta name="keywords" content="st rita novena, st rita of cascia novena, novena for impossible causes st rita, saint rita prayer difficult marriage, st rita patron impossible causes" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-rita-novena-impossible-causes/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="St. Rita Novena for Impossible Causes: 9-Day Catholic Guide"

@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay38() {
         <meta name="description" content={"Pray St Michaels Lent Novena Day 38 on September 21, 2026. Clear intro, reasons to continue, and free 46-day novena prayers from Assumption to Michaelmas."} />
         <meta name="keywords" content={"st michael's lent novena day 38, st michaels lent novena day 38, st michael lent day 38 september 21, michaelmas novena day 38 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-38-september-21-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St. Michael's Lent Novena — Day 38 for Monday"}

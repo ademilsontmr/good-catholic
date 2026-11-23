@@ -21,7 +21,7 @@ export default function SubTuumPraesidiumPrayer() {
         <meta name="description" content="Sub Tuum Praesidium — the oldest known Marian prayer — with full Catholic text in English and Latin, history from the 3rd century, and when to pray it today." />
         <meta name="keywords" content="sub tuum praesidium prayer, oldest marian prayer, under your protection we fly, sub tuum praesidium latin, catholic marian prayers" />
         <link rel="canonical" href="https://guidecatholic.com/blog/sub-tuum-praesidium-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Sub Tuum Praesidium: Oldest Marian Prayer (Full Text & Latin)"

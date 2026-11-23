@@ -21,7 +21,7 @@ export default function CatholicConfirmationGuide() {
         <meta name="description" content="Guide to Catholic Confirmation: what it is, the seven gifts of the Holy Spirit, choosing a sponsor and confirmation name, the rite, and how to prepare." />
         <meta name="keywords" content="catholic confirmation, confirmation sacrament, preparing for confirmation, confirmation age, confirmation sponsor" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-confirmation-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Confirmation: What It Is and How to Prepare"

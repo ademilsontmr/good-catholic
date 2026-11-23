@@ -21,7 +21,7 @@ export default function CatholicTeachingOnEnvironment() {
         <meta name="description" content="What does the Catholic Church teach about the environment? Explore Laudato Si', the biblical basis for ecological stewardship, and practical Catholic responses." />
         <meta name="keywords" content="catholic teaching on environment, laudato si pope francis, care for creation catholic, catholic ecology, environmental stewardship catholic, climate change catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-environment/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on the Environment: Laudato Si' and Care for Creation"

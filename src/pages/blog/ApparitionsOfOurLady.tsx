@@ -21,7 +21,7 @@ export default function ApparitionsOfOurLady() {
         <meta name="description" content="Approved Marian apparitions of Our Lady — Guadalupe (1531), Lourdes (1858), and Fatima (1917). History, messages, miracles, and how Catholics respond." />
         <meta name="keywords" content="apparitions of our lady, our lady of fatima, our lady of lourdes, our lady of guadalupe, marian apparitions catholic, fatima secrets" />
         <link rel="canonical" href="https://guidecatholic.com/blog/apparitions-of-our-lady/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Marian Apparitions: Fatima, Lourdes & Guadalupe Guide"

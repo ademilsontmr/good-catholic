@@ -20,7 +20,7 @@ export default function BibleVersesAboutGodsLove() {
         <meta name="description" content={"Bible Verses About God's Love for Catholics — John 3:16 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about god's love, catholic bible verses about god's love, bible verses god's love"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-gods-love/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About God's Love: Scriptures Catholics Pray and Memorize"}

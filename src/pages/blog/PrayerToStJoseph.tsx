@@ -21,7 +21,7 @@ export default function PrayerToStJoseph() {
         <meta name="description" content="Prayers to St. Joseph for families, workers, and those in need, with his role as patron saint and how to seek his intercession in your daily life." />
         <meta name="keywords" content="prayer to st joseph, st joseph prayer, saint joseph prayer, prayer to saint joseph for family" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prayer-to-st-joseph/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Prayer to St. Joseph: Powerful Intercession for Families and Workers"

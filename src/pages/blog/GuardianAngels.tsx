@@ -21,7 +21,7 @@ export default function GuardianAngels() {
         <meta name="description" content="Do you have a Guardian Angel? Discover the Catholic teaching on angels, the nine celestial choirs, and how to build a relationship with your divine protector." />
         <meta name="keywords" content="guardian angels catholic, nine choirs of angels, hierarchy of angels, guardian angel prayer, angel protector catholic, spiritual warfare angels, Padre Pio angels" />
         <link rel="canonical" href="https://guidecatholic.com/blog/guardian-angels-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Guardian Angels: Everything You Need to Know About Your Divine Protector"

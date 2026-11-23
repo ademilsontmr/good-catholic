@@ -21,7 +21,7 @@ export default function CatholicAnnulment() {
         <meta name="description" content="What a Catholic annulment (declaration of nullity) is, how it differs from divorce, the grounds, the tribunal process, children, and care for the divorced." />
         <meta name="keywords" content="what is annulment catholic, catholic annulment, annulment vs divorce, how to get annulment catholic, marriage tribunal" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-annulment-catholic-church/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="What Is an Annulment in the Catholic Church? A Complete Guide"

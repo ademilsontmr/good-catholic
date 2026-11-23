@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { RosaryHubCTA } from "@/components/blog/RosaryHubCTA";
 import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function RosaryForBeginners() {
@@ -22,7 +23,7 @@ export default function RosaryForBeginners() {
         <meta name="description" content="A beginner's walk around the rosary beads: what to say on the crucifix, the first large bead, the three small beads, each decade, and the closing medal." />
         <meta name="keywords" content="how to pray the rosary step by step, rosary for beginners, what to say on each rosary bead, how to use rosary beads, rosary bead by bead, how to say the rosary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Pray the Rosary Step by Step, Bead by Bead"
@@ -82,6 +83,7 @@ export default function RosaryForBeginners() {
                 <p className="text-lg text-text leading-relaxed font-medium">Quick map: crucifix = Sign of the Cross and Creed; first large bead = Our Father; three small beads = three Hail Marys; then a Glory Be. Each of the five decades = announce a mystery, Our Father on the large bead, ten Hail Marys on the small beads, Glory Be. Finish at the medal with the Hail Holy Queen.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
+              <RosaryHubCTA />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 First, Get to Know Your Rosary

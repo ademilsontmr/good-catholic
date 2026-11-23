@@ -20,7 +20,7 @@ export default function BibleVersesForWomen() {
         <meta name="description" content={"Bible Verses for Women for Catholics — Proverbs 31:25 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for women, catholic bible verses for women, bible verses women"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-women/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Women: Scriptures Catholics Pray and Memorize"}

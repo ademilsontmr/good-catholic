@@ -20,7 +20,7 @@ export default function BibleVersesForABrokenHeart() {
         <meta name="description" content={"Bible Verses for a Broken Heart for Catholics — Psalm 34:18 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for a broken heart, catholic bible verses for a broken heart, bible verses broken heart"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-a-broken-heart/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for a Broken Heart: Scriptures Catholics Pray and Memorize"}

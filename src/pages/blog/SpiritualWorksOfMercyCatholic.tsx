@@ -21,7 +21,7 @@ export default function SpiritualWorksOfMercyCatholic() {
         <meta name="description" content="The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. S. examples." />
         <meta name="keywords" content="spiritual works of mercy, 7 spiritual works of mercy, works of mercy catholic, instruct the ignorant, comfort the afflicted" />
         <link rel="canonical" href="https://guidecatholic.com/blog/spiritual-works-of-mercy-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Spiritual Works of Mercy: Full Catholic List & Examples" description="The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. S. examples." url="https://guidecatholic.com/blog/spiritual-works-of-mercy-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

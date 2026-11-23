@@ -21,7 +21,7 @@ export default function CatholicGodparentRequirementsUsa() {
         <meta name="description" content="Catholic godparent requirements in the USA — age, Confirmation, marriage status, and how many godparents are allowed." />
         <meta name="keywords" content="catholic godparent requirements, godparent rules usa, can godparents be divorced" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-godparent-requirements-usa/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Catholic Godparent Requirements in the USA: Rules & Qualifications" description="Catholic godparent requirements in the USA — age, Confirmation, marriage status, and how many godparents are allowed." url="https://guidecatholic.com/blog/catholic-godparent-requirements-usa/" datePublished="2026-05-30" />
       <BreadcrumbSchema

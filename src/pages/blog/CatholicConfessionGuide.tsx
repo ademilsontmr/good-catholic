@@ -22,7 +22,7 @@ export default function CatholicConfessionGuide() {
         <meta name="description" content="Why do Catholics confess to a priest? John 20:21–23 and other Scripture, how the early Church practiced it, and why the seal of the confessional is absolute." />
         <meta name="keywords" content="why confess to a priest, biblical basis for confession, john 20 23 confession, seal of the confessional, is confession in the bible, can't i confess directly to god" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-confession-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why Confess to a Priest? The Biblical Basis and the Seal"

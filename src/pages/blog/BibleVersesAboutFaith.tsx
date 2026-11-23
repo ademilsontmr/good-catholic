@@ -20,7 +20,7 @@ export default function BibleVersesAboutFaith() {
         <meta name="description" content={"Bible Verses About Faith for Catholics — Hebrews 11:1 and RSV-CE scriptures for prayer, comfort, and daily discipleship."} />
         <meta name="keywords" content={"bible verses about faith, catholic bible verses about faith, scripture faith"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-faith/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Faith: Scriptures Catholics Turn To in Faith"}

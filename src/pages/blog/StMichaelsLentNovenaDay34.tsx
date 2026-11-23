@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay34() {
         <meta name="description" content={"Catholic St. Michael's Lent Novena Day 34 (September 17, 2026). S. Catholics — why this day matters and where to pray the full text free."} />
         <meta name="keywords" content={"st michael's lent novena day 34, st michaels lent novena day 34, st michael lent day 34 september 17, michaelmas novena day 34 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-34-september-17-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Pray St Michael's Lent Novena Day 34 (September 17, 2026)"}

@@ -21,7 +21,7 @@ export default function CatholicFamilyTraditions() {
         <meta name="description" content="Catholic family traditions for building a domestic church: family prayers, liturgical year celebrations, and creating a Catholic home environment." />
         <meta name="keywords" content="Catholic family traditions, domestic church, Catholic home, family prayer, liturgical year" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-family-traditions/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Family Traditions: Building a Domestic Church"

@@ -21,7 +21,7 @@ export default function CatholicTeachingOnScience() {
         <meta name="description" content="Does the Catholic Church oppose science? From Mendel and Lemaître to the Big Bang and evolution, see why faith and reason are complementary, not opposed." />
         <meta name="keywords" content="catholic teaching on science, faith and science catholic, does catholic church oppose science, galileo catholic church, big bang catholic, evolution catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-science/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Science: Faith and Reason Are Not Enemies"

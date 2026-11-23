@@ -22,7 +22,7 @@ export default function WhatIsTheMassGuide() {
         <meta name="description" content="Going to Catholic Mass for the first time? What to expect, when to stand, sit and kneel, what to wear, bringing kids, and Communion guidelines for non-Catholics." />
         <meta name="keywords" content="first time at catholic mass, what to expect at catholic mass, non-catholic at mass, can non-catholics receive communion, what to wear to mass, mass etiquette for visitors" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-mass/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is the Catholic Mass Like? A First-Timer's Guide"

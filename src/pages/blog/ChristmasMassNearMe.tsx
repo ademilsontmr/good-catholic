@@ -21,7 +21,7 @@ export default function ChristmasMassNearMe() {
         <meta name="description" content="Find Christmas Mass times 2026 near you for Christmas Eve and Christmas Day, what to expect at Midnight Mass, and how to find your nearest Catholic church." />
         <meta name="keywords" content="christmas mass near me, christmas mass times 2026, midnight mass 2026, christmas eve mass catholic, christmas day mass, catholic christmas mass" />
         <link rel="canonical" href="https://guidecatholic.com/blog/christmas-mass-near-me/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Christmas Mass Near Me 2026: Times, What to Expect & How to Prepare"

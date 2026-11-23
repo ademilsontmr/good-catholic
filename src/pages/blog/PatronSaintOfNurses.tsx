@@ -69,7 +69,7 @@ export default function PatronSaintOfNurses() {
           content="patron saint of nurses, nurse saint, prayer for nurses catholic, patron saint of healthcare workers, patron saint of hospitals, st camillus de lellis, st john of god, nursing graduation medal, nurses week prayer"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

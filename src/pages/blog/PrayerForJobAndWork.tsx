@@ -21,7 +21,7 @@ export default function PrayerForJobAndWork() {
         <meta name="description" content="Powerful Catholic prayers for work and employment — for finding a job, blessing your work, and honoring the dignity of labor as taught by the Church." />
         <meta name="keywords" content="catholic prayer for job, prayer for employment catholic, prayer for work catholic, st joseph prayer for work, prayer to find a job, blessing of work catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-prayer-for-job-and-work/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Prayers for Work and Employment: Finding a Job & Blessing Your Work"

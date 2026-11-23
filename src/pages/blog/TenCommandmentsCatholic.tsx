@@ -21,7 +21,7 @@ export default function TenCommandmentsCatholic() {
         <meta name="description" content="The 10 Commandments in the Catholic Church: full text, how Catholic numbering differs from Protestant, what each means, and how to live them today." />
         <meta name="keywords" content="10 commandments catholic, ten commandments catholic church, catholic commandments list, how catholics number commandments" />
         <link rel="canonical" href="https://guidecatholic.com/blog/ten-commandments-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The 10 Commandments: Catholic Version Explained"

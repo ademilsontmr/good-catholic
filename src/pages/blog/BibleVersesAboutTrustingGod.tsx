@@ -20,7 +20,7 @@ export default function BibleVersesAboutTrustingGod() {
         <meta name="description" content={"Bible Verses About Trusting God for Catholics — Proverbs 3:5 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about trusting god, catholic bible verses about trusting god, bible verses trusting god"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-trusting-god/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Trusting God: Scriptures Catholics Pray and Memorize"}

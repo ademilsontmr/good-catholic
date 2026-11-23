@@ -21,7 +21,7 @@ export default function CatholicBibleGuide() {
         <meta name="description" content="Best Catholic Bible translations explained — NABRE, RSV-CE, Douay-Rheims, 73 books vs Protestant Bibles, and which edition to use for Mass, study, or prayer." />
         <meta name="keywords" content="catholic bible, catholic bible books, catholic bible translation, best catholic bible, catholic bible vs protestant bible, 73 books catholic bible, nabre bible, rsv-ce bible" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-bible-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Bible Translations: NABRE, RSV-CE & More"

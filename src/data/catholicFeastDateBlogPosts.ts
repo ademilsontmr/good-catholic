@@ -18,7 +18,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5001,
     "slug": "catholic-feast-days/advent-first-sunday",
-    "title": "First Sunday of Advent: Catholic Feast Day Guide — Start of the Church Year & Season of Hope",
+    "title": "First Sunday of Advent: Catholic Meaning & Traditions",
     "excerpt": "First Sunday of Advent — Start of the Church Year & Season of Hope. Advent marks the beginning of the liturgical year in the Roman Rite, not January 1.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -30,7 +30,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5002,
     "slug": "catholic-feast-days/advent-wreath",
-    "title": "Advent Wreath: Catholic Feast Day Guide — Circle of Light Through the Longest Nights",
+    "title": "Advent Wreath: Catholic Meaning & Traditions",
     "excerpt": "Advent Wreath — Circle of Light Through the Longest Nights. The circular wreath symbolizes God's eternity and the unending nature of his love.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -42,7 +42,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5003,
     "slug": "catholic-feast-days/gaudete-sunday",
-    "title": "Gaudete Sunday: Catholic Feast Day Guide — Rejoice—Christmas Is Near",
+    "title": "Gaudete Sunday: Catholic Meaning & Traditions",
     "excerpt": "Gaudete Sunday — Rejoice—Christmas Is Near. Gaudete means 'Rejoice' in Latin, taken from the entrance antiphon of the Mass.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -54,7 +54,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5004,
     "slug": "catholic-feast-days/immaculate-conception",
-    "title": "Solemnity of the Immaculate Conception: Catholic Feast Day Guide — Mary Conceived Without Original Sin",
+    "title": "Solemnity of the Immaculate Conception: Catholic Guide",
     "excerpt": "Solemnity of the Immaculate Conception — Mary Conceived Without Original Sin. Defined as dogma by Pope Pius IX in 1854 in the bull Ineffabilis Deus.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -66,7 +66,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5005,
     "slug": "catholic-feast-days/our-lady-of-guadalupe",
-    "title": "Feast of Our Lady of Guadalupe: Catholic Feast Day Guide — Empress of the Americas & Star of the New Evangelization",
+    "title": "Feast of Our Lady of Guadalupe: Catholic Meaning & Traditions",
     "excerpt": "Feast of Our Lady of Guadalupe — Empress of the Americas & Star of the New Evangelization. Mary appeared to St. Juan Diego on Tepeyac Hill near Mexico...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -78,7 +78,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5006,
     "slug": "catholic-feast-days/christmas",
-    "title": "Nativity of the Lord (Christmas): Catholic Feast Day Guide — God Becomes Man in Bethlehem",
+    "title": "Nativity of the Lord (Christmas): Catholic Meaning & Traditions",
     "excerpt": "Nativity of the Lord (Christmas) — God Becomes Man in Bethlehem. Christmas celebrates the Incarnation—the Word made flesh in Jesus Christ.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -90,7 +90,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5007,
     "slug": "catholic-feast-days/christmas-midnight-mass",
-    "title": "Christmas Midnight Mass: Catholic Feast Day Guide — When Angels Broke the Silence of Night",
+    "title": "Christmas Midnight Mass: Catholic Meaning & Traditions",
     "excerpt": "Christmas Midnight Mass — When Angels Broke the Silence of Night. Midnight Mass tradition links to the belief that Christ was born at the darkest hour,...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -102,7 +102,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5008,
     "slug": "catholic-feast-days/holy-family-sunday",
-    "title": "Feast of the Holy Family: Catholic Feast Day Guide — Jesus, Mary & Joseph—Model for Every Home",
+    "title": "Feast of the Holy Family: Catholic Meaning & Traditions",
     "excerpt": "Feast of the Holy Family — Jesus, Mary & Joseph—Model for Every Home. Instituted for the universal Church by Pope Leo XIII in 1893, originally on...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -114,7 +114,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5009,
     "slug": "catholic-feast-days/mary-mother-of-god",
-    "title": "Solemnity of Mary, Mother of God: Catholic Feast Day Guide — Theotokos—God-Bearer at the Year's Threshold",
+    "title": "Solemnity of Mary, Mother of God: Catholic Meaning & Traditions",
     "excerpt": "Solemnity of Mary, Mother of God — Theotokos—God-Bearer at the Year's Threshold. Title Theotokos (God-bearer) was defined at the Council of Ephesus in...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -126,7 +126,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5010,
     "slug": "catholic-feast-days/epiphany",
-    "title": "Epiphany of the Lord: Catholic Feast Day Guide — Kings from the East Reveal Christ to the Nations",
+    "title": "Epiphany of the Lord: Catholic Meaning & Traditions",
     "excerpt": "Epiphany of the Lord — Kings from the East Reveal Christ to the Nations. Epiphany means 'manifestation'—Christ revealed to the Magi as Savior of all peoples.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -138,7 +138,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5011,
     "slug": "catholic-feast-days/epiphany-chalk-blessing",
-    "title": "Epiphany Chalk Blessing: Catholic Feast Day Guide — Mark Your Home with the Magi's Blessing",
+    "title": "Epiphany Chalk Blessing: Catholic Meaning & Traditions",
     "excerpt": "Epiphany Chalk Blessing — Mark Your Home with the Magi's Blessing. The letters C+M+B stand for Christus mansionem benedicat ('May Christ bless this...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -150,7 +150,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5012,
     "slug": "catholic-feast-days/baptism-of-the-lord",
-    "title": "Baptism of the Lord: Catholic Feast Day Guide — The Father's Voice over the Jordan",
+    "title": "Baptism of the Lord: Catholic Meaning & Traditions",
     "excerpt": "Baptism of the Lord — The Father's Voice over the Jordan. Concludes the Christmas season in the current Roman calendar, replacing the older Octave ending.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -162,7 +162,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5013,
     "slug": "catholic-feast-days/presentation-candlemas",
-    "title": "Presentation of the Lord (Candlemas): Catholic Feast Day Guide — Light for Revelation to the Gentiles",
+    "title": "Presentation of the Lord (Candlemas): Catholic Guide",
     "excerpt": "Presentation of the Lord (Candlemas) — Light for Revelation to the Gentiles. Marks 40 days after Christmas, when Mary completed ritual purification and...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -174,7 +174,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5014,
     "slug": "catholic-feast-days/st-joseph",
-    "title": "Solemnity of St. Joseph, Spouse of the Blessed Virgin Mary: Catholic Feast Day Guide — Patron of the Universal Church & Workers",
+    "title": "Solemnity of St. Joseph, Spouse of the Blessed Virgin Mary: Catholic Guide",
     "excerpt": "Solemnity of St. Joseph, Spouse of the Blessed Virgin Mary — Patron of the Universal Church & Workers. Pope Pius IX declared St. Joseph Patron of the...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -186,7 +186,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5015,
     "slug": "catholic-feast-days/annunciation",
-    "title": "Solemnity of the Annunciation: Catholic Feast Day Guide — The Word Takes Flesh at Mary's Yes",
+    "title": "Solemnity of the Annunciation: Catholic Meaning & Traditions",
     "excerpt": "Solemnity of the Annunciation — The Word Takes Flesh at Mary's Yes. March 25 was anciently believed to be both the date of the Annunciation and the Crucifixion.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -198,7 +198,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5016,
     "slug": "catholic-feast-days/ash-wednesday",
-    "title": "Ash Wednesday: Catholic Feast Day Guide — Remember You Are Dust—Lent Begins",
+    "title": "Ash Wednesday: Catholic Meaning & Traditions",
     "excerpt": "Ash Wednesday — Remember You Are Dust—Lent Begins. Ash Wednesday opens Lent, a 40-day period of prayer, fasting, and almsgiving before Easter.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -210,7 +210,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5017,
     "slug": "catholic-feast-days/lent-overview",
-    "title": "Season of Lent: Catholic Feast Day Guide — Forty Days with the Lord in the Desert",
+    "title": "Season of Lent: Catholic Meaning & Traditions",
     "excerpt": "Season of Lent — Forty Days with the Lord in the Desert. Lent mirrors Jesus' 40 days of fasting in the wilderness before his public ministry.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -222,7 +222,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5018,
     "slug": "catholic-feast-days/lent-fasting-rules",
-    "title": "Lent Fasting & Abstinence: Catholic Feast Day Guide — The Church's Penitential Discipline in the U.S.",
+    "title": "Lent Fasting & Abstinence: Catholic Meaning & Traditions",
     "excerpt": "Lent Fasting & Abstinence — The Church's Penitential Discipline in the U.S.. U.S. bishops require abstinence from meat on Ash Wednesday and all Fridays...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -234,7 +234,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5019,
     "slug": "catholic-feast-days/laetare-sunday",
-    "title": "Laetare Sunday: Catholic Feast Day Guide — Rejoice—Easter Is Halfway in Sight",
+    "title": "Laetare Sunday: Catholic Meaning & Traditions",
     "excerpt": "Laetare Sunday — Rejoice—Easter Is Halfway in Sight. Laetare ('Rejoice') comes from the entrance antiphon Isaiah 66:10–11, a glimpse of joy mid-Lent.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -246,7 +246,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5020,
     "slug": "catholic-feast-days/palm-sunday",
-    "title": "Palm Sunday of the Passion of the Lord: Catholic Feast Day Guide — Hosanna Today, Crucify Him Friday",
+    "title": "Palm Sunday of the Passion of the Lord: Catholic Guide",
     "excerpt": "Palm Sunday of the Passion of the Lord — Hosanna Today, Crucify Him Friday. Commemorates Christ's triumphal entry into Jerusalem and opens Holy Week.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -258,7 +258,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5021,
     "slug": "catholic-feast-days/holy-week-overview",
-    "title": "Holy Week: Catholic Feast Day Guide — The Church Walks with Christ to Calvary",
+    "title": "Holy Week: Catholic Meaning & Traditions",
     "excerpt": "Holy Week — The Church Walks with Christ to Calvary. Holy Week is the most sacred week of the Christian year, recounting the final days of Jesus' earthly life.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -270,7 +270,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5022,
     "slug": "catholic-feast-days/holy-week-palm-branches",
-    "title": "Blessing of Palms: Catholic Feast Day Guide — Branches That Will Become Next Year's Ashes",
+    "title": "Blessing of Palms: Catholic Meaning & Traditions",
     "excerpt": "Blessing of Palms — Branches That Will Become Next Year's Ashes. Palms symbolize victory and royalty, echoing the crowd's welcome of Jesus as king.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -282,7 +282,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5023,
     "slug": "catholic-feast-days/chrism-mass",
-    "title": "Chrism Mass: Catholic Feast Day Guide — Bishop, Priests & Oils for the Year's Sacraments",
+    "title": "Chrism Mass: Catholic Meaning & Traditions",
     "excerpt": "Chrism Mass — Bishop, Priests & Oils for the Year's Sacraments. The bishop blesses the Oil of Catechumens, Oil of the Sick, and consecrates Sacred Chrism.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -294,7 +294,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5024,
     "slug": "catholic-feast-days/holy-thursday",
-    "title": "Mass of the Lord's Supper (Holy Thursday): Catholic Feast Day Guide — Institution of the Eucharist & Priesthood",
+    "title": "Mass of the Lord's Supper (Holy Thursday): Catholic Guide",
     "excerpt": "Mass of the Lord's Supper (Holy Thursday) — Institution of the Eucharist & Priesthood. Commemorates the Last Supper when Jesus gave his Body and Blood...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -306,7 +306,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5025,
     "slug": "catholic-feast-days/good-friday",
-    "title": "Good Friday of the Lord's Passion: Catholic Feast Day Guide — The Hour When Christ Loved to the End",
+    "title": "Good Friday of the Lord's Passion: Catholic Guide",
     "excerpt": "Good Friday of the Lord's Passion — The Hour When Christ Loved to the End. Good Friday is the only day of the year when Mass is not celebrated anywhere...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -318,7 +318,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5026,
     "slug": "catholic-feast-days/good-friday-veneration",
-    "title": "Veneration of the Cross: Catholic Feast Day Guide — Behold the Wood of the Cross",
+    "title": "Veneration of the Cross: Catholic Meaning & Traditions",
     "excerpt": "Veneration of the Cross — Behold the Wood of the Cross. The cross is unveiled in three stages with the chant Ecce lignum Crucis ('Behold the wood of...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -330,7 +330,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5027,
     "slug": "catholic-feast-days/easter-triduum",
-    "title": "Easter Triduum: Catholic Feast Day Guide — One Liturgy, Three Days, One Mystery",
+    "title": "Easter Triduum: Catholic Meaning & Traditions",
     "excerpt": "Easter Triduum — One Liturgy, Three Days, One Mystery. The Triduum (three days) is a single liturgical celebration, not three separate events.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -342,7 +342,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5028,
     "slug": "catholic-feast-days/holy-saturday-easter-vigil",
-    "title": "Holy Saturday & Easter Vigil: Catholic Feast Day Guide — Night of Fire, Baptism & Alleluia Restored",
+    "title": "Holy Saturday & Easter Vigil: Catholic Meaning & Traditions",
     "excerpt": "Holy Saturday & Easter Vigil — Night of Fire, Baptism & Alleluia Restored. Holy Saturday is a day of stark emptiness—Christ lies in the tomb and the...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -354,7 +354,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5029,
     "slug": "catholic-feast-days/easter-vigil-readings",
-    "title": "Easter Vigil Readings: Catholic Feast Day Guide — Salvation History in Nine Readings",
+    "title": "Easter Vigil Readings: Catholic Meaning & Traditions",
     "excerpt": "Easter Vigil Readings — Salvation History in Nine Readings. The Vigil requires a minimum of three Old Testament readings; the Roman Missal provides...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -366,7 +366,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5030,
     "slug": "catholic-feast-days/easter-sunday",
-    "title": "Easter Sunday of the Resurrection: Catholic Feast Day Guide — Christ Is Risen—Death Has No Dominion",
+    "title": "Easter Sunday of the Resurrection: Catholic Guide",
     "excerpt": "Easter Sunday of the Resurrection — Christ Is Risen—Death Has No Dominion. Easter is the feast of feasts, celebrating Jesus' victory over sin and death.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -378,7 +378,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5031,
     "slug": "catholic-feast-days/easter-octave",
-    "title": "Octave of Easter: Catholic Feast Day Guide — Eight Days of Unbroken Easter Joy",
+    "title": "Octave of Easter: Catholic Meaning & Traditions",
     "excerpt": "Octave of Easter — Eight Days of Unbroken Easter Joy. Each day of the Octave ranks as a solemnity, as if Easter Sunday were repeated.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -390,7 +390,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5032,
     "slug": "catholic-feast-days/divine-mercy-sunday",
-    "title": "Divine Mercy Sunday: Catholic Feast Day Guide — Fountain of Mercy Opened on the Octave Day",
+    "title": "Divine Mercy Sunday: Catholic Meaning & Traditions",
     "excerpt": "Divine Mercy Sunday — Fountain of Mercy Opened on the Octave Day. Instituted by St. John Paul II on April 30, 2000, during St. Faustina Kowalska's canonization.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -402,7 +402,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5033,
     "slug": "catholic-feast-days/ascension",
-    "title": "Ascension of the Lord: Catholic Feast Day Guide — Christ Returns to the Father—Mission Begins",
+    "title": "Ascension of the Lord: Catholic Meaning & Traditions",
     "excerpt": "Ascension of the Lord — Christ Returns to the Father—Mission Begins. Commemorates Jesus' ascent into heaven 40 days after the Resurrection (Acts 1:3).",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -414,7 +414,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5034,
     "slug": "catholic-feast-days/pentecost",
-    "title": "Pentecost Sunday: Catholic Feast Day Guide — The Spirit Descends—Birthday of the Church",
+    "title": "Pentecost Sunday: Catholic Meaning & Traditions",
     "excerpt": "Pentecost Sunday — The Spirit Descends—Birthday of the Church. Pentecost marks the descent of the Holy Spirit on the apostles, birthing the Church.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -426,7 +426,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5035,
     "slug": "catholic-feast-days/pentecost-novena",
-    "title": "Novena to the Holy Spirit: Catholic Feast Day Guide — Nine Days of Prayer with Mary in the Upper Room",
+    "title": "Novena to the Holy Spirit: Catholic Meaning & Traditions",
     "excerpt": "Novena to the Holy Spirit — Nine Days of Prayer with Mary in the Upper Room. The apostles and Mary prayed for nine days between Ascension and Pentecost...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -438,7 +438,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5036,
     "slug": "catholic-feast-days/trinity-sunday",
-    "title": "Solemnity of the Most Holy Trinity: Catholic Feast Day Guide — One God in Three Persons—Faith's Central Mystery",
+    "title": "Solemnity of the Most Holy Trinity: Catholic Guide",
     "excerpt": "Solemnity of the Most Holy Trinity — One God in Three Persons—Faith's Central Mystery. Instituted by Pope John XXII in 1334, originally as a local...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -450,7 +450,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5037,
     "slug": "catholic-feast-days/corpus-christi",
-    "title": "Solemnity of the Most Holy Body and Blood of Christ: Catholic Feast Day Guide — Procession of the Real Presence Through the Streets",
+    "title": "Solemnity of the Most Holy Body and Blood of Christ: Catholic Guide",
     "excerpt": "Solemnity of the Most Holy Body and Blood of Christ — Procession of the Real Presence Through the Streets. Instituted by Pope Urban IV in 1264 after...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -462,7 +462,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5038,
     "slug": "catholic-feast-days/corpus-christi-procession",
-    "title": "Corpus Christi Procession: Catholic Feast Day Guide — Christ Walks Among His People in the Host",
+    "title": "Corpus Christi Procession: Catholic Meaning & Traditions",
     "excerpt": "Corpus Christi Procession — Christ Walks Among His People in the Host. Eucharistic processions became widespread after the feast's institution in the...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -474,7 +474,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5039,
     "slug": "catholic-feast-days/sacred-heart",
-    "title": "Solemnity of the Most Sacred Heart of Jesus: Catholic Feast Day Guide — Burning Love That Pierced the Cross",
+    "title": "Solemnity of the Most Sacred Heart of Jesus: Catholic Guide",
     "excerpt": "Solemnity of the Most Sacred Heart of Jesus — Burning Love That Pierced the Cross. Devotion promoted after St. Margaret Mary Alacoque's visions in...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -486,7 +486,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5040,
     "slug": "catholic-feast-days/sacred-heart-first-friday",
-    "title": "First Friday Devotion: Catholic Feast Day Guide — Nine First Fridays for the Love of Christ",
+    "title": "First Friday Devotion: Catholic Meaning & Traditions",
     "excerpt": "First Friday Devotion — Nine First Fridays for the Love of Christ. St. Margaret Mary promoted Communion on nine consecutive First Fridays in reparation.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -498,7 +498,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5041,
     "slug": "catholic-feast-days/immaculate-heart",
-    "title": "Memorial of the Immaculate Heart of Mary: Catholic Feast Day Guide — Mary's Heart Pierced with Sorrow and Love",
+    "title": "Memorial of the Immaculate Heart of Mary: Catholic Guide",
     "excerpt": "Memorial of the Immaculate Heart of Mary — Mary's Heart Pierced with Sorrow and Love. Paired with Sacred Heart since 1944 when Pius XII moved it to the...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -510,7 +510,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5042,
     "slug": "catholic-feast-days/nativity-of-john-baptist",
-    "title": "Nativity of St. John the Baptist: Catholic Feast Day Guide — Voice in the Wilderness—Six Months Before Christ",
+    "title": "Nativity of St. John the Baptist: Catholic Meaning & Traditions",
     "excerpt": "Nativity of St. John the Baptist — Voice in the Wilderness—Six Months Before Christ. One of only three birthdays celebrated in the liturgical calendar...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -522,7 +522,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5043,
     "slug": "catholic-feast-days/saints-peter-and-paul",
-    "title": "Solemnity of Saints Peter and Paul: Catholic Feast Day Guide — Pillars of the Church—Rome's Patron Saints",
+    "title": "Solemnity of Saints Peter and Paul: Catholic Guide",
     "excerpt": "Solemnity of Saints Peter and Paul — Pillars of the Church—Rome's Patron Saints. Commemorates the martyrdom of both apostles in Rome under Nero,...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -534,7 +534,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5044,
     "slug": "catholic-feast-days/transfiguration",
-    "title": "Feast of the Transfiguration: Catholic Feast Day Guide — Glory Revealed on Mount Tabor",
+    "title": "Feast of the Transfiguration: Catholic Meaning & Traditions",
     "excerpt": "Feast of the Transfiguration — Glory Revealed on Mount Tabor. Commemorates Christ's radiant transformation before Peter, James, and John (Matthew 17).",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -546,7 +546,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5045,
     "slug": "catholic-feast-days/assumption",
-    "title": "Assumption of the Blessed Virgin Mary: Catholic Feast Day Guide — Mary Taken Body and Soul into Heaven",
+    "title": "Assumption of the Blessed Virgin Mary: Catholic Guide",
     "excerpt": "Assumption of the Blessed Virgin Mary — Mary Taken Body and Soul into Heaven. Defined as dogma by Pope Pius XII in Munificentissimus Deus on November 1, 1950.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -558,7 +558,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5046,
     "slug": "catholic-feast-days/queenship-of-mary",
-    "title": "Memorial of the Queenship of Mary: Catholic Feast Day Guide — Coronation of the Mother of the King",
+    "title": "Memorial of the Queenship of Mary: Catholic Guide",
     "excerpt": "Memorial of the Queenship of Mary — Coronation of the Mother of the King. Instituted by Pope Pius XII in 1954, eight days after the Assumption (octave...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -570,7 +570,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5047,
     "slug": "catholic-feast-days/nativity-of-mary",
-    "title": "Nativity of the Blessed Virgin Mary: Catholic Feast Day Guide — Nine Months After Immaculate Conception",
+    "title": "Nativity of the Blessed Virgin Mary: Catholic Guide",
     "excerpt": "Nativity of the Blessed Virgin Mary — Nine Months After Immaculate Conception. One of the oldest Marian feasts, observed in Jerusalem by the 6th century.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -582,7 +582,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5048,
     "slug": "catholic-feast-days/exaltation-of-holy-cross",
-    "title": "Exaltation of the Holy Cross: Catholic Feast Day Guide — Victory Banner Raised on Calvary",
+    "title": "Exaltation of the Holy Cross: Catholic Meaning & Traditions",
     "excerpt": "Exaltation of the Holy Cross — Victory Banner Raised on Calvary. Commemorates the discovery of the True Cross by St. Helena in Jerusalem (c. 326).",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -594,7 +594,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5049,
     "slug": "catholic-feast-days/archangels",
-    "title": "Feast of Saints Michael, Gabriel, and Raphael: Catholic Feast Day Guide — Heaven's Messengers Who Stand Before God",
+    "title": "Feast of Saints Michael, Gabriel, and Raphael: Catholic Guide",
     "excerpt": "Feast of Saints Michael, Gabriel, and Raphael — Heaven's Messengers Who Stand Before God. Michael ('Who is like God?') defeats Satan in Revelation 12...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -606,7 +606,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5050,
     "slug": "catholic-feast-days/guardian-angels",
-    "title": "Memorial of the Guardian Angels: Catholic Feast Day Guide — Personal Protectors Assigned by God",
+    "title": "Memorial of the Guardian Angels: Catholic Meaning & Traditions",
     "excerpt": "Memorial of the Guardian Angels — Personal Protectors Assigned by God. Jesus said angels always behold the face of the Father (Matthew 18:10), basis...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -618,7 +618,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5051,
     "slug": "catholic-feast-days/all-saints",
-    "title": "All Saints' Day: Catholic Feast Day Guide — Communion of Saints in Heaven & on Earth",
+    "title": "All Saints' Day: Catholic Meaning & Traditions",
     "excerpt": "All Saints' Day — Communion of Saints in Heaven & on Earth. Honors all saints in heaven—known and unknown—not just canonized figures.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -630,7 +630,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5052,
     "slug": "catholic-feast-days/all-souls",
-    "title": "Commemoration of All the Faithful Departed: Catholic Feast Day Guide — Praying for the Holy Souls in Purgatory",
+    "title": "Commemoration of All the Faithful Departed: Catholic Guide",
     "excerpt": "Commemoration of All the Faithful Departed — Praying for the Holy Souls in Purgatory. St. Odilo of Cluny established a day of prayer for the dead in...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -642,7 +642,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5053,
     "slug": "catholic-feast-days/all-souls-indulgences",
-    "title": "All Souls Indulgences: Catholic Feast Day Guide — The Church's Treasury Applied to the Dead",
+    "title": "All Souls Indulgences: Catholic Meaning & Traditions",
     "excerpt": "All Souls Indulgences — The Church's Treasury Applied to the Dead. A plenary indulgence for the dead is available Nov 1–8 by visiting a cemetery and...",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -654,7 +654,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5054,
     "slug": "catholic-feast-days/dedication-of-lateran",
-    "title": "Dedication of the Lateran Basilica: Catholic Feast Day Guide — Mother Church of Rome & All Christendom",
+    "title": "Dedication of the Lateran Basilica: Catholic Guide",
     "excerpt": "Dedication of the Lateran Basilica — Mother Church of Rome & All Christendom. San Giovanni in Laterano is the cathedral of the Bishop of Rome—the Pope's church.",
     "date": "2026-05-30",
     "readTime": "9 min",
@@ -666,7 +666,7 @@ export const CATHOLIC_FEAST_DATE_BLOG_POSTS: CatholicFeastDateBlogPostEntry[] = 
   {
     "id": 5055,
     "slug": "catholic-feast-days/christ-the-king",
-    "title": "Solemnity of Our Lord Jesus Christ, King of the Universe: Catholic Feast Day Guide — Crown of the Year—Christ Reigns Over All",
+    "title": "Solemnity of Our Lord Jesus Christ, King of the Universe: Catholic Guide",
     "excerpt": "Solemnity of Our Lord Jesus Christ, King of the Universe — Crown of the Year—Christ Reigns Over All. Instituted by Pope Pius XI in 1925 in Quas primas...",
     "date": "2026-05-30",
     "readTime": "9 min",

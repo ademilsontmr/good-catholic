@@ -20,7 +20,7 @@ export default function BibleVersesAboutFriendship() {
         <meta name="description" content={"Bible Verses About Friendship for Catholics — Proverbs 17:17 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about friendship, catholic bible verses about friendship, bible verses friendship"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-friendship/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Friendship: Scriptures Catholics Pray and Memorize"}

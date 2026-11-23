@@ -21,7 +21,7 @@ export default function CatholicTeachingOnDivorce() {
         <meta name="description" content="Can Catholics get divorced? Church teaching on divorce, civil divorce vs. annulment, receiving Communion after divorce, and remarriage." />
         <meta name="keywords" content="catholic divorce, can catholics get divorced, catholic church divorce, catholic annulment vs divorce, divorce communion catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-divorce/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Can Catholics Divorce? What the Church Really Teaches"

@@ -27,7 +27,7 @@ export default function FeastOfStMichaelArchangel2026() {
           content="feast of st michael the archangel 2026, st michael feast day 2026, when is st michael feast 2026, st michael archangel september 29, michaelmas st michael"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/feast-of-st-michael-the-archangel-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Feast of St. Michael the Archangel 2026: Date & Catholic Guide"

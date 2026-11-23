@@ -20,7 +20,7 @@ export default function ShortBibleVersesAboutStrength() {
         <meta name="description" content={"Short Bible Verses About Strength for Catholics — Philippians 4:13 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"short bible verses about strength, catholic short bible verses about strength, bible verses short strength"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/short-bible-verses-about-strength/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Short Bible Verses About Strength: Scriptures Catholics Pray and Memorize"}

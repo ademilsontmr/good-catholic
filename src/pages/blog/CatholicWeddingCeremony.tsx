@@ -21,7 +21,7 @@ export default function CatholicWeddingCeremony() {
         <meta name="description" content="The Catholic wedding ceremony explained: the Rite of Marriage, exchange of vows, Nuptial Blessing, Pre-Cana, mixed marriages, and what guests should know." />
         <meta name="keywords" content="catholic wedding ceremony, catholic wedding guide, what happens at catholic wedding, catholic marriage rite, catholic wedding traditions" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-ceremony-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Wedding Ceremony: A Complete Guide to Holy Matrimony"

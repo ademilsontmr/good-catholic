@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay40() {
         <meta name="description" content={"St Michael Lent Novena Day 40: September 23, 2026 prayer guide: today's reflection for spiritual courage and the full novena on Catholic Bible Online."} />
         <meta name="keywords" content={"st michael's lent novena day 40, st michaels lent novena day 40, st michael lent day 40 september 23, michaelmas novena day 40 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-40-september-23-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michaels Lent Day 40 Novena Prayer — September 23, 2026"}

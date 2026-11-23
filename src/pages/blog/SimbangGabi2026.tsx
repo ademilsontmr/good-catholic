@@ -14,9 +14,9 @@ import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 const SLUG = "simbang-gabi-2026";
 const PAGE_URL = `https://guidecatholic.com/blog/${SLUG}/`;
-const TITLE = "Simbang Gabi 2026: Dates, Meaning & Mass Schedule";
+const TITLE = "Simbang Gabi 2026 (Dec 16–24): 9-Day Mass Schedule & Gospels";
 const DESCRIPTION =
-  "Simbang Gabi 2026 runs December 16–24. The nine dawn Masses explained: meaning, Misa de Gallo, the day-by-day Gospels, US evening schedules and customs.";
+  "Simbang Gabi 2026 runs Wednesday, December 16 to Thursday, December 24. The Gospel for each of the nine Masses, US evening times, Misa de Gallo and customs.";
 const linkClass = "text-accent underline underline-offset-2 hover:text-accent/80";
 
 /** The nine days of Simbang Gabi in 2026, Wednesday, December 16 to Thursday, December 24. */
@@ -43,7 +43,7 @@ export default function SimbangGabi2026() {
           content="simbang gabi, simbang gabi 2026, simbang gabi schedule, simbang gabi meaning, what is simbang gabi, misa de gallo, misa de aguinaldo, filipino christmas mass, nine dawn masses, parol, bibingka"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

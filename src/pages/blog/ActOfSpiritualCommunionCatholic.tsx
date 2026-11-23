@@ -21,7 +21,7 @@ export default function ActOfSpiritualCommunionCatholic() {
         <meta name="description" content="Act of Spiritual Communion with full Catholic text — when you cannot receive the Eucharist at Mass." />
         <meta name="keywords" content="act of spiritual communion, spiritual communion prayer full text, catholic communion when unable" />
         <link rel="canonical" href="https://guidecatholic.com/blog/act-of-spiritual-communion-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Act of Spiritual Communion: Full Text & When Catholics Pray It" description="Act of Spiritual Communion with full Catholic text — when you cannot receive the Eucharist at Mass." url="https://guidecatholic.com/blog/act-of-spiritual-communion-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

@@ -21,7 +21,7 @@ export default function CatholicSocialTeachingToday() {
         <meta name="description" content="How Catholic social teaching applies to today's challenges, including poverty, immigration, ecology, and economic justice, from a Catholic perspective." />
         <meta name="keywords" content="Catholic social teaching, current issues, social doctrine, poverty, immigration, ecology" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-social-teaching-today/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Social Teaching Today: Applying Doctrine to Current Issues"

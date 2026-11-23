@@ -21,7 +21,7 @@ export default function CatholicTeachingOnGratitude() {
         <meta name="description" content="Gratitude is the foundation of the spiritual life. Why the Eucharist means 'thanksgiving,' how ingratitude is a sin, and how to cultivate a grateful heart." />
         <meta name="keywords" content="gratitude catholic, thankfulness catholic faith, eucharist means thanksgiving, gratitude as virtue, how to be grateful catholic, thanksgiving prayer catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/gratitude-catholic-virtue/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Gratitude: The Catholic Virtue of Thankfulness"

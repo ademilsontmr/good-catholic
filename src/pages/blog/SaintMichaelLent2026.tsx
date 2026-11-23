@@ -21,7 +21,7 @@ export default function SaintMichaelLent2026() {
         <meta name="description" content={"New to Saint Michael Lent 2026 (August 15 to September 29)? Beginner Catholic guide with first steps, plain vocabulary, safety notes, FAQ, and novena link."} />
         <meta name="keywords" content={"saint michael lent 2026, saint michael lent for beginners, how to start st michael lent"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-michael-lent-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Saint Michael Lent 2026 for Beginners: Start Here"}

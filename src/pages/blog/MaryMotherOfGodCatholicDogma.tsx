@@ -22,7 +22,7 @@ export default function MaryMotherOfGodCatholicDogma() {
         <title>Is Mary the Mother of God? Catholic Dogma Explained | Guide Catholic</title>
         <meta name="description" content="Is Mary the Mother of God? Catholics say yes: she bore Jesus, one divine person. What Theotokos means, the Council of Ephesus, and what the dogma does not say." />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Is Mary the Mother of God? The Catholic Dogma Explained"

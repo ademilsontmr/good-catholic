@@ -21,7 +21,7 @@ export default function LentPrayers() {
         <meta name="description" content="Catholic prayers for Lent 2026: the Stations of the Cross, prayers of repentance, the Miserere (Psalm 51), and prayers for each week of Lent." />
         <meta name="keywords" content="lent prayers, lenten prayers catholic, prayers for lent, lent 2026 prayers, stations of the cross prayer, psalm 51 lent, catholic lent prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/lent-prayers/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Lent Prayers 2026: Best Catholic Prayers for the Lenten Season"

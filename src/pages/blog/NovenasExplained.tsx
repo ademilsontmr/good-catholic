@@ -21,7 +21,7 @@ export default function NovenasExplained() {
         <meta name="description" content="Discover the tradition of Catholic novenas. Learn how to pray a novena, the most powerful novenas, and why nine days of prayer brings extraordinary graces." />
         <meta name="keywords" content="novena prayer, Catholic novena, nine days prayer, novena explained, how to pray novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novenas-explained/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Novenas Explained: The Power of Nine Days of Prayer"

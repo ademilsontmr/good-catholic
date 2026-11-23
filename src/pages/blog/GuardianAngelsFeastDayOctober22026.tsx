@@ -20,7 +20,7 @@ export default function GuardianAngelsFeastDayOctober22026() {
         <meta name="description" content={"Guardian Angels feast on October 2, 2026 — Catholic teaching, Guardian Angel prayer, children's traditions, and U.S. parish customs."} />
         <meta name="keywords" content={"guardian angels feast day 2026, guardian angel prayer, october 2 feast, feast of guardian angels catholic"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/guardian-angels-feast-day-october-2-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Guardian Angels Feast Day (October 2, 2026): Prayer & Catholic Guide"}

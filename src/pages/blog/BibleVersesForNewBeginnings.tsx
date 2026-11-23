@@ -20,7 +20,7 @@ export default function BibleVersesForNewBeginnings() {
         <meta name="description" content={"Bible Verses for New Beginnings for Catholics — Isaiah 43:19 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for new beginnings, catholic bible verses for new beginnings, bible verses new beginnings"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-new-beginnings/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for New Beginnings: Scriptures Catholics Pray and Memorize"}

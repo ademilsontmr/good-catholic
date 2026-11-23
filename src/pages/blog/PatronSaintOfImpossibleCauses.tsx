@@ -68,7 +68,7 @@ export default function PatronSaintOfImpossibleCauses() {
           content="patron saint of impossible causes, patron saint of lost causes, patron saint of hopeless causes, patron saint of desperate cases, st jude or st rita, saint of the impossible, prayer for a miracle catholic, st jude vs st rita"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

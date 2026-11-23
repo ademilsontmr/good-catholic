@@ -21,7 +21,7 @@ export default function WhatIsAdvent() {
         <meta name="description" content="What is Advent? The Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent as a family." />
         <meta name="keywords" content="what is advent catholic, advent season, advent wreath, advent calendar catholic, advent meaning, when does advent start" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-advent-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="What Is Advent? The Catholic Season of Waiting and Preparation"

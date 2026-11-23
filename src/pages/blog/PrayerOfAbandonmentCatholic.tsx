@@ -21,7 +21,7 @@ export default function PrayerOfAbandonmentCatholic() {
         <meta name="description" content="The Prayer of Abandonment with full Catholic text, meaning, and how to pray Charles de Foucauld's surrender to God." />
         <meta name="keywords" content="prayer of abandonment, charles de foucauld prayer, catholic surrender prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prayer-of-abandonment-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Prayer of Abandonment: Full Text & Meaning (Charles de Foucauld)" description="The Prayer of Abandonment with full Catholic text, meaning, and how to pray Charles de Foucauld's surrender to God." url="https://guidecatholic.com/blog/prayer-of-abandonment-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

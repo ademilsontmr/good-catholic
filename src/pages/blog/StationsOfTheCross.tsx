@@ -21,7 +21,7 @@ export default function StationsOfTheCross() {
         <meta name="description" content="Discover the deep history of the Stations of the Cross. From the Via Dolorosa to the theology of the 14 stations, learn how this devotion heals the soul." />
         <meta name="keywords" content="stations of the cross guide, history of via crucis, franciscan stations of the cross, indult of 1731, stations of the cross plenary indulgence" />
         <link rel="canonical" href="https://guidecatholic.com/blog/stations-of-the-cross/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Stations of the Cross: A Complete Guide to This Powerful Catholic Devotion"

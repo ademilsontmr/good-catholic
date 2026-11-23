@@ -21,7 +21,7 @@ export default function OurLadyGuadalupePatronessAmericas() {
         <meta name="description" content="Our Lady of Guadalupe — 1531 apparitions to Juan Diego, the tilma, Patroness of the Americas, and how Catholics celebrate December 12." />
         <meta name="keywords" content="our lady of guadalupe, our lady of guadalupe patroness americas, our lady of guadalupe december 12, juan diego guadalupe, tilma guadalupe miracle, patroness of the americas, guadalupe apparition 1531" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-guadalupe-patroness-americas/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Our Lady of Guadalupe: Story, Feast & Meaning"

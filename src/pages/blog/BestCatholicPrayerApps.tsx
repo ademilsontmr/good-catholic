@@ -21,7 +21,7 @@ export default function BestCatholicPrayerApps() {
         <meta name="description" content="Best Catholic prayer apps 2026 ranked: Hallow, Laudate, Universalis, Formed and more. Honest reviews, pricing, and Rosary and Mass readings features." />
         <meta name="keywords" content="best catholic apps, best catholic prayer apps, hallow app review, laudate app catholic, catholic apps 2026, catholic prayer app iphone android" />
         <link rel="canonical" href="https://guidecatholic.com/blog/best-catholic-prayer-apps-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Best Catholic Prayer Apps 2026: Hallow, Laudate & More (Ranked)"

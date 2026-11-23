@@ -21,7 +21,7 @@ export default function CatholicTeachingOnSameSexMarriage() {
         <meta name="description" content="What does the Catholic Church teach about same-sex marriage? An explanation from the Catechism (CCC 2357-2359), natural law, and the meaning of marriage." />
         <meta name="keywords" content="catholic teaching on same sex marriage, catholic church gay marriage, catechism homosexuality, fiducia supplicans, catholic marriage definition, natural law marriage" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-same-sex-marriage/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Same-Sex Marriage: What the Church Teaches"

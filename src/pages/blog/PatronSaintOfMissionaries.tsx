@@ -81,7 +81,7 @@ export default function PatronSaintOfMissionaries() {
           content="patron saint of missionaries, patron saint of missions, patron saint of evangelization, st therese patron of missions, st francis xavier missionary, prayer for missionaries catholic, world mission sunday, catholic mission saints"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

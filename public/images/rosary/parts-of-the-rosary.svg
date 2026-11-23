@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="t d">
+  <title id="t">Parts of the Rosary</title>
+  <desc id="d">Labeled diagram of rosary beads: the crucifix, the Our Father beads, the three Hail Mary beads, the centerpiece medal, and a decade of ten Hail Mary beads.</desc>
+  <rect width="900" height="700" fill="#faf8f2"/>
+  <text x="450" y="44" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#0f263d">Parts of the Rosary</text>
+  <circle cx="400" cy="215" r="150" fill="none" stroke="#c9d3df" stroke-width="2"/>
+  <line x1="400" y1="365" x2="400" y2="527" stroke="#c9d3df" stroke-width="2"/>
+  <circle cx="382.9" cy="364.0" r="6.5" fill="#0d4b92"/>
+  <circle cx="366.0" cy="361.1" r="6.5" fill="#0d4b92"/>
+  <circle cx="349.6" cy="356.3" r="6.5" fill="#0d4b92"/>
+  <circle cx="333.8" cy="349.6" r="6.5" fill="#0d4b92"/>
+  <circle cx="318.9" cy="341.2" r="6.5" fill="#0d4b92"/>
+  <circle cx="305.0" cy="331.1" r="6.5" fill="#0d4b92"/>
+  <circle cx="292.4" cy="319.5" r="6.5" fill="#0d4b92"/>
+  <circle cx="281.2" cy="306.6" r="6.5" fill="#0d4b92"/>
+  <circle cx="271.5" cy="292.5" r="6.5" fill="#0d4b92"/>
+  <circle cx="263.6" cy="277.3" r="6.5" fill="#0d4b92"/>
+  <circle cx="257.3" cy="261.4" r="10.5" fill="#0d4b92"/>
+  <circle cx="253.0" cy="244.8" r="6.5" fill="#0d4b92"/>
+  <circle cx="250.6" cy="227.8" r="6.5" fill="#0d4b92"/>
+  <circle cx="250.1" cy="210.7" r="6.5" fill="#0d4b92"/>
+  <circle cx="251.5" cy="193.7" r="6.5" fill="#0d4b92"/>
+  <circle cx="254.9" cy="176.9" r="6.5" fill="#0d4b92"/>
+  <circle cx="260.2" cy="160.6" r="6.5" fill="#0d4b92"/>
+  <circle cx="267.3" cy="145.0" r="6.5" fill="#0d4b92"/>
+  <circle cx="276.2" cy="130.3" r="6.5" fill="#0d4b92"/>
+  <circle cx="286.6" cy="116.8" r="6.5" fill="#0d4b92"/>
+  <circle cx="298.6" cy="104.5" r="6.5" fill="#0d4b92"/>
+  <circle cx="311.8" cy="93.6" r="10.5" fill="#0d4b92"/>
+  <circle cx="326.2" cy="84.4" r="6.5" fill="#0d4b92"/>
+  <circle cx="341.6" cy="76.8" r="6.5" fill="#0d4b92"/>
+  <circle cx="357.7" cy="71.1" r="6.5" fill="#0d4b92"/>
+  <circle cx="374.4" cy="67.2" r="6.5" fill="#0d4b92"/>
+  <circle cx="391.4" cy="65.2" r="6.5" fill="#0d4b92"/>
+  <circle cx="408.6" cy="65.2" r="6.5" fill="#0d4b92"/>
+  <circle cx="425.6" cy="67.2" r="6.5" fill="#0d4b92"/>
+  <circle cx="442.3" cy="71.1" r="6.5" fill="#0d4b92"/>
+  <circle cx="458.4" cy="76.8" r="6.5" fill="#0d4b92"/>
+  <circle cx="473.8" cy="84.4" r="6.5" fill="#0d4b92"/>
+  <circle cx="488.2" cy="93.6" r="10.5" fill="#0d4b92"/>
+  <circle cx="501.4" cy="104.5" r="6.5" fill="#0d4b92"/>
+  <circle cx="513.4" cy="116.8" r="6.5" fill="#0d4b92"/>
+  <circle cx="523.8" cy="130.3" r="6.5" fill="#0d4b92"/>
+  <circle cx="532.7" cy="145.0" r="6.5" fill="#0d4b92"/>
+  <circle cx="539.8" cy="160.6" r="6.5" fill="#0d4b92"/>
+  <circle cx="545.1" cy="176.9" r="6.5" fill="#0d4b92"/>
+  <circle cx="548.5" cy="193.7" r="6.5" fill="#0d4b92"/>
+  <circle cx="549.9" cy="210.7" r="6.5" fill="#0d4b92"/>
+  <circle cx="549.4" cy="227.8" r="6.5" fill="#0d4b92"/>
+  <circle cx="547.0" cy="244.8" r="6.5" fill="#0d4b92"/>
+  <circle cx="542.7" cy="261.4" r="10.5" fill="#0d4b92"/>
+  <circle cx="536.4" cy="277.3" r="6.5" fill="#0d4b92"/>
+  <circle cx="528.5" cy="292.5" r="6.5" fill="#0d4b92"/>
+  <circle cx="518.8" cy="306.6" r="6.5" fill="#0d4b92"/>
+  <circle cx="507.6" cy="319.5" r="6.5" fill="#0d4b92"/>
+  <circle cx="495.0" cy="331.1" r="6.5" fill="#0d4b92"/>
+  <circle cx="481.1" cy="341.2" r="6.5" fill="#0d4b92"/>
+  <circle cx="466.2" cy="349.6" r="6.5" fill="#0d4b92"/>
+  <circle cx="450.4" cy="356.3" r="6.5" fill="#0d4b92"/>
+  <circle cx="434.0" cy="361.1" r="6.5" fill="#0d4b92"/>
+  <circle cx="417.1" cy="364.0" r="6.5" fill="#0d4b92"/>
+  <rect x="386.35" y="348.2" width="27.3" height="33.6" rx="12.6" fill="#0d4b92"/>
+  <circle cx="400" cy="394.7" r="10.5" fill="#0d4b92"/>
+  <circle cx="400" cy="421.7" r="6.5" fill="#0d4b92"/>
+  <circle cx="400" cy="448.7" r="6.5" fill="#0d4b92"/>
+  <circle cx="400" cy="475.7" r="6.5" fill="#0d4b92"/>
+  <circle cx="400" cy="502.7" r="10.5" fill="#0d4b92"/>
+  <rect x="395.275" y="527" width="9.450000000000001" height="64.8" rx="2" fill="#0f263d"/>
+  <rect x="379.912" y="542.552" width="40.175999999999995" height="9.450000000000001" rx="2" fill="#0f263d"/>
+  <path d="M 380.4 385.9 L 361.0 382.5 L 342.2 377.0 L 324.1 369.4 L 307.0 359.7 L 291.1 348.2 L 276.7 334.9 L 263.8 320.0 L 252.7 303.8 L 243.5 286.5" fill="none" stroke="#d5a015" stroke-width="4" stroke-linecap="round"/>
+  <polyline points="298.9,354.2 198,380 " fill="none" stroke="#d5a015" stroke-width="1.6"/><circle cx="298.9" cy="354.2" r="3.5" fill="#d5a015"/><text x="190" y="386" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#0f263d">A decade</text><text x="190" y="407" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">10 Hail Marys on</text><text x="190" y="428" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">one mystery</text>
+  <polyline points="257.3,261.4 198,205 " fill="none" stroke="#d5a015" stroke-width="1.6"/><circle cx="257.3" cy="261.4" r="3.5" fill="#d5a015"/><text x="190" y="211" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#0f263d">Our Father bead</text><text x="190" y="232" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">between decades, after</text><text x="190" y="253" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">Glory Be and Fatima Prayer</text>
+  <polyline points="412.0,365.0 602,345 " fill="none" stroke="#d5a015" stroke-width="1.6"/><circle cx="412.0" cy="365.0" r="3.5" fill="#d5a015"/><text x="610" y="351" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#0f263d">Centerpiece medal</text><text x="610" y="372" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">Hail, Holy Queen at the end</text>
+  <polyline points="411.0,394.7 602,415 " fill="none" stroke="#d5a015" stroke-width="1.6"/><circle cx="411.0" cy="394.7" r="3.5" fill="#d5a015"/><text x="610" y="421" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#0f263d">Our Father bead</text><text x="610" y="442" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">first mystery begins</text>
+  <polyline points="408.0,448.7 602,480 " fill="none" stroke="#d5a015" stroke-width="1.6"/><circle cx="408.0" cy="448.7" r="3.5" fill="#d5a015"/><text x="610" y="486" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#0f263d">Three Hail Mary beads</text><text x="610" y="507" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">for faith, hope and charity</text>
+  <polyline points="411.0,502.7 602,545 " fill="none" stroke="#d5a015" stroke-width="1.6"/><circle cx="411.0" cy="502.7" r="3.5" fill="#d5a015"/><text x="610" y="551" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#0f263d">Our Father bead</text><text x="610" y="572" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">after the Creed</text>
+  <polyline points="416.0,559.4 602,610 " fill="none" stroke="#d5a015" stroke-width="1.6"/><circle cx="416.0" cy="559.4" r="3.5" fill="#d5a015"/><text x="610" y="616" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#0f263d">Crucifix</text><text x="610" y="637" text-anchor="start" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#4b5b6b">Sign of the Cross and Creed</text>
+  <text x="450" y="682" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#6b7785">guidecatholic.com/rosary</text>
+</svg>

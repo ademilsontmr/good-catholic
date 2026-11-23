@@ -22,7 +22,7 @@ export default function StMichaelLent2026() {
         <meta name="description" content={"A practical St Michael Lent plan: how to choose one penance, a 15-minute daily schedule, a morning and evening split, and what to do when you miss days."} />
         <meta name="keywords" content={"st michael lent 2026, st michael lent plan, st michael's lent penance ideas, how to do st michael lent, st michael lent missed day, st michael lent schedule"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michael-lent-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michael Lent 2026: A Practical Plan for Penance, Prayer Time, and Missed Days"}

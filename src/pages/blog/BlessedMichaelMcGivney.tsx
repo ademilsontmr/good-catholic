@@ -45,7 +45,7 @@ export default function BlessedMichaelMcGivney() {
           content="blessed michael mcgivney, father mcgivney, michael mcgivney feast day, founder of the knights of columbus, mcgivney prayer, mcgivney pilgrimage center, st marys new haven, american blesseds"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

@@ -21,7 +21,7 @@ export default function AnimaChristiPrayer() {
         <meta name="description" content="The Anima Christi (Soul of Christ) prayer in English and Latin, what each line means, and when to pray it before Communion or after Confession." />
         <meta name="keywords" content="anima christi prayer, soul of christ prayer, anima christi full text, anima christi latin, catholic prayer before communion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/anima-christi-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Anima Christi Prayer: Full Catholic Text, Meaning & When to Say It"

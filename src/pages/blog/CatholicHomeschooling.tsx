@@ -21,7 +21,7 @@ export default function CatholicHomeschooling() {
         <meta name="description" content="A guide to Catholic homeschooling: curricula, legal requirements, socialization, co-ops, faith in every subject, and the liturgical year as a calendar." />
         <meta name="keywords" content="catholic homeschooling, homeschooling catholic, catholic homeschool curriculum, why homeschool catholic, catholic classical education" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-homeschooling-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Homeschooling: A Complete Guide for Catholic Families"

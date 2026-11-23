@@ -26,7 +26,7 @@ export default function WhoWasThe200thPope() {
           content="200th pope, who was the 200th pope, pope urban v, blessed urban v, list of popes number 200, avignon papacy urban v"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/200th-pope-who-was-it/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Who Was the 200th Pope? Bl. Urban V (1362–1370)"

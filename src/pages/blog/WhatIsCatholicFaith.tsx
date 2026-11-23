@@ -21,7 +21,7 @@ export default function WhatIsCatholicFaith() {
         <meta name="description" content="An introduction to the Catholic faith: what Catholics believe, the seven sacraments, Mary and the saints, the Pope, and how to begin exploring Catholicism." />
         <meta name="keywords" content="what is the catholic faith, catholic faith explained, what do catholics believe, introduction to catholicism, catholic beliefs basics, catholic faith summary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-faith/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is the Catholic Faith? A Complete Introduction"

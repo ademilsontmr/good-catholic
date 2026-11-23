@@ -20,7 +20,7 @@ export default function OurLadyOfSorrowsSeptember152026Feast() {
         <meta name="description" content={"Our Lady of Sorrows on September 15, 2026 — the Seven Sorrows of Mary, devotions, Mass, and comfort for grieving U.S. Catholics."} />
         <meta name="keywords" content={"our lady of sorrows 2026, seven sorrows of mary, september 15 feast day, mater dolorosa, our lady of sorrows feast"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-sorrows-september-15-2026-feast-day/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Our Lady of Sorrows (September 15, 2026): Seven Sorrows & Feast Day Guide"}

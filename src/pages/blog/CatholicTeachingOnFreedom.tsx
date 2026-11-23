@@ -21,7 +21,7 @@ export default function CatholicTeachingOnFreedom() {
         <meta name="description" content="Catholic freedom differs from the secular idea: not doing whatever you want, but the capacity to choose the good and become who you are meant to be." />
         <meta name="keywords" content="what is freedom catholic, true freedom catholic, freedom and truth catholic, free will catholic, liberty and license catholic, catechism on freedom" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-freedom-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Freedom? The Catholic Teaching on True Liberty"

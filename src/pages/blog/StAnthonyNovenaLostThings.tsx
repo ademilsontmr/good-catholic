@@ -20,7 +20,7 @@ export default function StAnthonyNovenaLostThings() {
         <meta name="description" content="St. Anthony Novena for lost things — 9-day Catholic prayer with full text to find missing items, keys, wallets, and documents." />
         <meta name="keywords" content="st anthony novena lost things, novena to find lost item, st anthony prayer 9 days, patron saint of lost things" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-anthony-novena-lost-things/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="St. Anthony Novena for Lost Things: 9-Day Prayer (Full Text)" description="St. Anthony Novena for lost things — 9-day Catholic prayer with full text to find missing items, keys, wallets, and documents." url="https://guidecatholic.com/blog/st-anthony-novena-lost-things/" datePublished="2026-05-30" />
       <BreadcrumbSchema

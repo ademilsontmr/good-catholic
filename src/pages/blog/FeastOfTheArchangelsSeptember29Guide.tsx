@@ -27,7 +27,7 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
           content="feast of the archangels 2026, feast of the archangels, michaelmas 2026, september 29 archangels, st michael gabriel raphael, feast of st michael, prayer to st michael, catholic archangels"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/feast-of-the-archangels-september-29-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Feast of the Archangels 2026: September 29 Date, Prayers & Guide"

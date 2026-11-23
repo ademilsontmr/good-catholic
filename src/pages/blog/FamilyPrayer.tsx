@@ -22,7 +22,7 @@ export default function FamilyPrayer() {
         <meta name="description" content="How to pray as a family: the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start praying together." />
         <meta name="keywords" content="how to pray as a family, family prayer, family rosary, praying together as a family, domestic church prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-as-a-family/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Pray as a Family: Building a Domestic Church"

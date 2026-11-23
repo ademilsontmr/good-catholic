@@ -123,7 +123,7 @@ export default function HolySoulsGuidePage() {
         <meta name="description" content={guide.description} />
         <meta name="keywords" content={guide.keywords} />
         <link rel="canonical" href={pageUrl} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={guide.title}

@@ -21,7 +21,7 @@ export default function CatholicTeachingOnBeauty() {
         <meta name="description" content="Beauty is a transcendental property of being itself. Discover why beauty matters for faith, how sacred art is theology, and why beauty is an argument for God." />
         <meta name="keywords" content="beauty catholic faith, transcendentals truth goodness beauty, catholic aesthetics, why beauty matters faith, sacred art catholic, beauty as argument for god" />
         <link rel="canonical" href="https://guidecatholic.com/blog/beauty-and-the-catholic-faith/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Beauty and the Catholic Faith: Why Beauty Matters for the Soul"

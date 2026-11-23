@@ -5,7 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const Index = lazy(() => import("./pages/Index"));
 const QuizIntro = lazy(() => import("./pages/QuizIntro"));
 const DailyVersesPage = lazy(() => import("./pages/DailyVersesPage"));
@@ -566,8 +566,6 @@ const OurLadyOfTheRosaryOctober72026Feast = lazy(() => import("./pages/blog/OurL
 const AllSaintsDayNovember12026HolyDay = lazy(() => import("./pages/blog/AllSaintsDayNovember12026HolyDay"));
 const AllSoulsDayNovember22026Guide = lazy(() => import("./pages/blog/AllSoulsDayNovember22026Guide"));
 const Advent2026StartDateWhenDoesAdventBegin = lazy(() => import("./pages/blog/Advent2026StartDateWhenDoesAdventBegin"));
-const ImmaculateConceptionDecember82026HolyDay = lazy(() => import("./pages/blog/ImmaculateConceptionDecember82026HolyDay"));
-const OurLadyOfGuadalupeDecember122026Feast = lazy(() => import("./pages/blog/OurLadyOfGuadalupeDecember122026Feast"));
 const WhenIsMichaelmas2026 = lazy(() => import("./pages/blog/WhenIsMichaelmas2026"));
 const ListOfSaintsAndWhatTheyProtect = lazy(() => import("./pages/blog/ListOfSaintsAndWhatTheyProtect"));
 const StJudeNovenaPrayer9DaysGuide = lazy(() => import("./pages/blog/StJudeNovenaPrayer9DaysGuide"));
@@ -780,6 +778,7 @@ const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const Contact = lazy(() => import("./pages/Contact"));
 import NotFound from "./pages/NotFound";
 const LockscreenPage = lazy(() => import("./pages/LockscreenPage"));
+const RosaryPage = lazy(() => import("./pages/RosaryPage"));
 const DonatePage = lazy(() => import("./pages/DonatePage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 
@@ -808,6 +807,7 @@ export function AppRoutes() {
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/page/:page" element={<BlogPage />} />
             <Route path="/lockscreen" element={<LockscreenPage />} />
+            <Route path="/rosary" element={<RosaryPage />} />
             <Route path="/termos" element={<TermsOfUse />} />
             <Route path="/terms" element={<TermsOfUse />} />
             <Route path="/privacidade" element={<PrivacyPolicy />} />
@@ -1114,8 +1114,8 @@ export function AppRoutes() {
             <Route path="/blog/all-saints-day-november-1-2026-holy-day-obligation/" element={<AllSaintsDayNovember12026HolyDay />} />
             <Route path="/blog/all-souls-day-november-2-2026-prayers-mass-times/" element={<AllSoulsDayNovember22026Guide />} />
             <Route path="/blog/advent-2026-start-date-when-does-advent-begin/" element={<Advent2026StartDateWhenDoesAdventBegin />} />
-            <Route path="/blog/immaculate-conception-december-8-2026-holy-day-usa/" element={<ImmaculateConceptionDecember82026HolyDay />} />
-            <Route path="/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/" element={<OurLadyOfGuadalupeDecember122026Feast />} />
+            <Route path="/blog/immaculate-conception-december-8-2026-holy-day-usa/" element={<Navigate to="/blog/immaculate-conception/" replace />} />
+            <Route path="/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/" element={<Navigate to="/blog/our-lady-of-guadalupe/" replace />} />
             <Route path="/blog/when-is-michaelmas-2026/" element={<WhenIsMichaelmas2026 />} />
             <Route path="/blog/list-of-saints-and-what-they-protect/" element={<ListOfSaintsAndWhatTheyProtect />} />
             <Route path="/blog/st-jude-novena-prayer-9-days-guide/" element={<StJudeNovenaPrayer9DaysGuide />} />
@@ -1187,7 +1187,7 @@ export function AppRoutes() {
             <Route path="/blog/morning-prayer-catholic/" element={<MorningPrayerCatholic />} />
             <Route path="/blog/saint-michael-prayer/" element={<SaintMichaelPrayer />} />
             <Route path="/blog/prayers-for-healing-catholic/" element={<PrayersForHealingCatholic />} />
-            <Route path="/blog/how-to-pray-rosary/" element={<Navigate to="/blog/rosary-complete-guide/" replace />} />
+            <Route path="/blog/how-to-pray-rosary/" element={<Navigate to="/blog/complete-rosary-guide/" replace />} />
             <Route path="/blog/how-to-pray-the-rosary-step-by-step/" element={<RosaryForBeginners />} />
             <Route path="/blog/prayer-before-meals-catholic/" element={<PrayerBeforeMealsCatholic />} />
             <Route path="/blog/hail-mary-prayer/" element={<HailMaryPrayer />} />
@@ -1338,6 +1338,18 @@ export function AppRoutes() {
             <Route path="/blog/biblical-numbers-meanings/" element={<BiblicalNumbersMeanings />} />
             <Route path="/blog/catholic-new-year/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/advent/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/joyful-mysteries-of-the-rosary/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/sorrowful-mysteries-of-the-rosary/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/glorious-mysteries-of-the-rosary/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/luminous-mysteries-of-the-rosary/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/scriptural-rosary/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/rosary-in-latin/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/54-day-rosary-novena/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/history-of-the-rosary/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/is-the-rosary-biblical/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/how-many-beads-on-a-rosary/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/can-you-wear-a-rosary/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/family-rosary-with-children/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/what-is-advent/" element={<Navigate to="/blog/advent/" replace />} />
             <Route path="/blog/november-month-of-the-holy-souls/" element={<HolySoulsGuidePage />} />
             <Route path="/blog/how-to-pray-for-the-dead/" element={<HolySoulsGuidePage />} />
@@ -1655,6 +1667,16 @@ export function AppProviders({
 }) {
   return (
     <HelmetProvider context={helmetContext}>
+      {/* Sitewide defaults. Helmet replaces index.html's tags once the app loads, so a page that
+          sets none of its own would otherwise lose them; a page's own tag of the same name wins. */}
+      <Helmet>
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Guide Catholic" />
+        <meta property="og:image" content="https://guidecatholic.com/og-image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://guidecatholic.com/og-image.png" />
+      </Helmet>
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <Toaster />

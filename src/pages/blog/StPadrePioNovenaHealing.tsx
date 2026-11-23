@@ -20,7 +20,7 @@ export default function StPadrePioNovenaHealing() {
         <meta name="description" content="St. Padre Pio Novena for healing — 9-day Catholic prayer with full text. Physical and spiritual healing through the intercession of Padre Pio." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-padre-pio-novena-healing/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="St. Padre Pio Novena for Healing: 9-Day Prayer (Full Text)" description="St. Padre Pio Novena for healing — 9-day Catholic prayer with full text. Physical and spiritual healing through the intercession of Padre Pio." url="https://guidecatholic.com/blog/st-padre-pio-novena-healing/" datePublished="2026-05-30" />
       <BreadcrumbSchema

@@ -21,7 +21,7 @@ export default function CatholicMassOnline() {
         <meta name="description" content="Find the best Catholic Mass online — EWTN, Word on Fire, and parish live streams. Does watching Mass online fulfill the Sunday obligation?" />
         <meta name="keywords" content="catholic mass online, mass online live, ewtn mass online, watch catholic mass, live mass catholic, does online mass count, mass live stream" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-mass-online/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Mass Online: Best Live Streams, EWTN & Does It Count?"

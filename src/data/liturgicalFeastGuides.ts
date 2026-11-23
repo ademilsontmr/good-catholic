@@ -30,6 +30,8 @@ export interface LiturgicalFeastGuide {
   sections: LiturgicalFeastSection[];
   prayer: string;
   prayerHeading?: string;
+  /** Heading for the timeline block; defaults to "Key dates". */
+  timelineHeading?: string;
   related: { href: string; label: string }[];
   faqs: { question: string; answer: string }[];
 }
@@ -176,9 +178,9 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
   },
   {
     slug: "immaculate-conception",
-    title: "Immaculate Conception 2026 (Dec 8): Holy Day Guide",
+    title: "Immaculate Conception 2026 (Tue, Dec 8): Holy Day of Obligation?",
     h1: "The Immaculate Conception 2026: Tuesday, December 8",
-    description: "The Immaculate Conception is Tuesday, December 8, 2026, a U.S. Holy Day of Obligation. The 1854 dogma, readings, history, and common mistakes.",
+    description: "Yes: Tuesday, December 8, 2026 is a Holy Day of Obligation in the U.S. Vigil Mass on Dec 7, what the dogma means (Mary, not Jesus), readings and prayers.",
     keywords: "immaculate conception 2026, december 8 2026 holy day of obligation, what is the immaculate conception, ineffabilis deus, patroness of the united states, immaculate conception mass",
     readTime: "9 min",
     crumb: "Immaculate Conception",
@@ -322,9 +324,9 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
   },
   {
     slug: "our-lady-of-guadalupe",
-    title: "Our Lady of Guadalupe 2026 (Dec 12): Feast Day Guide",
+    title: "Our Lady of Guadalupe 2026 (Sat, Dec 12): Story, Feast & Novena",
     h1: "Our Lady of Guadalupe 2026: Saturday, December 12",
-    description: "Our Lady of Guadalupe is Saturday, December 12, 2026. Juan Diego, the tilma, Mañanitas, Mass readings, and how U.S. parishes keep the feast.",
+    description: "Our Lady of Guadalupe is Saturday, December 12, 2026, a feast but not a Holy Day of Obligation. Juan Diego, the tilma, the Dec 3–11 novena and Mañanitas.",
     keywords: "our lady of guadalupe 2026, december 12 2026, guadalupe feast day, juan diego, tilma, mañanitas, patroness of the americas, is guadalupe a holy day of obligation",
     readTime: "9 min",
     crumb: "Our Lady of Guadalupe",
@@ -723,6 +725,8 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
     prayer: "Merciful Father, as we begin this Lent marked with ashes, remind us that we are dust and that you love us still. Give us honest repentance, steady prayer, and open hands, and bring us with joy to Easter. Amen.",
     related: [
       { href: "/blog/ash-wednesday-guide/", label: "What Ash Wednesday means" },
+      { href: "/blog/ash-wednesday-2026/", label: "Ash Wednesday fasting rules" },
+      { href: "/blog/ash-wednesday-prayer-catholic-guide/", label: "An Ash Wednesday evening prayer" },
       { href: "/blog/complete-catholic-lent-guide/", label: "The complete Catholic Lent guide" },
       { href: "/blog/catholic-fasting-rules/", label: "Catholic fasting rules" },
       { href: "/blog/catholic-easter/", label: "Catholic Easter 2027" },
@@ -2128,6 +2132,7 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
       { href: "/blog/complete-catholic-advent-guide/", label: "The complete Catholic Advent guide" },
       { href: "/blog/advent-prayers/", label: "Advent prayers" },
       { href: "/blog/st-andrew-christmas-novena-2026/", label: "The St. Andrew Christmas novena" },
+      { href: "/blog/simbang-gabi-2026/", label: "Simbang Gabi 2026, December 16–24" },
       { href: "/blog/catholic-christmas-traditions/", label: "Catholic Christmas traditions" },
       { href: "/blog/catholic-christmas/", label: "Catholic Christmas 2026: Mass and the octave" },
       { href: "/blog/immaculate-conception/", label: "Immaculate Conception, December 8" },

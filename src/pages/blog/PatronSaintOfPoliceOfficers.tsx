@@ -57,7 +57,7 @@ export default function PatronSaintOfPoliceOfficers() {
           content="patron saint of police officers, patron saint of law enforcement, st michael police prayer, prayer for police officers catholic, st michael police medal, blue mass, prayer for fallen officer, police wife prayer"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

@@ -22,7 +22,7 @@ export default function CatholicBaptismPrep() {
         <meta name="description" content="Baptism prep for parents: when to schedule it, parish registration, the baptism class, godparent rules (canons 872–874), the ceremony, and what to bring." />
         <meta name="keywords" content="catholic baptism preparation, infant baptism preparation, baptism class catholic, godparent requirements catholic, how to schedule a baptism, what to bring to a catholic baptism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-baptism-preparation-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Preparing for Your Baby's Catholic Baptism: A Parent Guide"

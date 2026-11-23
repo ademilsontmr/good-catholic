@@ -21,7 +21,7 @@ export default function SaintDominic() {
         <meta name="description" content="Discover Saint Dominic — the Spanish priest who founded the Order of Preachers, fought heresy with truth and poverty, and gave the Church the Rosary." />
         <meta name="keywords" content="saint dominic, founder of the dominicans, saint dominic and the rosary, order of preachers, saint dominic life, feast day august 8" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-dominic-founder-dominicans/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Dominic: Founder of the Dominicans, Preacher of Truth & the Rosary"

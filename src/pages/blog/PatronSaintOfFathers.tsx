@@ -69,7 +69,7 @@ export default function PatronSaintOfFathers() {
           content="patron saint of fathers, patron saint of dads, st joseph prayer for fathers, catholic father's day prayer, patron saint of families, father's day blessing catholic, prayer for a deceased father, st louis martin"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

@@ -43,7 +43,7 @@ export default function SaintOfDayArticlePage() {
           content={`saint of the day ${article.feastDateLabel}, ${article.name}, catholic saint ${article.feastDateLabel}, patron saint ${article.patronOf[0]}, catholic feast day`}
         />
         <link rel="canonical" href={canonical} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={article.title} description={article.metaDescription} url={canonical} datePublished="2026-05-30" />
       <BreadcrumbSchema

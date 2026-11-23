@@ -21,7 +21,7 @@ export default function LitanyOfTheSaintsCatholic() {
         <meta name="description" content="Guide to the Litany of the Saints: how the responses work, when the Church prays it (Easter Vigil, ordinations, confirmations), and why we invoke the saints." />
         <meta name="keywords" content="litany of the saints, how to pray litany of saints, catholic litany of saints, easter vigil litany, ordination litany" />
         <link rel="canonical" href="https://guidecatholic.com/blog/litany-of-the-saints-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Litany of the Saints: How to Pray It, When It Is Used & Meaning"

@@ -20,7 +20,7 @@ export default function BibleVersesAboutFear() {
         <meta name="description" content={"Bible Verses About Fear for Catholics — Isaiah 41:10 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about fear, catholic bible verses about fear, bible verses fear"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-fear/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Fear: Scriptures Catholics Pray and Memorize"}

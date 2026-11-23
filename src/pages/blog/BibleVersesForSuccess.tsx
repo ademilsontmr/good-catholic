@@ -20,7 +20,7 @@ export default function BibleVersesForSuccess() {
         <meta name="description" content={"Bible Verses for Success for Catholics — Proverbs 16:3 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for success, catholic bible verses for success, bible verses success"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-success/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Success: Scriptures Catholics Pray and Memorize"}

@@ -22,7 +22,7 @@ export default function WhatIsTheCatholicMass() {
         <meta name="description" content="What Catholics mean by calling the Mass a sacrifice: the Last Supper, the biblical memorial, re-presentation of Calvary, and the Real Presence, with the Catechism." />
         <meta name="keywords" content="mass as sacrifice, is the mass a sacrifice, re-presentation of calvary, mass and the last supper, catholic mass memorial, real presence, transubstantiation" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-mass-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why the Mass Is a Sacrifice, Not Just a Memorial"

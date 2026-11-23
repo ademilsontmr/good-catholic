@@ -20,7 +20,7 @@ export default function Ephesians5MarriageCatholic() {
         <meta name="description" content="Ephesians 5 marriage explained for Catholics: mutual submission (v. 21), Christ-like husbandly love, headship as service, abuse never justified, CCC 2201–2206." />
         <meta name="keywords" content="ephesians 5 marriage, wives submit husbands love, catholic ephesians 5, headship marriage catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/ephesians-5-marriage-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Ephesians 5 Marriage: What “Wives Submit” Really Means"

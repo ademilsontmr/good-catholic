@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay13() {
         <meta name="description" content={"Pray St Michaels Lent Novena Day 13 on August 27, 2026. Clear intro, reasons to continue, and free 46-day novena prayers from Assumption to Michaelmas."} />
         <meta name="keywords" content={"st michael's lent novena day 13, st michaels lent novena day 13, st michael lent day 13 august 27, michaelmas novena day 13 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-13-august-27-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St. Michael's Lent Novena — Day 13 for Thursday"}

@@ -21,7 +21,7 @@ export default function SaintPeterApostle() {
         <meta name="description" content="Discover Saint Peter the Apostle — the fisherman from Galilee who became the first Pope, received the keys of the Kingdom, and was martyred in Rome." />
         <meta name="keywords" content="saint peter apostle, saint peter first pope, peter and paul apostles, peter keys of heaven, peter denial of jesus, feast day june 29" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-peter-apostle/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Peter the Apostle: The First Pope, His Life & Legacy"

@@ -21,7 +21,7 @@ export default function CompleteCatholicMarriageGuide() {
         <meta name="description" content="What engaged Catholic couples need to know: Pre-Cana, required documents, the wedding ceremony, the exchange of vows, NFP, and building a holy marriage." />
         <meta name="keywords" content="complete catholic marriage guide, catholic wedding preparation, pre-cana guide, catholic marriage requirements, sacrament of matrimony guide, catholic engagement guide" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-catholic-marriage-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Complete Catholic Marriage Guide: From Engagement to Holy Matrimony"

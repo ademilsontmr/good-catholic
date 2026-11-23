@@ -21,7 +21,7 @@ export default function HowToBecomeCatholicGuide() {
         <meta name="description" content="How to become Catholic — the complete guide to the RCIA process, what to expect, how long it takes, what you'll learn, and how to find a parish near you." />
         <meta name="keywords" content="how to become catholic, becoming catholic, convert to catholicism, rcia process, joining the catholic church, catholic conversion guide, how to join catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-become-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Become Catholic: Complete Step-by-Step Guide"

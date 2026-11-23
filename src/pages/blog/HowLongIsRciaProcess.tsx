@@ -21,7 +21,7 @@ export default function HowLongIsRciaProcess() {
         <meta name="description" content="How long is RCIA? Typical timeline, stages, and what to expect when becoming Catholic in the United States." />
         <meta name="keywords" content="how long is rcia, rcia timeline, becoming catholic how long" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-long-is-rcia-process/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="How Long Is RCIA? Catholic Conversion Timeline in the USA" description="How long is RCIA? Typical timeline, stages, and what to expect when becoming Catholic in the United States." url="https://guidecatholic.com/blog/how-long-is-rcia-process/" datePublished="2026-05-30" />
       <BreadcrumbSchema

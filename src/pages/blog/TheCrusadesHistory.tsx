@@ -21,7 +21,7 @@ export default function TheCrusadesHistory() {
         <meta name="description" content="Were the Crusades unprovoked wars of aggression? The historical context, the defense of pilgrims, and the Catholic perspective on this controversial time." />
         <meta name="keywords" content="the crusades catholic perspective, why did the crusades happen, myths about the crusades, christian defense of pilgrims, historical context crusades, pope urban II clermont" />
         <link rel="canonical" href="https://guidecatholic.com/blog/the-crusades-fact-vs-fiction/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Crusades: Separating Catholic Fact from Fiction"

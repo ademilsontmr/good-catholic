@@ -21,7 +21,7 @@ export default function CatholicTeachingOnWar() {
         <meta name="description" content="What does the Catholic Church teach about war? The Just War doctrine and its four conditions, nuclear weapons, conscientious objection, and peace-building." />
         <meta name="keywords" content="catholic teaching on war, just war doctrine catholic, can catholics support war, catholic pacifism, catechism on war, when is war justified catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-war-and-peace/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on War and Peace: The Just War Doctrine Explained"

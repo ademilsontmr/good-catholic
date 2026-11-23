@@ -68,7 +68,7 @@ export default function WhatToWearToCatholicMass() {
           content="what to wear to catholic mass, what to wear to christmas mass, catholic church dress code, can you wear jeans to mass, can you wear shorts to mass, do women have to cover their heads in catholic church, mantilla, what to wear to a catholic funeral, what to wear to a catholic wedding, what to wear to first communion"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

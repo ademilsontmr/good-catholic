@@ -4,9 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetClose, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 const NAV_LINKS = [
+  { to: "/rosary/", label: "Rosary" },
   { to: "/blog/", label: "Blog" },
-  { to: "/about/", label: "About" },
-  { to: "/contact/", label: "Contact" },
   { to: "/daily-verses/", label: "Daily Verse" },
   { to: "/random-bible-verse/", label: "Random Bible Verse" },
 ];
@@ -28,9 +27,13 @@ export function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-5 lg:gap-8">
             {NAV_LINKS.map((link) => (
-              <Link key={link.to} to={link.to} className="text-text-muted hover:text-text transition-colors">
+              <Link
+                key={link.to}
+                to={link.to}
+                className="text-text-muted hover:text-text transition-colors whitespace-nowrap"
+              >
                 {link.label}
               </Link>
             ))}

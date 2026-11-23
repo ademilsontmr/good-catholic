@@ -21,7 +21,7 @@ export default function DailyMassReadings() {
         <meta name="description" content="How to follow the Catholic daily Mass readings: what they are, the three-year cycle, the best apps and websites, and how to use them for prayer and study." />
         <meta name="keywords" content="daily mass readings catholic, catholic daily readings, mass readings today, lectionary catholic, usccb daily readings, catholic bible readings today, gospel reading today" />
         <link rel="canonical" href="https://guidecatholic.com/blog/daily-mass-readings-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Daily Mass Readings Catholic: How to Follow, Apps & the Lectionary"

@@ -58,7 +58,7 @@ export default function PatronSaintOfTheEnvironment() {
           content="patron saint of the environment, patron saint of ecology, patron saint of nature, patron saint of creation, catholic prayer for creation, laudato si prayer, season of creation, world day of prayer for the care of creation, st francis of assisi ecology"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

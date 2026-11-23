@@ -21,7 +21,7 @@ export default function SaintPaulApostle() {
         <meta name="description" content="Saint Paul the Apostle: the persecutor turned missionary who wrote half the New Testament, traveled the ancient world for Christ, and was martyred in Rome." />
         <meta name="keywords" content="saint paul apostle, paul conversion damascus, paul missionary journeys, paul letters epistles, paul and peter apostles, feast day june 29" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-paul-apostle/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Paul the Apostle: Conversion, Missions & Letters"

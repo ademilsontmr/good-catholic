@@ -20,7 +20,7 @@ export default function NovenaForAnxietyCatholic() {
         <meta name="description" content="Novena for anxiety — 9-day Catholic prayer for peace, calm, and trust when worry overwhelms you. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="novena for anxiety, catholic prayer for anxiety 9 days, novena peace calm, prayer for worry catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-anxiety-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Anxiety: 9-Day Catholic Prayer for Peace & Calm" description="Novena for anxiety — 9-day Catholic prayer for peace, calm, and trust when worry overwhelms you. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-anxiety-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

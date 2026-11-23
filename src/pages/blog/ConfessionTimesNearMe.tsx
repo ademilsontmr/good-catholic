@@ -21,7 +21,7 @@ export default function ConfessionTimesNearMe() {
         <meta name="description" content="Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession." />
         <meta name="keywords" content="confession times near me, catholic confession near me, reconciliation near me, catholic confession times, find confession, sacrament of reconciliation near me" />
         <link rel="canonical" href="https://guidecatholic.com/blog/confession-times-near-me/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Confession Times Near Me: How to Find Catholic Confession"

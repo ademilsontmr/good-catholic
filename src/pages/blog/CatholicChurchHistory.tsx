@@ -21,7 +21,7 @@ export default function CatholicChurchHistory() {
         <meta name="description" content="The history of the Catholic Church from St. Peter to Pope Francis: key figures, councils, and moments that shaped 2000 years of Catholic tradition." />
         <meta name="keywords" content="Catholic Church history, Church timeline, papal history, Vatican history, Church councils" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-church-history/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Church History: A Complete Timeline from Peter to Today"

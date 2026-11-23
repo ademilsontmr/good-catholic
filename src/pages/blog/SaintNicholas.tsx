@@ -21,7 +21,7 @@ export default function SaintNicholas() {
         <meta name="description" content="Who was Saint Nicholas? The Catholic bishop of Myra whose charity inspired Santa Claus — life, miracles, feast day December 6, and devotion." />
         <meta name="keywords" content="st nicholas, saint nicholas, saint nicholas catholic, real santa claus, bishop of myra, saint nicholas feast day december 6, saint nicholas miracles, patron of children" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-nicholas/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Nicholas: Real History Behind Santa Claus"

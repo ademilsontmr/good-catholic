@@ -20,7 +20,7 @@ export default function NovenaBeforeSurgeryCatholic() {
         <meta name="description" content="Novena before surgery — 9-day Catholic prayer for healing, peace, and successful operation. Full prayer text for patients and families in the United States." />
         <meta name="keywords" content="novena before surgery, catholic prayer before surgery, 9 day novena healing surgery, prayer for operation catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-before-surgery-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena Before Surgery: 9-Day Catholic Prayer for Healing & Peace" description="Novena before surgery — 9-day Catholic prayer for healing, peace, and successful operation. Full prayer text for patients and families in the United States." url="https://guidecatholic.com/blog/novena-before-surgery-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

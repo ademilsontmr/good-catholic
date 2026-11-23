@@ -21,7 +21,7 @@ export default function HowToReturnToMass() {
         <meta name="description" content="Thinking about returning to Mass? This compassionate guide helps lapsed Catholics come back to the Church — step by step, without judgment." />
         <meta name="keywords" content="how to return to mass, lapsed catholic returning, coming back to catholic church, returning to church catholic, how to go back to mass" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-return-to-mass/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Return to Mass After Being Away: A Guide for Lapsed Catholics"

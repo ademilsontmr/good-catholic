@@ -20,7 +20,7 @@ export default function BibleVersesForSleep() {
         <meta name="description" content={"Bible Verses for Sleep for Catholics — Psalm 4:8 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for sleep, catholic bible verses for sleep, bible verses sleep"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-sleep/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Sleep: Scriptures Catholics Pray and Memorize"}

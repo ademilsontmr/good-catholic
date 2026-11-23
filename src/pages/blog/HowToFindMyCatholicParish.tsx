@@ -26,7 +26,7 @@ export default function HowToFindMyCatholicParish() {
           content="how do i find my catholic parish, find catholic church near me, catholic parish by zip code, what parish am i in catholic, register at catholic parish usa"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-find-my-catholic-parish/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How Do I Find My Catholic Parish? (US Guide 2026)"

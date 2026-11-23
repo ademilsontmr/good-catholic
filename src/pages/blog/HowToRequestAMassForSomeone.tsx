@@ -57,7 +57,7 @@ export default function HowToRequestAMassForSomeone() {
           content="how to request a mass for someone, mass intention, mass card, mass stipend, mass offering amount, mass for the deceased, gregorian masses, what to write on a mass card, mass for a non-catholic, mass for the living"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

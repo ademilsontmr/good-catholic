@@ -21,7 +21,7 @@ export default function CatholicTeachingOnFreeMasonry() {
         <meta name="description" content="The Catholic Church has condemned Freemasonry over 20 times since 1738. See why Catholics cannot join Masonic lodges and what to do if a relative is a Mason." />
         <meta name="keywords" content="catholic teaching on freemasonry, can catholics be freemasons, freemasonry and catholic church, why catholics cannot be masons, masonic lodge catholic, church condemnation freemasonry" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-freemasonry/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Freemasonry: Why Catholics Cannot Be Masons"

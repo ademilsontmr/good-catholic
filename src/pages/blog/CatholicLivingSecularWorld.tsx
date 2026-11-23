@@ -21,7 +21,7 @@ export default function CatholicLivingSecularWorld() {
         <meta name="description" content="Practical guide for Catholics living in a secular culture. Learn how to maintain your faith, witness to others, and stay strong when the world pushes back." />
         <meta name="keywords" content="catholic living secular world, being catholic today, how to live catholic faith, catholic in modern world, faith in secular culture" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-living-in-secular-world/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Live as a Catholic in a Secular World"

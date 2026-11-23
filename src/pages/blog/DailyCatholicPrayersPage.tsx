@@ -48,7 +48,7 @@ export default function DailyCatholicPrayersPage() {
           content="daily Catholic prayers, Catholic prayers for everyday life, prayers every Catholic should know, morning Catholic prayers, Catholic prayers before bed, daily prayer routine for Catholics, traditional Catholic prayers"
         />
         <link rel="canonical" href={PAGE} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={TITLE}

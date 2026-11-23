@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { RosaryHubCTA } from "@/components/blog/RosaryHubCTA";
 
 export default function RosaryMysteriesMeditation() {
   return (
@@ -21,7 +22,7 @@ export default function RosaryMysteriesMeditation() {
         <meta name="description" content="Learn to meditate on all 20 Rosary mysteries. Discover the Joyful, Sorrowful, Glorious, and Luminous mysteries with reflections for deeper contemplation." />
         <meta name="keywords" content="Rosary mysteries, 20 mysteries, meditative prayer, Rosary meditation, Joyful Sorrowful Glorious Luminous" />
         <link rel="canonical" href="https://guidecatholic.com/blog/rosary-mysteries-meditation/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Rosary Mysteries: A Guide to Meditative Prayer on the 20 Mysteries"
@@ -94,6 +95,7 @@ export default function RosaryMysteriesMeditation() {
                 <p className="text-lg text-text leading-relaxed font-medium">Rosary mystery meditation imagines Gospel scenes while praying Hail Marys — Joyful (Incarnation), Sorrowful (Passion), Glorious (Resurrection), Luminous (public ministry). One mystery per decade; slow pacing beats speed; read the biblical account first.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
+              <RosaryHubCTA />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="rosary-mysteries-meditation">
                 The Rosary is not merely repetition—it is meditation on the mysteries of Christ's life. With twenty mysteries spanning His entire earthly journey, the Rosary offers a complete school of contemplation that transforms the one who prays it.

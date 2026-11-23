@@ -40,7 +40,7 @@ export default function PatronSaintOfChildren() {
           content="patron saint of children, patron saint of kids, patron saint of babies, patron saint of sick children, prayer for my children catholic, st nicholas patron of children, st dominic savio, holy innocents, bedtime blessing for child"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

@@ -20,7 +20,7 @@ export default function BibleVersesForHealingAndRecovery() {
         <meta name="description" content={"Bible Verses for Healing and Recovery for Catholics — Jeremiah 30:17 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for healing and recovery, catholic bible verses for healing and recovery, bible verses healing recovery"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-healing-and-recovery/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Healing and Recovery: Scriptures Catholics Pray and Memorize"}

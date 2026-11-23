@@ -21,7 +21,7 @@ export default function StMichaelNovenaProtection() {
         <meta name="description" content="St. Michael Novena for protection — 9-day Catholic prayer against evil, danger, and spiritual attack. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="st michael novena protection, novena to st michael archangel, st michael prayer 9 days" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michael-novena-protection/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="St. Michael Novena for Protection: 9-Day Prayer (Full Text)" description="St. Michael Novena for protection — 9-day Catholic prayer against evil, danger, and spiritual attack. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/st-michael-novena-protection/" datePublished="2026-05-30" />
       <BreadcrumbSchema

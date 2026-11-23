@@ -20,7 +20,7 @@ export default function CatholicWeddingRequirementsUsa() {
         <meta name="description" content="Catholic wedding requirements in the USA: 6–12 month timeline, baptismal certificates, Pre-Cana, civil license, witnesses, and prior marriage or annulment." />
         <meta name="keywords" content="catholic wedding requirements, catholic wedding documents usa, pre-cana requirements, baptismal certificate wedding" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-requirements-usa/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Wedding Requirements in the USA: Documents & Timeline"

@@ -20,7 +20,7 @@ export default function AllSaintsDayNovember12026HolyDay() {
         <meta name="description" content={"All Saints' Day November 1, 2026 — Holy Day of Obligation in the USA, Mass times, meaning, and how Catholics honor the saints in heaven."} />
         <meta name="keywords" content={"all saints day 2026, all saints day holy day of obligation, november 1 mass times, all saints day catholic usa"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/all-saints-day-november-1-2026-holy-day-obligation/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"All Saints' Day 2026 (November 1): Holy Day of Obligation & Mass Times"}

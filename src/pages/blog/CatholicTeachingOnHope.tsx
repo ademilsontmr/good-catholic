@@ -21,7 +21,7 @@ export default function CatholicTeachingOnHope() {
         <meta name="description" content="Hope is a theological virtue, and the most misunderstood. What Christian hope really is, the two sins against it, and how to grow in it as a Catholic." />
         <meta name="keywords" content="virtue of hope catholic, what is hope catholic, theological virtue hope, hope and faith catholic, christian hope meaning, catechism on hope" />
         <link rel="canonical" href="https://guidecatholic.com/blog/virtue-of-hope-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Hope? The Catholic Virtue of Hope Explained"

@@ -21,7 +21,7 @@ export default function SacredHeartDevotionCompleteGuide() {
         <meta name="description" content="Sacred Heart devotion complete guide — First Fridays, 12 promises, Enthronement, and how U.S. Catholics honor the Heart of Jesus." />
         <meta name="keywords" content="sacred heart devotion, first friday devotion, sacred heart promises catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/sacred-heart-devotion-complete-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Sacred Heart Devotion: Complete Catholic Guide (First Fridays & Promises)" description="Sacred Heart devotion complete guide — First Fridays, 12 promises, Enthronement, and how U.S. Catholics honor the Heart of Jesus." url="https://guidecatholic.com/blog/sacred-heart-devotion-complete-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema

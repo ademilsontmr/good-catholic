@@ -43,7 +43,7 @@ export default function BlessedMiriamTeresaDemjanovich() {
           content="blessed miriam teresa demjanovich, miriam teresa demjanovich feast day, greater perfection, sisters of charity of saint elizabeth, bayonne new jersey saint, byzantine catholic blessed, first beatification in the united states, prayer to blessed miriam teresa"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

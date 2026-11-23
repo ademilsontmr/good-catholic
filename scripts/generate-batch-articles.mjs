@@ -116,7 +116,7 @@ export default function ${article.component}() {
         <meta name="description" content="${article.desc}" />
         <meta name="keywords" content="${article.keywords}" />
         <link rel="canonical" href="https://guidecatholic.com/blog/${article.slug}/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="${article.title}" description="${article.desc}" url="https://guidecatholic.com/blog/${article.slug}/" datePublished="2026-05-30" />
 

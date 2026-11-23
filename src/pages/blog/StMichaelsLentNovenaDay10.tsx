@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay10() {
         <meta name="description" content={"St Michael Lent Novena Day 10: August 24, 2026 prayer guide, with today's reflection for spiritual courage and the complete novena on Catholic Bible Online."} />
         <meta name="keywords" content={"st michael's lent novena day 10, st michaels lent novena day 10, st michael lent day 10 august 24, michaelmas novena day 10 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-10-august-24-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michaels Lent Day 10 Novena Prayer — August 24, 2026"}

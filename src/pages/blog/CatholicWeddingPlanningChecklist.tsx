@@ -20,7 +20,7 @@ export default function CatholicWeddingPlanningChecklist() {
         <meta name="description" content="Catholic wedding planning checklist: parish date first, nuptial Mass vs ceremony, readings, vows, sacred music, rehearsal, and confession before the wedding." />
         <meta name="keywords" content="catholic wedding planning checklist, plan catholic wedding, catholic wedding timeline checklist" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-planning-checklist/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Wedding Planning Checklist: Keep Christ at the Center"

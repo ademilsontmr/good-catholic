@@ -42,7 +42,7 @@ export default function PopeArticlePage() {
         <meta name="description" content={article.metaDescription} />
         <meta name="keywords" content={`pope ${displayName}, ${displayName} biography, pope number ${article.num}, catholic pope history, list of popes`} />
         <link rel="canonical" href={canonical} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={article.title} description={article.metaDescription} url={canonical} datePublished="2026-05-30" />
       <BreadcrumbSchema

@@ -21,7 +21,7 @@ export default function CatholicViewOnWealth() {
         <meta name="description" content="What does the Catholic Church teach about money, wealth, and success? Explore the balance between the 'Prosperity Gospel' and the 'Vow of Poverty'." />
         <meta name="keywords" content="catholic view on money, wealth and catholicism, prosperity gospel vs catholicism, catholic social teaching wealth, stewardship catholic, rerum novarum, universal destination of goods" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-view-on-wealth/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic View on Wealth and Money: Prosperity or Poverty?"

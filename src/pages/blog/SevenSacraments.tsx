@@ -21,7 +21,7 @@ export default function SevenSacraments() {
         <meta name="description" content="Discover the deep theology behind the seven sacraments. Learn about Matter and Form, the Indelible Character, and how grace is transmitted Ex Opere Operato." />
         <meta name="keywords" content="7 sacraments of the catholic church, matter and form sacraments, ex opere operato definition, sacraments of initiation healing service, indelible character baptism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/seven-sacraments/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The 7 Sacraments of the Catholic Church Explained"

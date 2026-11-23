@@ -42,7 +42,7 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
           rel="canonical"
           href="https://guidecatholic.com/blog/st-michaels-lent-novena-prayer-guide-us-2026/"
         />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="St. Michael's Lent Novena: The Complete Catholic Guide (US 2026)"

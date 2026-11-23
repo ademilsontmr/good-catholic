@@ -21,7 +21,7 @@ export default function SaintVincentDePaul() {
         <meta name="description" content="Discover Saint Vincent de Paul — the 17th-century French priest who revolutionized Catholic charity. His life, the Vincentian family, the Society of St." />
         <meta name="keywords" content="saint vincent de paul, st vincent de paul society, patron of charitable works, apostle of charity, vincentian spirituality, feast day september 27" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-vincent-de-paul/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Vincent de Paul: Apostle of Charity and Patron of the Poor"

@@ -21,7 +21,7 @@ export default function WhyPrayToSaints() {
         <meta name="description" content="Discover the biblical and historical reasons Catholics ask saints for intercession. Learn about the Communion of Saints, Relics, and the One Mediator." />
         <meta name="keywords" content="why pray to saints catholic defense, intercession of saints bible verses, praying to deceased saints necromancy response, communion of saints theory, relics of saints biblical basis" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-do-catholics-pray-to-saints/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why Do Catholics Pray to Saints? Not Worship — Intercession Explained"

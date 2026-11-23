@@ -191,10 +191,17 @@ export const INTERLINK_MAP: Record<string, string> = {
 
   // Rosary
   "the Rosary": "/blog/complete-rosary-guide/",
-  "pray the Rosary": "/blog/complete-rosary-guide/",
+  "pray the Rosary": "/rosary/",
   "praying the Rosary": "/blog/complete-rosary-guide/",
-  "Holy Rosary": "/blog/rosary-complete-guide/",
+  "Holy Rosary": "/rosary/",
   "Rosary mysteries": "/blog/rosary-mysteries-meditation/",
+  "Joyful Mysteries": "/blog/joyful-mysteries-of-the-rosary/",
+  "Sorrowful Mysteries": "/blog/sorrowful-mysteries-of-the-rosary/",
+  "Glorious Mysteries": "/blog/glorious-mysteries-of-the-rosary/",
+  "Luminous Mysteries": "/blog/luminous-mysteries-of-the-rosary/",
+  "Scriptural Rosary": "/blog/scriptural-rosary/",
+  "54-day Rosary novena": "/blog/54-day-rosary-novena/",
+  "history of the Rosary": "/blog/history-of-the-rosary/",
 
   // Sacraments
   "Sacrament of Reconciliation": "/blog/catholic-confession-guide/",

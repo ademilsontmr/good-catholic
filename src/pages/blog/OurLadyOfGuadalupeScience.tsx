@@ -21,7 +21,7 @@ export default function OurLadyOfGuadalupeScience() {
         <meta name="description" content="Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say." />
         <meta name="keywords" content="our lady of guadalupe science, tilma of juan diego mystery, guadalupe tilma scientific study, miracle of guadalupe, images in guadalupe eyes, nahui ollin symbolism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/miracle-of-guadalupe-science/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Our Lady of Guadalupe Tilma: Scientific Analysis & NASA Studies"

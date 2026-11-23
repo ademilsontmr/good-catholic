@@ -20,7 +20,7 @@ export default function StExpediteNovenaGuide() {
         <meta name="description" content="St. Expedite Novena — 9-day Catholic prayer for urgent needs, quick help, and pressing situations. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="st expedite novena, novena st expedite urgent, st expedite prayer 9 days" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-expedite-novena-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="St. Expedite Novena: 9-Day Prayer for Urgent Needs (Full Text)" description="St. Expedite Novena — 9-day Catholic prayer for urgent needs, quick help, and pressing situations. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/st-expedite-novena-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema

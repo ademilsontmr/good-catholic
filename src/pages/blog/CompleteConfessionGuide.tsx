@@ -22,7 +22,7 @@ export default function CompleteConfessionGuide() {
         <meta name="description" content="The complete guide to Catholic Confession: what the sacrament is, the five parts of a good Confession, the rite, common fears and how often to go." />
         <meta name="keywords" content="catholic confession complete guide, sacrament of penance and reconciliation, how to make a good confession, parts of a good confession, how often should catholics go to confession" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-catholic-confession/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Confession: The Complete Guide to the Sacrament"

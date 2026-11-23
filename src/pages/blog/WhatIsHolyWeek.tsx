@@ -21,7 +21,7 @@ export default function WhatIsHolyWeek() {
         <meta name="description" content="What is Holy Week? Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil." />
         <meta name="keywords" content="what is holy week, holy week catholic, palm sunday, holy thursday, good friday, holy saturday, easter vigil" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-holy-week-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="What Is Holy Week? A Complete Guide to the Most Sacred Week of the Year"

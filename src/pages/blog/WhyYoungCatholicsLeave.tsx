@@ -21,7 +21,7 @@ export default function WhyYoungCatholicsLeave() {
         <meta name="description" content="Why are young Catholics leaving the Church? The real reasons — and what the Church offers those who are searching, doubting, or have drifted away." />
         <meta name="keywords" content="why young catholics leave church, catholics leaving church, lapsed catholics, returning to catholic church, why millennials leave catholicism, catholic faith crisis" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-young-catholics-leave-the-church/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why Young Catholics Leave the Church — and How to Come Back"

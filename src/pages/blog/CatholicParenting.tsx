@@ -21,7 +21,7 @@ export default function CatholicParenting() {
         <meta name="description" content="A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith." />
         <meta name="keywords" content="catholic parenting, raising catholic children, how to raise children in faith, catholic family, teaching children catholic faith" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-parenting-raising-children-in-faith/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Parenting: How to Raise Children in the Faith"

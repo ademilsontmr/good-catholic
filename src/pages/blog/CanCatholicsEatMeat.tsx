@@ -21,7 +21,7 @@ export default function CanCatholicsEatMeat() {
         <meta name="description" content="Can Catholics eat meat on Fridays? Learn the Church's rules on Friday abstinence, what counts as meat, why fish is allowed, and what to do if you forget." />
         <meta name="keywords" content="can catholics eat meat on fridays, friday abstinence catholic, catholic meat friday rule, friday penance catholic, no meat friday catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/can-catholics-eat-meat-on-fridays/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Can Catholics Eat Meat on Fridays? The Complete Guide"

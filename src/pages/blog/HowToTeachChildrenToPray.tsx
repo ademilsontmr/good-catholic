@@ -21,7 +21,7 @@ export default function HowToTeachChildrenToPray() {
         <meta name="description" content="How to teach your children to pray as Catholics, with age-appropriate prayers, tips for building a prayer habit, and ways to make prayer part of family life." />
         <meta name="keywords" content="how to teach children to pray, teaching kids to pray catholic, children prayer catholic, family prayer catholic, kids prayer guide" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-teach-children-to-pray/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Teach Children to Pray: A Catholic Parent's Guide"

@@ -21,7 +21,7 @@ export default function EucharisticPrayers() {
         <meta name="description" content="Eucharistic prayers, Holy Hour devotion, and the practice of adoration: how to pray before the Blessed Sacrament and encounter Christ's Real Presence." />
         <meta name="keywords" content="Eucharistic prayers, adoration, Holy Hour, Blessed Sacrament, Eucharistic adoration, praying before Jesus" />
         <link rel="canonical" href="https://guidecatholic.com/blog/eucharistic-prayers/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Eucharistic Prayers and Adoration: A Complete Guide"

@@ -21,7 +21,7 @@ export default function SaintPatrick() {
         <meta name="description" content="Who was Saint Patrick? The real Catholic bishop of Ireland — captivity, shamrock Trinity teaching, Breastplate prayer, feast day March 17, and myths vs history." />
         <meta name="keywords" content="saint patrick, st patrick catholic, saint patrick ireland, feast day march 17, saint patrick prayer, breastplate of saint patrick, shamrock trinity" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-patrick/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Patrick: Real History, Shamrock & Prayer"

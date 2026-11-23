@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay26() {
         <meta name="description" content={"St Michael's Lent Novena Day 26 for September 9, 2026. Why pray today, how to begin, and the free daily prayer text on Catholic Bible Online."} />
         <meta name="keywords" content={"st michael's lent novena day 26, st michaels lent novena day 26, st michael lent day 26 september 9, michaelmas novena day 26 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-26-september-9-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michael's Lent Novena Day 26: September 9, 2026"}

@@ -20,7 +20,7 @@ export default function NativityOfMarySeptember82026FeastGuide() {
         <meta name="description" content={"Nativity of the Blessed Virgin Mary on September 8, 2026 — meaning, Mass, traditions, prayers, and how U.S. Catholics celebrate Mary's birthday."} />
         <meta name="keywords" content={"nativity of mary 2026, nativity of the blessed virgin mary september 8, mary birthday feast, september 8 catholic feast 2026, nativity of mary feast day"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/nativity-of-mary-september-8-2026-feast-day-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Nativity of Mary (September 8, 2026): Feast Day Guide for U.S. Catholics"}

@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay1() {
         <meta name="description" content={"St Michael's Lent Novena Day 1 for August 15, 2026. Why pray today, how to begin, and the free daily prayer text on Catholic Bible Online."} />
         <meta name="keywords" content={"st michael's lent novena day 1, st michaels lent novena day 1, st michael lent day 1 august 15, michaelmas novena day 1 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-1-august-15-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michael's Lent Novena Day 1: August 15, 2026"}

@@ -21,7 +21,7 @@ export default function CanCatholicsDonateOrgans() {
         <meta name="description" content="Can Catholics donate organs? Church teaching on organ donation, end-of-life ethics, and Catholic moral principles." />
         <meta name="keywords" content="can catholics donate organs, catholic church organ donation, organ donation catholic teaching" />
         <link rel="canonical" href="https://guidecatholic.com/blog/can-catholics-donate-organs/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Can Catholics Donate Organs? What the Church Teaches" description="Can Catholics donate organs? Church teaching on organ donation, end-of-life ethics, and Catholic moral principles." url="https://guidecatholic.com/blog/can-catholics-donate-organs/" datePublished="2026-05-30" />
       <BreadcrumbSchema

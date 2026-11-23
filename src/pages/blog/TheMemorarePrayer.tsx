@@ -21,7 +21,7 @@ export default function TheMemorarePrayer() {
         <meta name="description" content="The Memorare prayer in full: its history, meaning, how to pray it, and why this ancient prayer to the Virgin Mary has comforted Catholics for centuries." />
         <meta name="keywords" content="memorare prayer, the memorare, memorare catholic prayer, remember o most gracious virgin mary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/the-memorare-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="The Memorare: History, Full Text and How to Pray This Powerful Prayer"

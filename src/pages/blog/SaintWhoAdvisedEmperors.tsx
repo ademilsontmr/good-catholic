@@ -26,7 +26,7 @@ export default function SaintWhoAdvisedEmperors() {
           content="saint who advised emperors, st ambrose theodosius, st john of egypt emperor, catholic saints emperors, saint counseled emperor, saints and rulers catholic"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-who-advised-emperors/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Who Advised Emperors: St. Ambrose, St. John of Egypt & More"

@@ -48,7 +48,7 @@ export default function SaintOfDayHub() {
         />
         <meta name="keywords" content="saint of the day, catholic saint calendar, today's saint, feast day, patron saint, daily saint biography" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-of-the-day/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <CollectionPageSchema
         name="Saint of the Day: 365 Famous Catholic Saints Calendar"

@@ -45,7 +45,7 @@ export default function SaintKatharineDrexel() {
           content="st katharine drexel, saint katharine drexel, katharine drexel feast day, katharine drexel prayer, sisters of the blessed sacrament, xavier university of louisiana, katharine drexel shrine, american saints, patron saint of racial justice, patron saint of philanthropists"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

@@ -20,7 +20,7 @@ export default function WhatIsTransubstantiation() {
         <meta name="description" content="What is transubstantiation? Learn how bread and wine become Christ's Body and Blood at Mass — Trent, CCC 1373–1377, John 6, and why it is not a symbol." />
         <meta name="keywords" content="what is transubstantiation, transubstantiation catholic, eucharist real presence, body and blood of christ, accidents and substance" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-transubstantiation/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Transubstantiation? The Catholic Doctrine of the Eucharist"

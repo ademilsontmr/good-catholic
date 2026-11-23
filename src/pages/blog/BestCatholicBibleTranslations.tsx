@@ -21,7 +21,7 @@ export default function BestCatholicBibleTranslations() {
         <meta name="description" content="Which Catholic Bible translation is best? Compare the Douay-Rheims, RSV-CE, NAB, NABRE, Jerusalem Bible, and New Jerusalem Bible." />
         <meta name="keywords" content="best catholic bible translation, catholic bible versions, RSV-CE, NAB bible, douay rheims bible, which bible for catholics" />
         <link rel="canonical" href="https://guidecatholic.com/blog/best-catholic-bible-translations/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Best Catholic Bible Translations: RSV, NAB, Douay-Rheims Compared"

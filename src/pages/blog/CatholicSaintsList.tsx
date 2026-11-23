@@ -21,7 +21,7 @@ export default function CatholicSaintsList() {
         <meta name="description" content="Complete list of Catholic patron saints by need — health, work, family, travel, lost items. Find your patron saint and how to ask for intercession." />
         <meta name="keywords" content="catholic saints, patron saints, list of patron saints, catholic saints list, list of catholic saints, saints catholic, catholic saint names, patron saints catholic, find your patron saint" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-saints-list/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="List of Catholic Patron Saints & What They're Known For"

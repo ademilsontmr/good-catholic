@@ -450,7 +450,7 @@ function buildFaqs(f, prev, next) {
 function buildArticle(f, index, all) {
   const prev = index > 0 ? all[index - 1] : null;
   const next = index < all.length - 1 ? all[index + 1] : null;
-  const title = `${f.name}: Catholic Feast Day Guide — ${f.titleHook}`;
+  const title = f.name.length <= 32 ? `${f.name}: Catholic Meaning & Traditions` : `${f.name}: Catholic Guide`;
   const directAnswer = buildDirectAnswer(f);
   const intro = buildIntro(f);
   const scriptureAndTradition = buildScriptureAndTradition(f);
@@ -476,7 +476,7 @@ function buildArticle(f, index, all) {
     whyItMatters
   );
   const metaDescription = trimMeta(
-    `Catholic feast day guide: ${f.name} (${f.dateLabel}). ${f.titleHook}. Scripture, Mass, traditions & U.S. Holy Day rules explained.`
+    `${f.name} explained: what it celebrates, Scripture and Mass, Catholic traditions, and whether it is a U.S. Holy Day of Obligation.`
   );
   const excerpt = trimMeta(`${f.name} — ${f.titleHook}. ${f.facts[0]}`, 160);
 

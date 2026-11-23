@@ -20,7 +20,7 @@ export default function BibleVersesAboutHope() {
         <meta name="description" content={"Bible Verses About Hope for Catholics — Romans 15:13 and RSV-CE scriptures for prayer, comfort, and daily discipleship."} />
         <meta name="keywords" content={"bible verses about hope, catholic bible verses about hope, scripture hope"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-hope/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Hope: Scriptures Catholics Turn To in Faith"}

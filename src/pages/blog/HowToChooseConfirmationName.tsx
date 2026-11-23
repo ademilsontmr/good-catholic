@@ -21,7 +21,7 @@ export default function HowToChooseConfirmationName() {
         <meta name="description" content="How to choose a Catholic Confirmation name: what a Confirmation name means, how to research saints, and how to make this important spiritual decision." />
         <meta name="keywords" content="how to choose confirmation name, confirmation name catholic, picking a confirmation name, confirmation saint name, catholic confirmation name ideas" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-choose-confirmation-name/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Choose a Confirmation Name: A Complete Catholic Guide"

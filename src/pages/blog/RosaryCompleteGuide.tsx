@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { RosaryHubCTA } from "@/components/blog/RosaryHubCTA";
 import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function RosaryCompleteGuide() {
@@ -22,7 +23,7 @@ export default function RosaryCompleteGuide() {
         <meta name="description" content="The 15 Rosary promises and how to read them as private revelation, plus the Rosary in history: Lepanto, October 7, St. Louis de Montfort and John Paul II." />
         <meta name="keywords" content="15 promises of the rosary, rosary promises alan de la roche, history of the rosary, battle of lepanto rosary, our lady of the rosary october 7, st louis de montfort secret of the rosary, rosarium virginis mariae" />
         <link rel="canonical" href="https://guidecatholic.com/blog/rosary-complete-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The 15 Rosary Promises and the Rosary in History"
@@ -95,6 +96,7 @@ export default function RosaryCompleteGuide() {
                 <p className="text-lg text-text leading-relaxed font-medium">The fifteen promises are traditionally attributed to a revelation of Our Lady connected with the Dominican Alan de la Roche (15th century). They are private revelation, not dogma. The Rosary&apos;s history includes Pius V and Lepanto (1571), the October 7 feast, St. Louis de Montfort, Leo XIII and John Paul II&apos;s Rosarium Virginis Mariae (2002).</p>
               </div>
               <BlogArticleAd slot="1906776249" />
+              <RosaryHubCTA />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Part 1: The 15 Promises of the Rosary

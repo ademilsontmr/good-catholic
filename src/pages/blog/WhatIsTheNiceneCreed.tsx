@@ -21,7 +21,7 @@ export default function WhatIsTheNiceneCreed() {
         <meta name="description" content="The Nicene Creed Catholics recite at Mass — full text, Council of Nicaea history, what each line means, and why the Creed still matters in 2026." />
         <meta name="keywords" content="nicene creed, the nicene creed, nicene creed text, council of nicaea 325, homoousios meaning, filioque controversy, history of the creed" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-nicene-creed/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Nicene Creed: Full Text, History & Meaning (Catholic)"

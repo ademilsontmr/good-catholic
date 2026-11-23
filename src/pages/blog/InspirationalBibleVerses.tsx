@@ -20,7 +20,7 @@ export default function InspirationalBibleVerses() {
         <meta name="description" content={"Inspirational Bible Verses for Catholics — Micah 6:8 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"inspirational bible verses, catholic inspirational bible verses, bible verses inspiration"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/inspirational-bible-verses/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Inspirational Bible Verses: Scriptures Catholics Pray and Memorize"}

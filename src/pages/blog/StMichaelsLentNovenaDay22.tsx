@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay22() {
         <meta name="description" content={"Day 22 of St. Michael's Lent Novena (Saturday, September 5, 2026). Unique Catholic guide with intention, penance tip, and link to today's full novena page."} />
         <meta name="keywords" content={"st michael's lent novena day 22, st michaels lent novena day 22, st michael lent day 22 september 5, michaelmas novena day 22 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-22-september-5-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Day 22 of St. Michael's Lent Novena (September 5, 2026)"}

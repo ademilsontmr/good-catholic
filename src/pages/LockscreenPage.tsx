@@ -331,7 +331,7 @@ export default function LockscreenPage() {
           content="catholic lockscreen wallpaper, catholic wallpaper maker, bible verse lockscreen, bible verse wallpaper iphone, catholic phone wallpaper, christian lock screen, advent wallpaper, christmas bible verse wallpaper, hail mary wallpaper, custom bible verse wallpaper"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Guide Catholic" />
         <meta property="og:title" content="Free Catholic Lockscreen Wallpaper Maker" />

@@ -21,7 +21,7 @@ export default function EucharistRealPresence() {
                 <meta name="description" content="Is Jesus really in the bread? Explore the dogma of Transubstantiation, the John 6 discourse, and scientific findings of Eucharistic miracles." />
                 <meta name="keywords" content="real presence of jesus in eucharist, what is transubstantiation, body and blood of christ, host is jesus, blessed sacrament, eucharistic miracles science, Lanciano miracle" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/eucharist-real-presence/" />
-                <meta name="robots" content="index, follow" />
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
             </Helmet>
             <ArticleSchema
                 title="The Eucharist: Real Presence, Transubstantiation & Scientific Evidence"

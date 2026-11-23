@@ -21,7 +21,7 @@ export default function CatholicSummerMassScheduleGuide() {
         <meta name="description" content="Catholic summer Mass guide — finding parishes on vacation, travel Mass times, and staying faithful while away from home." />
         <meta name="keywords" content="catholic mass vacation, find mass while traveling, summer mass schedule catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-summer-mass-schedule-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Catholic Summer Mass Guide: Vacation, Travel & Finding Mass in the USA" description="Catholic summer Mass guide — finding parishes on vacation, travel Mass times, and staying faithful while away from home." url="https://guidecatholic.com/blog/catholic-summer-mass-schedule-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema

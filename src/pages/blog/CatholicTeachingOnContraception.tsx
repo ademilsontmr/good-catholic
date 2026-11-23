@@ -21,7 +21,7 @@ export default function CatholicTeachingOnContraception() {
         <meta name="description" content="What does the Catholic Church teach about contraception? An explanation of Humanae Vitae (1968), the Catechism (CCC 2370), and why the Church upholds it." />
         <meta name="keywords" content="catholic teaching on contraception, humanae vitae explained, catholic birth control, catechism contraception, why catholic church against birth control, natural family planning vs contraception" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-contraception/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Contraception: Humanae Vitae Explained"

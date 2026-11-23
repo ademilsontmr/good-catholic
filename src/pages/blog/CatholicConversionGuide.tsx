@@ -21,7 +21,7 @@ export default function CatholicConversionGuide() {
         <meta name="description" content="Thinking about becoming Catholic? A step-by-step guide to the RCIA process, the sacraments of initiation, choosing a sponsor, and life after the Easter Vigil." />
         <meta name="keywords" content="converting to catholicism guide, how to convert to catholicism, rcia process guide, becoming catholic step by step, catholic conversion guide, join the catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-converting-to-catholicism/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Complete Guide to Converting to Catholicism: Everything You Need to Know"

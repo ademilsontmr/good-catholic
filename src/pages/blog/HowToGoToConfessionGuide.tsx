@@ -22,7 +22,7 @@ export default function HowToGoToConfessionGuide() {
         <meta name="description" content="Exactly what to say in Confession, from “Bless me, Father” to the Act of Contrition and absolution, with sample wording for confessing sins clearly." />
         <meta name="keywords" content="what to say in confession, confession script, bless me father for i have sinned, what does the priest say in confession, act of contrition words, how to confess sins" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-go-to-confession-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What to Say in Confession: A Word-for-Word Script"

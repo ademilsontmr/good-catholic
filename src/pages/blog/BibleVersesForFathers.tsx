@@ -20,7 +20,7 @@ export default function BibleVersesForFathers() {
         <meta name="description" content={"Bible Verses for Fathers for Catholics — Ephesians 6:4 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for fathers, catholic bible verses for fathers, bible verses fathers"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-fathers/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Fathers: Scriptures Catholics Pray and Memorize"}

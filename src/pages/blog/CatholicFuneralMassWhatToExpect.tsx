@@ -21,7 +21,7 @@ export default function CatholicFuneralMassWhatToExpect() {
         <meta name="description" content="Catholic funeral Mass explained — Vigil, Mass of Christian Burial, committal, etiquette, and what happens step by step." />
         <meta name="keywords" content="catholic funeral mass what to expect, catholic funeral rites order, mass of christian burial" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-funeral-mass-what-to-expect/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Catholic Funeral Mass: What to Expect (Complete USA Guide)" description="Catholic funeral Mass explained — Vigil, Mass of Christian Burial, committal, etiquette, and what happens step by step." url="https://guidecatholic.com/blog/catholic-funeral-mass-what-to-expect/" datePublished="2026-05-30" />
       <BreadcrumbSchema

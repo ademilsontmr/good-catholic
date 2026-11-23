@@ -22,7 +22,7 @@ export default function LiturgyOfTheHoursGuide() {
         <meta name="description" content="The Liturgy of the Hours hour by hour: Invitatory, Office of Readings, Morning, Daytime, Evening and Night Prayer, the four-week psalter, and how the books work." />
         <meta name="keywords" content="liturgy of the hours structure, divine office hours, office of readings, morning prayer lauds, evening prayer vespers, night prayer compline, four-week psalter, breviary explained" />
         <link rel="canonical" href="https://guidecatholic.com/blog/liturgy-of-the-hours-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Liturgy of the Hours: Every Hour and Its Structure"

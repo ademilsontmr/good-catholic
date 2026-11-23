@@ -21,7 +21,7 @@ export default function CatholicAnnulmentProcess() {
         <meta name="description" content="What is a Catholic annulment? A guide to the annulment process: grounds, steps, timeline, cost, and what it means for divorced Catholics who want to remarry." />
         <meta name="keywords" content="catholic annulment process, how to get a catholic annulment, annulment steps, grounds for annulment catholic, annulment vs divorce catholic, declaration of nullity" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-annulment-process/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Annulment Process: A Complete Step-by-Step Guide"

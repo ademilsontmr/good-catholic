@@ -22,7 +22,7 @@ export default function AshWednesdayGuide() {
         <meta name="description" content="What Ash Wednesday means in any year: why Catholics receive ashes, the words said, who may receive them, and how the day opens Lent and points to Easter." />
         <meta name="keywords" content="what is ash wednesday, meaning of ash wednesday, why catholics get ashes, remember that you are dust, repent and believe in the gospel, ash wednesday meaning catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/ash-wednesday-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Ash Wednesday? The Meaning of the Ashes"

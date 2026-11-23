@@ -22,7 +22,7 @@ export default function PrayerForTheSick() {
         <meta name="description" content="The most powerful Catholic prayers for the sick — for healing, comfort, and strength. Prayers to St. Peregrine, St." />
         <meta name="keywords" content="catholic prayer for the sick, prayer for healing catholic, prayer for sick person, saint for healing catholic, prayer for someone in hospital, catholic healing prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-prayer-for-the-sick/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Prayers for the Sick: Healing, Comfort & Strength"

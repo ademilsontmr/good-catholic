@@ -21,7 +21,7 @@ export default function CatholicFastingRules() {
         <meta name="description" content="The Catholic Church's fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent: who is bound, fasting vs abstinence, and the Eucharistic fast." />
         <meta name="keywords" content="catholic fasting rules, fasting catholic church, ash wednesday fasting, good friday fast, friday abstinence, eucharistic fast" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-fasting-rules/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Fasting Rules: What the Church Requires and Why It Matters"

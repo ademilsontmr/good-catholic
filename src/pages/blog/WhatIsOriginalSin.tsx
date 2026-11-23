@@ -21,7 +21,7 @@ export default function WhatIsOriginalSin() {
         <meta name="description" content="What is original sin? Catholic teaching on the fall of Adam and Eve, its effects on human nature, and how baptism restores what was lost." />
         <meta name="keywords" content="what is original sin, original sin catholic, adam and eve original sin, effects of original sin, original sin baptism, catechism original sin" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-original-sin-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Original Sin? The Catholic Teaching Explained"

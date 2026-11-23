@@ -21,7 +21,7 @@ export default function HowToFindCatholicCommunity() {
         <meta name="description" content="Learn how to find a welcoming Catholic community, choose the right parish, get involved in parish life, and build lasting friendships rooted in faith." />
         <meta name="keywords" content="how to find catholic community, finding a parish, catholic parish community, getting involved in parish, catholic small groups" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-find-catholic-community/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Find a Catholic Community: A Guide to Parish Life"

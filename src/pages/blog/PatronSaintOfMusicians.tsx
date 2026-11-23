@@ -63,7 +63,7 @@ export default function PatronSaintOfMusicians() {
           content="patron saint of musicians, patron saint of music, patron saint of singers, patron saint of choirs, st cecilia prayer, prayer for church musicians, prayer for choir, cantor prayer, st cecilia feast day"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

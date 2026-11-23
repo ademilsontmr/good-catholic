@@ -21,7 +21,7 @@ export default function WhatIsTheTrinity() {
         <meta name="description" content="What is the Holy Trinity? Plain-English Catholic guide to Father, Son, and Holy Spirit — one God in three Persons, with Scripture and Creed." />
         <meta name="keywords" content="holy trinity, the holy trinity, what is the holy trinity, holy trinity catholic, father son holy spirit, trinity explained, one god three persons, trinity doctrine catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-holy-trinity/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Holy Trinity Explained: 1 God in 3 Persons (Catholic)"

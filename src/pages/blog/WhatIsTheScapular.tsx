@@ -21,7 +21,7 @@ export default function WhatIsTheScapular() {
         <meta name="description" content="The Brown Scapular: Our Lady of Mount Carmel's apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it." />
         <meta name="keywords" content="brown scapular, what is the scapular, scapular catholic, our lady of mount carmel scapular, scapular promises" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-brown-scapular/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="What Is the Brown Scapular? History, Promises, and How to Wear It"

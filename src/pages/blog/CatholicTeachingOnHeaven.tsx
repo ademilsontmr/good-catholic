@@ -21,7 +21,7 @@ export default function CatholicTeachingOnHeaven() {
         <meta name="description" content="What the Catholic Church teaches about heaven: the beatific vision, the resurrection of the body, recognizing loved ones, and what eternal life means." />
         <meta name="keywords" content="what is heaven like catholic, catholic teaching on heaven, beatific vision, eternal life catholic, heaven description catholic, will we recognize each other in heaven" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-heaven-like-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Heaven Like? The Catholic Teaching on Eternal Life"

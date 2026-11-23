@@ -20,7 +20,7 @@ export default function ChristTheKingSunday2026Usa() {
         <meta name="description" content={"Christ the King Sunday 2026 is November 22 — solemnity closing Ordinary Time. Pius XI, Mass tips, kingship theology, and Advent starts Nov 29."} />
         <meta name="keywords" content={"christ the king sunday 2026, feast of christ the king 2026, christ the king november 22 2026, when is christ the king 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/christ-the-king-sunday-2026-usa/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Christ the King Sunday 2026 (November 22): Meaning & Mass Guide"}

@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowLeft, Calendar, Church, Clock, Compass, Cross, Flame, Gift, Heart, Sparkles, Star, Sun, TreePine } from "lucide-react";
+import { ArrowLeft, Calendar, Church, CircleDot, Clock, Compass, Cross, Flame, Gift, Heart, Sparkles, Star, Sun, TreePine } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -15,6 +15,8 @@ import { CopyPrayerButton } from "@/components/blog/DailyPrayerExtras";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 import { christmasMomentGuideBySlug } from "@/data/christmasMomentGuides";
 import { liturgicalFeastGuideBySlug } from "@/data/liturgicalFeastGuides";
+import { rosaryGuideBySlug } from "@/data/rosaryGuides";
+import { RosaryHubCTA } from "@/components/blog/RosaryHubCTA";
 import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 const ICONS: Record<string, LucideIcon> = {
@@ -69,11 +71,13 @@ function Rich({ text }: { text: string }) {
 export default function LiturgicalFeastGuidePage() {
   const { pathname } = useLocation();
   const slug = pathname.replace(/^\/blog\//, "").replace(/\/$/, "");
-  const guide = liturgicalFeastGuideBySlug(slug) ?? christmasMomentGuideBySlug(slug);
+  const rosaryGuide = rosaryGuideBySlug(slug);
+  const guide = liturgicalFeastGuideBySlug(slug) ?? christmasMomentGuideBySlug(slug) ?? rosaryGuide;
   if (!guide) return null;
 
   const pageUrl = `https://guidecatholic.com/blog/${guide.slug}/`;
-  const Icon = ICONS[guide.slug] ?? Church;
+  const Icon = ICONS[guide.slug] ?? (rosaryGuide ? CircleDot : Church);
+  const timelineHeading = guide.timelineHeading ?? "Key dates";
   const published = guide.datePublished ?? "2026-10-31";
   const publishedLabel = new Date(`${published}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 
@@ -84,7 +88,7 @@ export default function LiturgicalFeastGuidePage() {
         <meta name="description" content={guide.description} />
         <meta name="keywords" content={guide.keywords} />
         <link rel="canonical" href={pageUrl} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={guide.title}
@@ -135,11 +139,12 @@ export default function LiturgicalFeastGuidePage() {
               <p className="text-lg text-text leading-relaxed font-medium"><Rich text={guide.answer} /></p>
             </div>
             <BlogArticleAd slot="1906776249" />
+            {rosaryGuide && <RosaryHubCTA />}
 
             <nav aria-labelledby="toc-heading" className="mb-10 rounded-xl border border-border bg-background-muted/40 p-6">
               <p id="toc-heading" className="text-sm font-semibold uppercase tracking-wide text-text-muted mb-3">In this guide</p>
               <ol className="list-decimal pl-5 space-y-1 text-text">
-                <li><a href="#key-dates" className={cboLinkClass}>Key dates</a></li>
+                <li><a href="#key-dates" className={cboLinkClass}>{timelineHeading}</a></li>
                 {guide.sections.map((section) => (
                   <li key={section.id}>
                     <a href={`#${section.id}`} className={cboLinkClass}>{section.heading}</a>
@@ -158,7 +163,7 @@ export default function LiturgicalFeastGuidePage() {
               ))}
             </dl>
 
-            <h2 id="key-dates" className="scroll-mt-24 font-display text-2xl font-bold text-text mt-2 mb-4">Key dates</h2>
+            <h2 id="key-dates" className="scroll-mt-24 font-display text-2xl font-bold text-text mt-2 mb-4">{timelineHeading}</h2>
             <ol className="mb-10 space-y-4 border-l-2 border-accent/30 pl-5">
               {guide.timeline.map((item) => (
                 <li key={`${item.when}-${item.what.slice(0, 24)}`} className="text-text leading-relaxed">

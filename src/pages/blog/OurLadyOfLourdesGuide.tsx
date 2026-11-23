@@ -21,7 +21,7 @@ export default function OurLadyOfLourdesGuide() {
         <meta name="description" content="The story of Our Lady of Lourdes and her apparitions to St. Bernadette: the miraculous spring, the Immaculate Conception, and why Lourdes draws pilgrims." />
         <meta name="keywords" content="our lady of lourdes, st bernadette, lourdes apparitions 1858, lourdes miracles, lourdes water healing, immaculate conception, lourdes pilgrimage, our lady of lourdes feast day" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-lourdes-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Our Lady of Lourdes: Complete Guide to the 1858 Apparitions & Miracles"

@@ -21,7 +21,7 @@ export default function LiturgicalSeasonsGuide() {
         <meta name="description" content="Master the Catholic liturgical calendar. Learn the meaning, colors, and traditions of Advent, Christmas, Lent, Easter, and Ordinary Time." />
         <meta name="keywords" content="liturgical seasons, catholic calendar, advent meaning, lent traditions, easter season, ordinary time catholic, liturgical colors, catholic feast days, liturgical year guide" />
         <link rel="canonical" href="https://guidecatholic.com/blog/liturgical-seasons-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Liturgical Seasons: Complete Catholic Guide to Advent, Christmas, Lent & Easter"

@@ -21,7 +21,7 @@ export default function SaintThereseOfLisieux() {
         <meta name="description" content="St. Thérèse of Lisieux: her Little Way of spiritual childhood, Story of a Soul, her death at 24, and her promise to spend her heaven doing good on earth." />
         <meta name="keywords" content="saint therese of lisieux, little flower, little way therese, therese of lisieux spirituality, story of a soul" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-therese-of-lisieux/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="St. Thérèse of Lisieux: The Little Way to Holiness"

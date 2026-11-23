@@ -32,7 +32,7 @@ export default function ReginaCaeliPrayer() {
         <meta name="description" content="The Regina Caeli prayer with full English and Latin text, when Catholics pray it instead of the Angelus during Easter, and what this Marian antiphon means." />
         <meta name="keywords" content="regina caeli prayer, queen of heaven rejoice, regina caeli latin, easter angelus replacement, marian antiphon eastertide" />
         <link rel="canonical" href="https://guidecatholic.com/blog/regina-caeli-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Regina Caeli Prayer: Full Text, When to Pray It (Easter Marian)"

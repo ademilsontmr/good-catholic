@@ -73,7 +73,7 @@ export default function CanCatholicsDoYoga() {
           content="can catholics do yoga, is yoga a sin catholic, catholic church on yoga, yoga catholic teaching, christian alternatives to yoga, yoga mantras catholic, namaste catholic, catholic stretching prayer"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

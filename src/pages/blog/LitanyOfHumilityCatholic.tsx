@@ -21,7 +21,7 @@ export default function LitanyOfHumilityCatholic() {
         <meta name="description" content="The Litany of Humility with full Catholic text, attributed to Cardinal Merry del Val, meaning of each petition, and why it is popular in U.S. Catholic devotion." />
         <meta name="keywords" content="litany of humility, litany of humility full text, catholic humility prayer, deliver me jesus litany, cardinal merry del val prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/litany-of-humility-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Litany of Humility: Full Text & Why Catholics Pray It Daily" description="The Litany of Humility with full Catholic text, attributed to Cardinal Merry del Val, meaning of each petition, and why it is popular in U.S. Catholic devotion." url="https://guidecatholic.com/blog/litany-of-humility-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

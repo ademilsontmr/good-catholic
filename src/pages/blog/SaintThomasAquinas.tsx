@@ -21,7 +21,7 @@ export default function SaintThomasAquinas() {
         <meta name="description" content="Saint Thomas Aquinas, the Angelic Doctor: his life, the Summa Theologica, his five proofs for God's existence, and why he is the greatest Catholic theologian." />
         <meta name="keywords" content="saint thomas aquinas, angelic doctor, summa theologica, five proofs god existence, thomas aquinas philosophy, doctor of the church, feast day january 28" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-thomas-aquinas/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Thomas Aquinas: The Angelic Doctor, Summa Theologica & Legacy"

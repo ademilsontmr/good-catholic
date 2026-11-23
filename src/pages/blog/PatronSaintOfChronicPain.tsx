@@ -69,7 +69,7 @@ export default function PatronSaintOfChronicPain() {
           content="patron saint of chronic pain, patron saint of back pain, patron saint of chronic illness, prayer for chronic pain catholic, redemptive suffering, offering it up, st gemma galgani, st lidwina, catholic prayer for pain"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

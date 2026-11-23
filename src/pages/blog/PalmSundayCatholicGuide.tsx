@@ -21,7 +21,7 @@ export default function PalmSundayCatholicGuide() {
         <meta name="description" content="Palm Sunday explained for Catholics in the U.S. — blessing of palms, procession, Mass readings, what to do with palms at home, and how Holy Week begins." />
         <meta name="keywords" content="palm sunday catholic, palm sunday mass, blessing of palms, holy week starts, palm sunday 2026, what to do with palm branches" />
         <link rel="canonical" href="https://guidecatholic.com/blog/palm-sunday-catholic-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Palm Sunday Catholic Guide: Mass, Palms & Holy Week Start (USA)" description="Palm Sunday explained for Catholics in the U.S. — blessing of palms, procession, Mass readings, what to do with palms at home, and how Holy Week begins." url="https://guidecatholic.com/blog/palm-sunday-catholic-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema

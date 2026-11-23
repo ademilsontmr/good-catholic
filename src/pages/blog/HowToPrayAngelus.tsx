@@ -22,7 +22,7 @@ export default function HowToPrayAngelus() {
         <meta name="description" content="Learn how to pray the Angelus, the ancient Catholic prayer prayed three times a day. Full text, history, the Regina Caeli, and tips for families." />
         <meta name="keywords" content="how to pray the angelus, angelus prayer, angelus catholic, angelus prayer noon, angelus prayer text" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-the-angelus/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Pray the Angelus: The Catholic Prayer for 6am, Noon, and 6pm"

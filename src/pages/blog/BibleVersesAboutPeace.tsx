@@ -20,7 +20,7 @@ export default function BibleVersesAboutPeace() {
         <meta name="description" content={"Bible Verses About Peace for Catholics — John 14:27 and RSV-CE scriptures for prayer, comfort, and daily discipleship."} />
         <meta name="keywords" content={"bible verses about peace, catholic bible verses about peace, scripture peace"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-peace/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Peace: Scriptures Catholics Turn To in Faith"}

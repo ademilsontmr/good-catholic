@@ -21,7 +21,7 @@ export default function SpiritualGiftsGuide() {
         <meta name="description" content="The Catholic guide to spiritual gifts and charisms: the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them." />
         <meta name="keywords" content="spiritual gifts catholic, gifts of the holy spirit, charisms catholic, how to discover spiritual gifts, spiritual gifts test catholic, charismatic gifts, 7 gifts holy spirit, discerning spiritual gifts" />
         <link rel="canonical" href="https://guidecatholic.com/blog/spiritual-gifts-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Spiritual Gifts: The Complete Catholic Guide to Charisms & How to Discover Yours"

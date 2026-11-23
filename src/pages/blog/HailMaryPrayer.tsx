@@ -18,15 +18,15 @@ export default function HailMaryPrayer() {
   return (
     <>
       <Helmet>
-        <title>Hail Mary Prayer: Full Text, Meaning & How to Pray | Guide Catholic</title>
-        <meta name="description" content="Hail Mary prayer with full Catholic text, biblical roots in Luke, and how to pray it in the Rosary — clear meaning for every line." />
+        <title>Hail Mary Prayer: Full Text, Meaning & Latin (Ave Maria) | Guide Catholic</title>
+        <meta name="description" content="The full Hail Mary in English and Latin, where its words come from in Luke 1, what each phrase means, and why praying it is not worship of Mary." />
         <meta name="keywords" content="hail mary prayer, hail mary full text, hail mary catholic prayer, how to pray hail mary, hail mary meaning, ave maria prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/hail-mary-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
-        title="Hail Mary Prayer: Full Text, Meaning & How to Pray"
-        description="Hail Mary prayer with full Catholic text, biblical roots in Luke, and how to pray it in the Rosary — clear meaning for every line."
+        title="Hail Mary Prayer: Full Text, Meaning & Latin (Ave Maria)"
+        description="The full Hail Mary in English and Latin, where its words come from in Luke 1, what each phrase means, and why praying it is not worship of Mary."
         url="https://guidecatholic.com/blog/hail-mary-prayer/"
       />
       <BreadcrumbSchema
@@ -65,7 +65,7 @@ export default function HailMaryPrayer() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Hail Mary Prayer: Full Text, Meaning & How to Pray
+                Hail Mary Prayer: Full Text, Meaning & Latin (Ave Maria)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Hail Mary is one of the most beloved Catholic prayers. It is biblical, simple, and deeply centered on Jesus through the intercession of Mary.

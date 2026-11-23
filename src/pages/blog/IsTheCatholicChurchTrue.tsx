@@ -21,7 +21,7 @@ export default function IsTheCatholicChurchTrue() {
         <meta name="description" content="Is the Catholic Church the true Church? Learn about the four marks of the Church, apostolic succession, the primacy of Peter, and historical continuity." />
         <meta name="keywords" content="is the catholic church the true church, one true church catholic, why catholic church, marks of the church, apostolic succession, Peter keys of the kingdom" />
         <link rel="canonical" href="https://guidecatholic.com/blog/is-the-catholic-church-the-true-church/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Is the Catholic Church the True Church? What Catholics Believe"

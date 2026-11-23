@@ -43,7 +43,7 @@ export default function BlessedJamesMiller() {
           content="blessed james miller, brother james miller, james alfred miller, christian brothers martyr, lasallian martyr, james miller feast day, huehuetenango martyr, wisconsin martyr guatemala, patron of teachers"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

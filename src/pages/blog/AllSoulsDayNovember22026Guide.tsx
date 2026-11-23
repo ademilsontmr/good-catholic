@@ -20,7 +20,7 @@ export default function AllSoulsDayNovember22026Guide() {
         <meta name="description" content={"All Souls' Day November 2, 2026 — pray for the holy souls in purgatory, Mass times, indulgences, and November memorial traditions in the USA."} />
         <meta name="keywords" content={"all souls day 2026, all souls day mass times, november 2 catholic, pray for the dead catholic, all souls indulgence"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/all-souls-day-november-2-2026-prayers-mass-times/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"All Souls' Day 2026 (November 2): Prayers, Mass & Indulgences Guide"}

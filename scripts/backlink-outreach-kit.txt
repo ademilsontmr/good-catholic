@@ -1,5 +1,6 @@
 GUIDE CATHOLIC — BACKLINK OUTREACH KIT
-Goal: diversify beyond ~20 referring domains (Authority Score 8 → 20+)
+Goal: grow quality referring domains (Semrush, Nov 23 2026: Authority Score 10, 245 ref. domains, 12K backlinks)
+Why: head terms with KD 50+ (ash wednesday 90.5K/mo, our lady of guadalupe 49.5K/mo) sit on page 2-3 of Google
 Target: 2–4 new quality links per month from distinct domains
 
 ═══════════════════════════════════════════════════════════════
@@ -17,8 +18,18 @@ Primary (highest link worth):
 - https://guidecatholic.com/quiz-intro/
   Angle: "free Catholic life assessment (no account)"
 
-Secondary (seasonal / topical):
-- Ash Wednesday 2026, Advent, Lent guides
+- https://guidecatholic.com/blog/lectio-divina-how-to-practice/
+  Angle: "4 steps of Lectio Divina" (Bing pos 2.4, CTR 8.9% — proven page)
+- https://guidecatholic.com/blog/catholic-last-rites-explained/
+  Angle: "what happens at Last Rites" (hospice, chaplaincy, funeral-home resource pages)
+- https://guidecatholic.com/blog/seven-deadly-sins/
+  Angle: "7 deadly sins + opposite virtues" (teachers, RE programs)
+
+Seasonal — pitch 3-4 weeks before the date:
+- Dec 2026: /blog/advent/, /blog/immaculate-conception/, /blog/our-lady-of-guadalupe/ (Hispanic ministries),
+  /blog/simbang-gabi-2026/ (Filipino communities, parish bulletins)
+- Jan 2027: /blog/ash-wednesday/ (Feb 10, 2027) and /blog/ash-wednesday-2026/ (fasting rules, any year)
+- Lent guides
 - St. Joseph house novena / legal cases novena
 - Do animals go to heaven (Catholic)
 - Saint of the day pages (for parish calendars)

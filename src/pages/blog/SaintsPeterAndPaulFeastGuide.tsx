@@ -21,7 +21,7 @@ export default function SaintsPeterAndPaulFeastGuide() {
         <meta name="description" content="Saints Peter and Paul feast day — who they were, why the Church celebrates them together, and Mass obligations in the USA." />
         <meta name="keywords" content="saints peter and paul feast, june 29 catholic feast, st peter st paul day" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saints-peter-and-paul-feast-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Saints Peter and Paul: Feast Day Guide for Catholics (June 29)" description="Saints Peter and Paul feast day — who they were, why the Church celebrates them together, and Mass obligations in the USA." url="https://guidecatholic.com/blog/saints-peter-and-paul-feast-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema

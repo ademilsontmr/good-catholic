@@ -21,7 +21,7 @@ export default function CatholicPrayerForAnxiety() {
         <meta name="description" content="Discover the most powerful Catholic prayers for anxiety — Saint Dymphna's intercession, the Rosary, the Peace Prayer of St." />
         <meta name="keywords" content="catholic prayer for anxiety, prayer for anxiety and worry, catholic prayer for peace of mind, prayer to calm anxiety, saint for anxiety catholic, philippians 4 6 prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-prayer-for-anxiety/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Prayer for Anxiety: Finding Peace in a Worried World"

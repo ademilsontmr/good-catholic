@@ -21,7 +21,7 @@ export default function GraceAfterMealsCatholic() {
         <meta name="description" content="Grace after meals Catholic prayer in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition." />
         <meta name="keywords" content="grace after meals catholic, catholic prayer after eating, thanksgiving after meals, grace after meals text, blessing after meals" />
         <link rel="canonical" href="https://guidecatholic.com/blog/grace-after-meals-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Grace After Meals: Catholic Prayer Text and When to Say It"

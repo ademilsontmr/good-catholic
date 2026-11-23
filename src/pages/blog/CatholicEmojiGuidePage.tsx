@@ -112,7 +112,7 @@ export default function CatholicEmojiGuidePage() {
         <title>{guide.title}</title>
         <meta name="description" content={guide.description} />
         <link rel="canonical" href={pageUrl} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={guide.h1} description={guide.description} url={pageUrl} datePublished={guide.datePublished ?? "2026-10-04"} />
       <BreadcrumbSchema

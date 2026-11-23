@@ -21,7 +21,7 @@ export default function CatholicLentGuide() {
         <meta name="description" content="The most complete guide to observing Lent as a Catholic — week-by-week plan, fasting rules, prayer schedule, almsgiving ideas, and a full Lent checklist." />
         <meta name="keywords" content="catholic lent guide, how to observe lent catholic, lent prayer fasting almsgiving, 40 days lent catholic, lent practices guide, making the most of lent" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-catholic-lent-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Complete Catholic Lent Guide: 40 Days of Prayer, Fasting & Almsgiving"

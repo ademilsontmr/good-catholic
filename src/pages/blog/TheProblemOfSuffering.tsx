@@ -21,7 +21,7 @@ export default function TheProblemOfSuffering() {
         <meta name="description" content="Explore the Catholic response to the problem of evil. Learn about redemptive suffering, Salvifici Doloris, and how God brings good from pain." />
         <meta name="keywords" content="why does god allow suffering, catholic view on suffering, redemptive suffering, Salvifici Doloris, problem of evil catholic, why do bad things happen to good people" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-does-god-allow-suffering/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why Does God Allow Suffering? Exploring the Catholic Perspective"

@@ -21,7 +21,7 @@ export default function SpiritualRetreatAtHome() {
         <meta name="description" content="How to make a Catholic spiritual retreat at home: sample 1-day and weekend schedules, the Ignatian approach, journaling tips, and what to do afterward." />
         <meta name="keywords" content="spiritual retreat at home, catholic retreat at home, how to make a retreat, home retreat catholic, ignatian retreat at home" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-do-spiritual-retreat-at-home/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Do a Spiritual Retreat at Home: A Step-by-Step Catholic Guide"

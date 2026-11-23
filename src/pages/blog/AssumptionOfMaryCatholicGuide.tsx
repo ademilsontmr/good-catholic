@@ -21,7 +21,7 @@ export default function AssumptionOfMaryCatholicGuide() {
         <meta name="description" content="Assumption of Mary — Catholic teaching, Holy Day of Obligation in the USA, Mass, and how to honor Mary on August 15." />
         <meta name="keywords" content="assumption of mary catholic, august 15 holy day, assumption feast day usa" />
         <link rel="canonical" href="https://guidecatholic.com/blog/assumption-of-mary-catholic-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Assumption of Mary: Catholic Feast Day Guide (August 15)" description="Assumption of Mary — Catholic teaching, Holy Day of Obligation in the USA, Mass, and how to honor Mary on August 15." url="https://guidecatholic.com/blog/assumption-of-mary-catholic-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema

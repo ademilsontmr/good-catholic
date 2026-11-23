@@ -21,7 +21,7 @@ export default function CatholicSchoolsAmerica() {
         <meta name="description" content="The US has over 6,000 Catholic schools. Learn the academic and faith benefits, tuition, scholarships, and how to evaluate whether a school is truly Catholic." />
         <meta name="keywords" content="catholic schools in america, catholic school benefits, catholic school tuition, best catholic schools usa, catholic education america, should i send my child to catholic school" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-schools-in-america/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Schools in America: Benefits, Costs & How to Choose the Right One"

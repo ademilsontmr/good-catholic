@@ -21,7 +21,7 @@ export default function CatholicTeachingAbortion() {
         <meta name="description" content="The Catholic Church's consistent teaching on abortion since the earliest centuries, its basis in human dignity, Evangelium Vitae, and pro-life practice." />
         <meta name="keywords" content="catholic teaching on abortion, catholic church abortion, why catholics oppose abortion, pro-life catholic, abortion catholic doctrine" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-abortion/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Teaching on Abortion: Why the Church Defends Every Human Life"

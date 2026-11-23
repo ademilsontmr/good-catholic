@@ -21,7 +21,7 @@ export default function SaintPadrePio() {
         <meta name="description" content="The life of St. Padre Pio: stigmata, miracles, spiritual gifts, famous quotes, and a prayer to the Capuchin friar canonized by Pope John Paul II in 2002." />
         <meta name="keywords" content="saint padre pio, padre pio life, padre pio stigmata, padre pio miracles, padre pio prayer, st pio of pietrelcina" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-padre-pio/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="St. Padre Pio: Life, Stigmata, Miracles and Prayers"

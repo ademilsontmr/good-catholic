@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { RosaryHubCTA } from "@/components/blog/RosaryHubCTA";
 import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function CompleteRosaryGuide() {
@@ -22,7 +23,7 @@ export default function CompleteRosaryGuide() {
         <meta name="description" content="The complete Rosary guide: where the Rosary came from, every prayer in full, all 20 mysteries, and practical ways to meditate while you pray the beads." />
         <meta name="keywords" content="complete rosary guide, rosary prayers full text, all 20 mysteries rosary, history of the rosary, how to meditate on the rosary, catholic rosary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-rosary-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Complete Rosary Guide: Prayers, Mysteries and History"
@@ -77,6 +78,7 @@ export default function CompleteRosaryGuide() {
                 <p className="text-lg text-text leading-relaxed font-medium">In short: the Rosary is a Marian prayer that pairs vocal prayers (the Creed, Our Father, Hail Mary and Glory Be) with meditation on twenty Gospel scenes called mysteries. One &quot;Rosary&quot; is five decades on one set of mysteries and takes roughly 15 to 20 minutes.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
+              <RosaryHubCTA />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-rosary-guide">
                 The Catechism of the Catholic Church mentions the Rosary as one of the classic forms of Marian prayer and, quoting earlier popes, calls it an "epitome of the whole Gospel" (CCC 971). Pope St. John Paul II, who added the Luminous Mysteries in 2002, called it his favorite prayer. Use this guide as the hub of our Rosary series: it gathers everything in one place, while the companion pages linked below go deeper into the bead-by-bead method, the mysteries for each day, and the promises and history.

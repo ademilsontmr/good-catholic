@@ -21,7 +21,7 @@ export default function AdventPrayers() {
         <meta name="description" content="Beautiful Catholic prayers for Advent 2026 — prayers for each week, the O Antiphons, the Advent wreath blessing, and how to prepare your heart for Christmas." />
         <meta name="keywords" content="advent prayers, advent prayers catholic, prayers for advent, advent 2026, advent wreath prayer, o antiphons advent, catholic advent prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/advent-prayers/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Advent Prayers 2026: Catholic Prayers for Each Week of Advent"

@@ -21,7 +21,7 @@ export default function SaintMichaelsLent2026() {
         <meta name="description" content={"Saint Michael's Lent 2026 — Franciscan roots, St. Francis and La Verna, theology of angels and the Cross, and how U.S. Catholics live the custom today."} />
         <meta name="keywords" content={"saint michael's lent 2026, saint michaels lent history, st francis st michael lent, la verna stigmata"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-michaels-lent-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Saint Michael's Lent 2026: Franciscan Origins & Why It Still Matters"}

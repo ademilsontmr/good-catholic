@@ -21,7 +21,7 @@ export default function VirginMary() {
         <meta name="description" content="Explore the deep theology of the Virgin Mary. Learn about the four dogmas, the Ark of the New Covenant typology, and why Catholics venerate Our Lady." />
         <meta name="keywords" content="virgin mary dogmas, immaculate conception meaning, theotokos council of ephesus, assumption of mary body and soul, perpetual virginity defense" />
         <link rel="canonical" href="https://guidecatholic.com/blog/virgin-mary/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Virgin Mary in Catholic Doctrine: Dogmas and Devotion"

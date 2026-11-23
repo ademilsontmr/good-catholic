@@ -21,7 +21,7 @@ export default function WhatIsANovena() {
         <meta name="description" content="What a novena is, its biblical origins in Acts 1:14, popular novenas, how to pray one, what to do if you miss a day, and perseverance in prayer." />
         <meta name="keywords" content="what is a novena, novena prayer, how to pray a novena, novena catholic, 9 day prayer novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-a-novena/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="What Is a Novena? The Catholic Prayer of Nine Days Explained"

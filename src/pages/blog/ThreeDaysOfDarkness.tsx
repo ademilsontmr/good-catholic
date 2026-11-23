@@ -21,7 +21,7 @@ export default function ThreeDaysOfDarkness() {
         <meta name="description" content="The Three Days of Darkness: private revelations of Blessed Anna Maria Taigi and Marie-Julie Jahenny, the conditions, and how to prepare spiritually." />
         <meta name="keywords" content="three days of darkness, catholic prophecy, anna maria taigi prophecy, marie-julie jahenny, blesses candles three days of darkness" />
         <link rel="canonical" href="https://guidecatholic.com/blog/three-days-of-darkness-prophecy/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Three Days of Darkness: Catholic Prophecy Explained"

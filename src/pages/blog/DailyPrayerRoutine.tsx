@@ -21,7 +21,7 @@ export default function DailyPrayerRoutine() {
         <meta name="description" content="Learn how to build a Catholic daily prayer routine with morning, midday, evening, and night prayer. Practical tips from the saints and a sample weekly schedule." />
         <meta name="keywords" content="catholic daily prayer routine, daily prayer schedule, how to pray daily catholic, morning evening prayer routine" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-daily-prayer-routine/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Daily Prayer Routine: How to Build a Life of Prayer"

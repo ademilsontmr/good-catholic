@@ -22,7 +22,7 @@ export default function GospelReadingToday() {
         <meta name="description" content="How to find today's Catholic Gospel reading — the best apps, websites, and methods. Plus how to understand and pray with the Gospel reading every day." />
         <meta name="keywords" content="gospel reading today catholic, catholic gospel today, today's gospel reading, daily gospel catholic, gospel of the day catholic, mass gospel today" />
         <link rel="canonical" href="https://guidecatholic.com/blog/gospel-reading-today-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Gospel Reading Today Catholic: How to Find It, Understand It & Pray It"

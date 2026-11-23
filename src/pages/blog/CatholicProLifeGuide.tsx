@@ -21,7 +21,7 @@ export default function CatholicProLifeGuide() {
         <meta name="description" content="The Catholic pro-life guide: Church teaching on abortion, euthanasia, capital punishment, and the consistent ethic of life from conception to natural death." />
         <meta name="keywords" content="catholic pro life, catholic teaching on abortion, sanctity of life catholic, consistent ethic of life, catholic pro life prayers, evangelium vitae, catechism abortion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-pro-life-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Pro-Life Guide: What the Church Teaches About the Sanctity of Life"

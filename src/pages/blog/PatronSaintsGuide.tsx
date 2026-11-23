@@ -21,7 +21,7 @@ export default function PatronSaintsGuide() {
         <meta name="description" content="What are patron saints? Browse Catholic patron saints by cause, learn how they intercede, and find your patron saint for work, health, family, or vocation." />
         <meta name="keywords" content="patron saints, list of patron saints, catholic patron saints, what is a patron saint, how to find patron saint, patron saint meaning, patron saint intercession" />
         <link rel="canonical" href="https://guidecatholic.com/blog/patron-saints-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Patron Saints List: Find Your Saint by Need (Catholic)"

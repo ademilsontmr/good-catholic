@@ -21,7 +21,7 @@ export default function CompleteSaintsGuide() {
         <meta name="description" content="The Catholic saints: how to find your patron saint, the canonization process, popular patron saints by category, and how to develop a devotion." />
         <meta name="keywords" content="complete guide catholic saints, how to pray to saints, patron saints guide, how to find patron saint, saints intercession catholic, canonization process catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-catholic-saints/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Complete Guide to Catholic Saints: How to Find Your Patron & Pray for Intercession"

@@ -21,7 +21,7 @@ export default function StJudePrayer() {
         <meta name="description" content="Prayers to St. Jude Thaddeus, patron of impossible cases: full texts of the St. Jude novena, the traditional prayer, and how to ask for his intercession." />
         <meta name="keywords" content="st jude prayer, saint jude prayer, prayer to st jude, st jude novena, prayer for impossible cases, st jude thaddeus prayer, desperate situations prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-jude-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="St. Jude Prayer: Powerful Prayers for Impossible Cases & Desperate Situations"

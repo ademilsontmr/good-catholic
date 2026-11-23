@@ -21,7 +21,7 @@ export default function CatholicTeachingOnPrayer() {
         <meta name="description" content="What is prayer? The Church teaches it is the raising of the mind and heart to God. Learn the five forms, three expressions, and how to build a prayer life." />
         <meta name="keywords" content="what is prayer catholic, catholic teaching on prayer, types of prayer catholic, how to pray catholic, prayer definition catholic, why pray catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-prayer-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Prayer? The Catholic Teaching on Talking to God"

@@ -60,7 +60,7 @@ export default function JesseTreeCatholicGuide() {
           content="jesse tree, jesse tree 2026, jesse tree readings, jesse tree ornaments, jesse tree catholic, jesse tree advent, jesse tree symbols, jesse tree for kids, advent family devotion"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-19" />
       <BreadcrumbSchema
@@ -188,9 +188,9 @@ export default function JesseTreeCatholicGuide() {
               </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 See the{" "}
-                <Link to="/blog/immaculate-conception-december-8-2026-holy-day-usa/" className={linkClass}>Immaculate Conception 2026 guide</Link>
+                <Link to="/blog/immaculate-conception/" className={linkClass}>Immaculate Conception 2026 guide</Link>
                 {", "}
-                <Link to="/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/" className={linkClass}>Our Lady of Guadalupe on December 12</Link>
+                <Link to="/blog/our-lady-of-guadalupe/" className={linkClass}>Our Lady of Guadalupe on December 12</Link>
                 {" and "}
                 <Link to="/blog/catholic-feast-days/gaudete-sunday/" className={linkClass}>Gaudete Sunday</Link>
                 {" for those days."}

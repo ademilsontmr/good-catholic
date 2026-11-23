@@ -21,7 +21,7 @@ export default function SaintCatherineOfSiena() {
         <meta name="description" content="Discover Saint Catherine of Siena — the Dominican mystic who never learned to read, received the stigmata, and convinced the Pope to return to Rome." />
         <meta name="keywords" content="saint catherine of siena, doctor of the church catherine, catherine of siena mystic, catherine of siena pope, feast day april 29, patron saint of italy" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-catherine-of-siena/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Catherine of Siena: Doctor of the Church, Mystic & Reformer"

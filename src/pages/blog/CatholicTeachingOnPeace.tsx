@@ -21,7 +21,7 @@ export default function CatholicTeachingOnPeace() {
         <meta name="description" content="What does the Catholic Church teach about peace? From Augustine's 'tranquility of order' to Pacem in Terris, the Catholic vision of inner and social peace." />
         <meta name="keywords" content="catholic teaching on peace, peace in catholic church, pacem in terris, what is peace catholic, inner peace catholic, peace and justice catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-peace/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Peace: What the Church Says About True Peace"

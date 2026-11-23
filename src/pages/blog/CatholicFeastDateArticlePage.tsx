@@ -38,7 +38,7 @@ export default function CatholicFeastDateArticlePage() {
           content={`${article.shortName} catholic feast day, ${article.season} catholic calendar, ${article.name}, holy day catholic, catholic liturgical calendar`}
         />
         <link rel="canonical" href={canonical} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={article.title} description={article.metaDescription} url={canonical} datePublished="2026-05-30" />
       <BreadcrumbSchema

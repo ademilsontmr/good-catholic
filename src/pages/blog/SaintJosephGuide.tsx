@@ -21,7 +21,7 @@ export default function SaintJosephGuide() {
         <meta name="description" content="Complete guide to Saint Joseph — foster father of Jesus, patron of the universal Church, families, workers, and a happy death." />
         <meta name="keywords" content="saint joseph catholic, st joseph patron saint, prayer to saint joseph, feast day saint joseph, saint joseph devotion, patron of workers" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-joseph-complete-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Joseph: Patron of the Church, Families & Workers"

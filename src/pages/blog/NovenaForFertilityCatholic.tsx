@@ -20,7 +20,7 @@ export default function NovenaForFertilityCatholic() {
         <meta name="description" content="Novena for fertility — 9-day Catholic prayer for couples trying to conceive, with full prayer text. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="novena for fertility, catholic prayer to conceive, novena for pregnancy" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-fertility-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Fertility: 9-Day Catholic Prayer to Conceive" description="Novena for fertility — 9-day Catholic prayer for couples trying to conceive, with full prayer text. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-fertility-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

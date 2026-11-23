@@ -39,7 +39,7 @@ export default function PatronSaintOfFirefighters() {
           content="patron saint of firefighters, st florian, st florian prayer, firefighter prayer catholic, st florian medal, florian cross, patron saint of first responders, patron saint of emts, st barbara fire, blue mass"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

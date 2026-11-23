@@ -23,7 +23,7 @@ export default function ExaminationOfConscienceGuideDetailed() {
         <meta name="description" content="A full Catholic examination of conscience for adults, question by question through the Ten Commandments, the precepts of the Church and sins of omission." />
         <meta name="keywords" content="examination of conscience ten commandments, examination of conscience for adults, catholic examination of conscience before confession, precepts of the church examination, sins of omission" />
         <link rel="canonical" href="https://guidecatholic.com/blog/examination-of-conscience-before-confession/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Examination of Conscience by the Ten Commandments for Adults"

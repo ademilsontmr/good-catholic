@@ -21,7 +21,7 @@ export default function DignityOfWork() {
         <meta name="description" content="Discover Catholic social teaching on work and labor. Learn about the dignity of workers, just wages, rights of laborers, and St. Joseph the Worker as patron." />
         <meta name="keywords" content="dignity of work, catholic social teaching, labor rights, workers rights, just wage, St. Joseph the Worker" />
         <link rel="canonical" href="https://guidecatholic.com/blog/dignity-of-work/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="The Dignity of Work: Catholic Social Teaching on Labor"

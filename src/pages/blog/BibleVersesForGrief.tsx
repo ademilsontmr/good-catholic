@@ -20,7 +20,7 @@ export default function BibleVersesForGrief() {
         <meta name="description" content={"Bible Verses for Grief for Catholics — John 11:25 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for grief, catholic bible verses for grief, bible verses grief"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-grief/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Grief: Scriptures Catholics Pray and Memorize"}

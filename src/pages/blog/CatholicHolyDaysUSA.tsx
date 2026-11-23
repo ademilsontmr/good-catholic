@@ -21,7 +21,7 @@ export default function CatholicHolyDaysUSA() {
         <meta name="description" content="What are the 6 Holy Days of Obligation in the US? Get the 2026 dates, learn the Saturday/Monday dispensation rule, and understand what happens if you miss one." />
         <meta name="keywords" content="catholic holy days of obligation usa, holy days of obligation 2026, catholic feast days united states, obligation to attend mass usa, holy days catholic america, catholic calendar 2026" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-holy-days-of-obligation-usa/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Holy Days of Obligation in the United States: Complete 2026 Guide"

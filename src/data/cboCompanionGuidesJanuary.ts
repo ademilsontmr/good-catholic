@@ -156,17 +156,17 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
     lede:
       "January 2027 is still Christmas when it begins and already Ordinary Time when it ends. Friday, January 1, is a holy day. Sunday, January 3, brings the nations to the Child. Sunday, January 10, stands at the Jordan and closes the season. After that, the month belongs to green Sundays and to a line of saints: a bishop who built schools, a monk of the Egyptian desert, a girl martyr of Rome, the apostle to the Gentiles, and a priest of Turin who spent his life on the young. This page is the map. Each feast has its own guide.",
     answer:
-      "Catholic prayer in January 2027 follows the Roman calendar from the octave of Christmas into Ordinary Time, Year A on Sundays and weekday Year I once Ordinary Time begins. Friday, January 1, is the Solemnity of Mary, Mother of God and a holy day of obligation in the United States; Sunday, January 3, is the Epiphany; Sunday, January 10, is the Baptism of the Lord, and Ordinary Time starts on Monday, January 11. The month's Scriptures run from the naming of Jesus in " +
+      "Catholic prayer in January 2027 follows the Roman calendar from the octave of Christmas into Ordinary Time, Year B on Sundays and weekday Year I once Ordinary Time begins. Friday, January 1, is the Solemnity of Mary, Mother of God and a holy day of obligation in the United States; Sunday, January 3, is the Epiphany; Sunday, January 10, is the Baptism of the Lord, and Ordinary Time starts on Monday, January 11. The month's Scriptures run from the naming of Jesus in " +
       `{{${CBO}luke/2/|Luke 2}}` +
       " through the magi in " +
       `{{${CBO}matthew/2/|Matthew 2}}` +
       " to the Jordan in " +
-      `{{${CBO}matthew/3/|Matthew 3}}` +
+      `{{${CBO}mark/1/|Mark 1}}` +
       ". Neumann on January 5, Agnes on January 21, and the feast of Paul's conversion on January 25 fall on weekdays and can be kept at Mass. Anthony the Abbot on January 17 and John Bosco on January 31 fall on Sundays in 2027, so the Sunday liturgy takes precedence while the saints may still be honored at home. An Epiphany chalk blessing for the year reads 20 + C + M + B + 27, and the same calendar is on " +
       `{{${GC_JANUARY}|Catholic Bible Online's January New Year and Epiphany prayer guide}}` +
       ".",
     facts: [
-      { label: "Sunday cycle", value: "Year A, begun at Advent 2026" },
+      { label: "Sunday cycle", value: "Year B, begun at Advent 2026" },
       { label: "Weekday cycle", value: "Year I, from Monday, January 11, 2027" },
       { label: "Holy day", value: "Friday, January 1: Mary, Mother of God" },
       { label: "Epiphany in the U.S.", value: "Sunday, January 3, 2027" },
@@ -182,15 +182,15 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
       { when: "Mon–Tue, Jan 4–5", what: "In the United States, Elizabeth Ann Seton on January 4 and John Neumann on January 5. The [[/blog/st-john-neumann-prayer-catholic-guide/|Neumann guide]] covers the bishop of Philadelphia." },
       { when: "Sun, Jan 10", what: "Baptism of the Lord. Christmas Time ends with this feast. Ordinary Time begins Monday, January 11. See the [[/blog/baptism-of-the-lord-prayer-feast-guide/|Baptism guide]]." },
       { when: "Sun, Jan 17", what: "Second Sunday in Ordinary Time (John 1:29–34). The memorial of Anthony the Abbot yields to the Sunday. Honor him at home with the [[/blog/st-anthony-abbot-prayer-catholic-guide/|Anthony guide]]." },
-      { when: "Thu, Jan 21 to Sun, Jan 31", what: "Agnes on Thursday the 21st, the Conversion of Paul on Monday the 25th, and Bosco on Sunday the 31st, when the Beatitudes are read and his memorial yields to the Sunday." },
+      { when: "Thu, Jan 21 to Sun, Jan 31", what: "Agnes on Thursday the 21st, the Conversion of Paul on Monday the 25th, and Bosco on Sunday the 31st, when the Sunday Gospel is Mark 1:21–28 and his memorial yields to the Sunday." },
     ],
     sections: [
       {
         id: "shape-of-january",
         heading: "How January 2027 sits in the liturgical year",
         paragraphs: [
-          "The liturgical year that contains January 2027 opened on the First Sunday of Advent in 2026. Sundays are Year A, the year of Matthew, though Christmas and Epiphany use readings of their own. Weekdays after the Baptism of the Lord follow Year I, the odd-year cycle. Christmas Time runs through the Baptism of the Lord. On Monday, January 11, Ordinary Time begins in green. The [[/blog/catholic-christmas/|Christmas guide]] and the [[/blog/advent/|Advent guide]] are the two rooms this month leaves behind.",
-          "Ordinary Time is the Church's school year. The word ordinary here means ordered, numbered weeks, the life of Christ preached in course. In Year A the first green Sunday, January 17, hears John the Baptist point to the Lamb. January 24 is the Third Sunday in Ordinary Time, kept since 2019 as the Sunday of the Word of God, with Matthew's account of the kingdom drawing near and the first disciples called. January 31 proclaims the Beatitudes. A household that prays with those Gospels is already inside the month's real work, which is to let Christmas become a life.",
+          "The liturgical year that contains January 2027 opened on the First Sunday of Advent in 2026. Sundays are Year B, the year of Mark, though Christmas and Epiphany use readings of their own. Weekdays after the Baptism of the Lord follow Year I, the odd-year cycle. Christmas Time runs through the Baptism of the Lord. On Monday, January 11, Ordinary Time begins in green. The [[/blog/catholic-christmas/|Christmas guide]] and the [[/blog/advent/|Advent guide]] are the two rooms this month leaves behind.",
+          "Ordinary Time is the Church's school year. The word ordinary here means ordered, numbered weeks, the life of Christ preached in course. In Year B the first green Sunday, January 17, hears John the Baptist point to the Lamb and two disciples follow Jesus. January 24 is the Third Sunday in Ordinary Time, kept since 2019 as the Sunday of the Word of God, with Mark's account of the kingdom at hand and the first disciples called. January 31 hears Jesus teach with authority in the synagogue at Capernaum. A household that prays with those Gospels is already inside the month's real work, which is to let Christmas become a life.",
         ],
         callout: {
           label: "Calendar and ordo",
@@ -223,7 +223,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
         id: "saints-and-sundays",
         heading: "Saints, memorials, and the Sundays that come first",
         paragraphs: [
-          "The Church ranks her days so that the mystery of Christ stays in front. Sundays of Ordinary Time outrank memorials of saints. In 2027 that rule touches two beloved January names. January 17 is both the memorial of Anthony the Abbot and the Second Sunday in Ordinary Time. The parish Mass is the Sunday Mass, with John the Baptist's witness to the Lamb in John 1. Read his Life at home. On January 31 Bosco's memorial likewise yields to the Fourth Sunday and the Beatitudes. The Sunday liturgy remains the Mass of the day.",
+          "The Church ranks her days so that the mystery of Christ stays in front. Sundays of Ordinary Time outrank memorials of saints. In 2027 that rule touches two beloved January names. January 17 is both the memorial of Anthony the Abbot and the Second Sunday in Ordinary Time. The parish Mass is the Sunday Mass, with John the Baptist pointing to the Lamb and the first disciples following Jesus in John 1. Read his Life at home. On January 31 Bosco's memorial likewise yields to the Fourth Sunday, when Jesus teaches with authority in Capernaum. The Sunday liturgy remains the Mass of the day.",
           "Weekday memorials have room to breathe. January 5, a Tuesday, is Neumann's memorial on the U.S. calendar, and a priest celebrates it. January 21, a Thursday, is Agnes, with red vestments because she is a martyr. January 25, a Monday, is the feast of Paul's conversion, with the Gloria and its own readings. The guides for [[/blog/st-john-neumann-prayer-catholic-guide/|Neumann]], [[/blog/st-agnes-prayer-catholic-guide/|Agnes]], [[/blog/st-anthony-abbot-prayer-catholic-guide/|Anthony]], [[/blog/conversion-of-st-paul-prayer-catholic-guide/|Paul]], and [[/blog/st-john-bosco-prayer-catholic-guide/|Bosco]] tell what to do on each of those days.",
         ],
       },
@@ -240,7 +240,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
         heading: "Ordinary Time, the Word of God, and Christian unity",
         paragraphs: [
           "The liturgy refuses to leave January empty. Weekday Mass in Year I opens the great books in course: Hebrews, Samuel, and Mark among them, depending on the week. Where Mass is impossible, the [[/blog/liturgy-of-the-hours-guide/|Liturgy of the Hours]] and the [[/blog/divine-office-laity/|Office for lay people]] keep morning and evening prayer tied to the season.",
-          "January 24, 2027, the Third Sunday, is the Sunday of the Word of God. Pope Francis established that observance so the Church would enthrone Scripture, preach it, and send it into homes. The Gospel that Sunday in Year A is Matthew's scene of Jesus in Capernaum, the kingdom at hand, and the call of Peter, Andrew, James, and John (" + `{{${CBO}matthew/4/|Matthew 4:12–23}}` + "). A practical way to keep it is to place a Bible where the family eats, to read that Gospel aloud, and to choose one book to finish before Ash Wednesday. A candle and a kiss of the book are enough.",
+          "January 24, 2027, the Third Sunday, is the Sunday of the Word of God. Pope Francis established that observance so the Church would enthrone Scripture, preach it, and send it into homes. The Gospel that Sunday in Year B is Mark's scene of Jesus coming into Galilee, proclaiming that the kingdom of God is at hand, and calling Simon, Andrew, James, and John (" + `{{${CBO}mark/1/|Mark 1:14–20}}` + "). A practical way to keep it is to place a Bible where the family eats, to read that Gospel aloud, and to choose one book to finish before Ash Wednesday. A candle and a kiss of the book are enough.",
         ],
       },
       {
@@ -416,7 +416,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
     title: "Baptism of the Lord: Prayer and Feast on January 10, 2027",
     h1: "The Baptism of the Lord: Sunday, January 10, 2027",
     description:
-      "Baptism of the Lord on Sunday, January 10, 2027: the Jordan in Matthew 3, the end of Christmas Time, and the renewal of baptismal promises.",
+      "Baptism of the Lord on Sunday, January 10, 2027: the Jordan in Mark 1, the end of Christmas Time, and the renewal of baptismal promises.",
     keywords:
       "baptism of the lord 2027, baptism of the lord prayer, january 10 2027 catholic, christmas season ends, renewal of baptismal promises, matthew 3 jordan",
     readTime: "16 min",
@@ -426,12 +426,12 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
     lede:
       "The voice that names Jesus at the Jordan is the voice the Church still trusts at every font. On Sunday, January 10, 2027, the Baptism of the Lord closes Christmas Time. The magi have adored; now the Father speaks, the Spirit descends, and Ordinary Time is ready to begin. Parishes renew the promises of baptism. Households can take the crib down with a reason, and then live the week as people who have already been buried and raised with Christ.",
     answer:
-      "The feast of the Baptism of the Lord is Sunday, January 10, 2027, the last day of Christmas Time; Ordinary Time begins on Monday, January 11. In Year A the Church reads the servant song in " +
+      "The feast of the Baptism of the Lord is Sunday, January 10, 2027, the last day of Christmas Time; Ordinary Time begins on Monday, January 11. In 2027, Year B, the Church may read the servant song in " +
       `{{${CBO}isaiah/42/|Isaiah 42}}` +
       ", Peter's summary of Jesus' mission in " +
       `{{${CBO}acts/10/|Acts 10:34–38}}` +
-      ", and Matthew's account of the Jordan, where the Father names the beloved Son and the Spirit descends like a dove (" +
-      `{{${CBO}matthew/3/|Matthew 3:13–17}}` +
+      ", and Mark's account of the Jordan, where the heavens are torn open, the Spirit descends like a dove, and the Father names the beloved Son (" +
+      `{{${CBO}mark/1/|Mark 1:7–11}}` +
       "). The Catechism teaches that the sinless Christ accepts a baptism of repentance to stand among sinners and to inaugurate his mission as the suffering Servant, sanctifying the waters of the Church's baptism (CCC 535–537). Many parishes renew the baptismal promises and sprinkle holy water. The same guide is published on " +
       `{{${GC_BAPTISM}|Catholic Bible Online's Baptism of the Lord prayer and feast page}}` +
       ".",
@@ -439,7 +439,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
       { label: "Date in 2027", value: "Sunday, January 10, 2027" },
       { label: "Season", value: "Last day of Christmas Time; Ordinary Time begins January 11" },
       { label: "Rank and color", value: "Feast of the Lord; white; Gloria and Creed" },
-      { label: "Year A Gospel", value: "Matthew 3:13–17" },
+      { label: "2027 Gospel (Year B)", value: "Mark 1:7–11" },
       { label: "Other readings", value: "Isaiah 42:1–4, 6–7; Psalm 29; Acts 10:34–38" },
       { label: "Mystery", value: "Father's voice, Son in the water, Spirit descending" },
       { label: "Home sign", value: "Holy water and a renewal of baptismal promises" },
@@ -449,7 +449,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
       { when: "The early Church", what: "Eastern Christians gathered the birth, the magi, and the Jordan on one Epiphany. The Latin Church later gave the Baptism its own feast after the magi." },
       { when: "The Roman calendar", what: "Christmas Time now runs from Christmas Eve's Evening Prayer through the Baptism of the Lord, inclusive." },
       { when: "Sun, Jan 3, 2027", what: "Epiphany Sunday in the United States, one week before this feast. The [[/blog/epiphany-prayer-three-kings-house-blessing/|chalk blessing]] belongs to that day." },
-      { when: "Sun, Jan 10, 2027", what: "Mass of the Baptism. Year A proclaims Matthew 3. Many parishes renew the promises and bless water." },
+      { when: "Sun, Jan 10, 2027", what: "Mass of the Baptism. Year B proclaims Mark 1:7–11. Many parishes renew the promises and bless water." },
       { when: "Mon, Jan 11, 2027", what: "First weekday of Ordinary Time. Weekday readings follow Year I. Vestments turn to green." },
       { when: "Sun, Jan 17, 2027", what: "Second Sunday in Ordinary Time: John 1:29–34, the Lamb of God, echoing the Jordan a week later." },
     ],
@@ -463,7 +463,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
         ],
         callout: {
           label: "Scripture",
-          text: "The feast's Gospel in 2027 is Matthew 3:13–17. Mark, Luke, and John belong in the home reading that surrounds the Mass. They agree on the Son, the Spirit, and the Father's good pleasure.",
+          text: "The feast's Gospel in 2027 is Mark 1:7–11. Matthew, Luke, and John belong in the home reading that surrounds the Mass. They agree on the Son, the Spirit, and the Father's good pleasure.",
         },
       },
       {
@@ -471,7 +471,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
         heading: "Why the sinless One entered the water",
         paragraphs: [
           "John's baptism was a sign of repentance. Jesus has nothing to repent. The Church's answer is solidarity and consecration, and the Catechism says it with care. At his baptism the Lord accepts and begins his mission as the suffering Servant. He allows himself to be numbered among sinners. He is already the Lamb who takes away the sin of the world, and he is already anticipating the baptism of his own death (CCC 536; " + `{{${CBO}luke/12/|Luke 12:50}}` + "). The water does not cleanse him. He cleanses the water, which is why the Church will bless fonts in his name.",
-          "The voice from heaven is the Father's delight, spoken before any sermon and before the Cross: this is my beloved Son, in whom I am well pleased. Isaiah's servant song, the first reading in Year A, is the script that voice fulfills. The servant brings justice to the nations, quietly, and he is given as a covenant and a light (" + `{{${CBO}isaiah/42/|Isaiah 42:1–4, 6–7}}` + "). Acts 10 then lets Peter preach the consequence: God anointed Jesus of Nazareth with the Holy Spirit and with power, and he went about doing good (" + `{{${CBO}acts/10/|Acts 10:34–38}}` + "). Epiphany showed him to the nations. This feast shows the mission those nations will hear.",
+          "The voice from heaven is the Father's delight, spoken before any sermon and before the Cross: You are my beloved Son; with you I am well pleased. Isaiah's servant song, one of the first readings the Church allows in Year B, is the script that voice fulfills. The servant brings justice to the nations, quietly, and he is given as a covenant and a light (" + `{{${CBO}isaiah/42/|Isaiah 42:1–4, 6–7}}` + "). Acts 10 then lets Peter preach the consequence: God anointed Jesus of Nazareth with the Holy Spirit and with power, and he went about doing good (" + `{{${CBO}acts/10/|Acts 10:34–38}}` + "). Epiphany showed him to the nations. This feast shows the mission those nations will hear.",
         ],
       },
       {
@@ -503,14 +503,14 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
         id: "mass-and-promises",
         heading: "The Mass of January 10 and the renewal of promises",
         paragraphs: [
-          "Because the feast falls on Sunday, the obligation is the Sunday obligation, fulfilled on Saturday evening if the Baptism texts are used. The vestments are white. The Gloria and the Creed are said, as befits a feast of the Lord. The homily has a natural path from Isaiah's servant to Matthew's voice from heaven to the promises the assembly is about to say again. Psalm 29, appointed with the Year A readings, gives the soundtrack: the voice of the Lord over the waters. Holy water may be blessed, and the rite of sprinkling may replace the penitential act, as at Easter.",
+          "Because the feast falls on Sunday, the obligation is the Sunday obligation, fulfilled on Saturday evening if the Baptism texts are used. The vestments are white. The Gloria and the Creed are said, as befits a feast of the Lord. The homily has a natural path from Isaiah's servant to Mark's voice from heaven to the promises the assembly is about to say again. Psalm 29, one of the psalms allowed with these readings, gives the soundtrack: the voice of the Lord over the waters. Holy water may be blessed, and the rite of sprinkling may replace the penitential act, as at Easter.",
           "The renewal itself is short. The priest asks the Church to renounce sin and to profess faith, in words close to the Easter Vigil. Answering is a serious act. It is the same faith as the [[/blog/what-is-the-nicene-creed/|Nicene Creed]], said a few minutes later in the Mass, now in the form of questions. People who are conscious of having lived far from those promises can plan confession in the week that follows; the [[/blog/how-to-go-to-confession/|confession guide]] is the practical next step. The sprinkle of water is a sacramental reminder of the bath already received. The [[/blog/holy-water-sacramental/|holy water guide]] explains why Catholics take that water home.",
         ],
         list: [
-          "Year A first reading: " + `{{${CBO}isaiah/42/|Isaiah 42:1–4, 6–7}}` + ".",
-          "Psalm: " + `{{${CBO}psalms/29/|Psalm 29}}` + ", the voice of the Lord upon the waters.",
-          "Second reading: " + `{{${CBO}acts/10/|Acts 10:34–38}}` + ".",
-          "Gospel: " + `{{${CBO}matthew/3/|Matthew 3:13–17}}` + ".",
+          "First reading: " + `{{${CBO}isaiah/55/|Isaiah 55:1–11}}` + " or " + `{{${CBO}isaiah/42/|Isaiah 42:1–4, 6–7}}` + ".",
+          "Psalm: Isaiah 12 (with Isaiah 55) or " + `{{${CBO}psalms/29/|Psalm 29}}` + ", the voice of the Lord upon the waters (with Isaiah 42).",
+          "Second reading: " + `{{${CBO}1-john/5/|1 John 5:1–9}}` + " or " + `{{${CBO}acts/10/|Acts 10:34–38}}` + ".",
+          "Gospel: " + `{{${CBO}mark/1/|Mark 1:7–11}}` + ".",
           "At home the same day: tell each baptized person the date of his or her baptism.",
         ],
       },
@@ -518,7 +518,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
         id: "ordinary-time-promises",
         heading: "Carrying the promises into Ordinary Time",
         paragraphs: [
-          "The Monday after the feast is easy to treat as a return to normal. The liturgy treats it as the start of a long obedience. Ordinary Time will preach the Galilean ministry, the call of the disciples, and, on January 31, the Beatitudes. The promises renewed on January 10 are the rule for those weeks: reject Satan and his works, cling to God the Father almighty, to Jesus Christ his only Son, to the Holy Spirit, and to the holy Catholic Church. The [[/blog/gifts-holy-spirit/|gifts of the Holy Spirit]] are a useful map for the weeks when no feast is carrying the household.",
+          "The Monday after the feast is easy to treat as a return to normal. The liturgy treats it as the start of a long obedience. Ordinary Time will preach the Galilean ministry, the call of the disciples, and, on January 31, his teaching with authority at Capernaum. The promises renewed on January 10 are the rule for those weeks: reject Satan and his works, cling to God the Father almighty, to Jesus Christ his only Son, to the Holy Spirit, and to the holy Catholic Church. The [[/blog/gifts-holy-spirit/|gifts of the Holy Spirit]] are a useful map for the weeks when no feast is carrying the household.",
           "A small practice keeps the feast from closing with the tree boxes. Leave a bowl of holy water by the door that was chalked at Epiphany. Sign yourself with it on the way out for the rest of January. Once, during the week, read Romans 6, where Paul says we were buried with Christ by baptism into death so that we might walk in newness of life (" + `{{${CBO}romans/6/|Romans 6:3–11}}` + "). The Jordan and the font and the empty tomb are one mystery told three times. Ordinary Time is the season for walking in the newness that mystery gives.",
         ],
       },
@@ -539,7 +539,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
       { question: "Does Christmas Time include this Sunday?", answer: "Yes. Christmas Time ends with the feast, after its Evening Prayer. Monday is the first weekday in Ordinary Time." },
       { question: "Is it a holy day beyond Sunday?", answer: "It falls on Sunday in 2027, so the Sunday obligation covers it. A Saturday evening Mass with the feast's texts fulfills that obligation." },
       { question: "Why was Jesus baptized if he was sinless?", answer: "The Catechism teaches that he took his place with sinners, began his mission as the suffering Servant, and sanctified the waters. The baptism points toward his death and resurrection (CCC 535–537)." },
-      { question: "Which Gospel is read in 2027?", answer: "Matthew 3:13–17, because Sunday is Year A. The first reading is Isaiah 42 and the second is Acts 10:34–38. Mark and Luke are read in Years B and C." },
+      { question: "Which Gospel is read in 2027?", answer: "Mark 1:7–11, because the Sundays of 2027 are Year B. The first reading is Isaiah 55:1–11 or Isaiah 42, and the second is 1 John 5:1–9 or Acts 10:34–38. Matthew and Luke are read in Years A and C." },
       { question: "Should we renew baptismal promises at home if the parish does?", answer: "The parish renewal is the Church's rite. At home, read the Gospel, sprinkle holy water, and say the Apostles' Creed slowly. Tell children the date of their baptism." },
       { question: "When should the crib come down?", answer: "The liturgical boundary is this feast. Packing decorations after Epiphany is a sound custom. February 2 is the Presentation, a later feast, and it does not extend Christmas Time." },
       { question: "Can an unbaptized adult use this day to start preparation?", answer: "Yes. Speak with the parish about the catechumenate. The feast shows what the sacrament is for, and preparation usually aims at the Easter Vigil." },
@@ -995,13 +995,13 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
         heading: "The feast on Monday, January 25, 2027",
         paragraphs: [
           "January 25 is a feast, not a memorial. When it falls on a weekday, as it does in 2027, the parish celebrates it outright. There is a Gloria. There is no Creed, because a feast of a saint, even an apostle's conversion, is not a Sunday or a solemnity. The readings are proper: they replace the weekday cycle. The color is white. The martyrdom of Peter and Paul, with red vestments, is June 29. Mixing the two days is easy and worth avoiding. January 25 is about the mercy that made the apostle. June 29 is about the witness that crowned him. The preface and the collect of the conversion thank God for the apostle to the Gentiles and ask that we may follow his teaching.",
-          "The Sunday before the feast in 2027 is January 24, the Third Sunday in Ordinary Time, kept as the Sunday of the Word of God. Year A proclaims the call of the first disciples in Matthew 4. A household can let that Sunday and Paul's Monday interpret each other. Peter and Andrew are called beside a lake. Saul is called on a road with warrants in his bag. Both calls are Christ's. The [[/blog/catholic-prayers-january-new-year-epiphany-guide/|January calendar]] places the feast at the end of unity week. If a parish can manage a weekday Mass, this is one of the Mondays worth rearranging. The obligation of the faithful remains the Sunday. The feast is a gift on top of it.",
+          "The Sunday before the feast in 2027 is January 24, the Third Sunday in Ordinary Time, kept as the Sunday of the Word of God. Year B proclaims the call of the first disciples in Mark 1. A household can let that Sunday and Paul's Monday interpret each other. Peter and Andrew are called beside a lake. Saul is called on a road with warrants in his bag. Both calls are Christ's. The [[/blog/catholic-prayers-january-new-year-epiphany-guide/|January calendar]] places the feast at the end of unity week. If a parish can manage a weekday Mass, this is one of the Mondays worth rearranging. The obligation of the faithful remains the Sunday. The feast is a gift on top of it.",
         ],
         table: {
           caption: "Three January days around Paul's feast, 2027",
           headers: ["Date", "Celebration", "Note"],
           rows: [
-            ["Sun, Jan 24", "Third Sunday; Sunday of the Word of God", "Matthew 4; Year A"],
+            ["Sun, Jan 24", "Third Sunday; Sunday of the Word of God", "Mark 1:14–20; Year B"],
             ["Mon, Jan 25", "Conversion of Saint Paul", "Feast; Acts 22; Mark 16"],
             ["June 29", "Peter and Paul, apostles", "Their martyrdom; a different feast"],
           ],
@@ -1062,8 +1062,8 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
     lede:
       "Giovanni Bosco was a poor boy from Becchi who became the priest of the boys nobody else would keep. In Turin he gathered apprentices into an oratory, taught them catechism and a trade, and insisted that the young must know they are loved. He called his method the preventive system: reason, religion, and loving-kindness. January 31 is his memorial, the day he died in 1888. In 2027 it falls on a Sunday, so the parish Mass is the Sunday Mass, and Bosco is honored at home, in classrooms, and in any work that stays with the young.",
     answer:
-      "The memorial of Saint John Bosco is January 31. In 2027 that date is the Fourth Sunday in Ordinary Time, when Year A proclaims the Beatitudes in " +
-      `{{${CBO}matthew/5/|Matthew 5:1–12}}` +
+      "The memorial of Saint John Bosco is January 31. In 2027 that date is the Fourth Sunday in Ordinary Time, when Year B proclaims Jesus teaching with authority in the synagogue at Capernaum in " +
+      `{{${CBO}mark/1/|Mark 1:21–28}}` +
       ", so Sunday Mass takes precedence and Bosco is honored at home and in works for the young. Giovanni Bosco (1815–1888) began his oratory in Turin on December 8, 1841, and formed the young by reason, religion, and loving-kindness, with confession, Communion, work, and cheerfulness at the center. He founded the Salesians, and with Saint Mary Domenica Mazzarello the Daughters of Mary Help of Christians. Pius XI canonized him in 1934, and John Paul II later honored him as Father and Teacher of Youth. His dreams remain his own spiritual account, received as devotion, and the same guide is on " +
       `{{${GC_BOSCO}|Catholic Bible Online's Saint John Bosco prayer page}}` +
       ".",
@@ -1074,7 +1074,7 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
       { label: "Method", value: "The preventive system: reason, religion, loving-kindness" },
       { label: "Founded", value: "Salesians, 1859; with Saint Mary Mazzarello, the Salesian Sisters, 1872" },
       { label: "Canonized", value: "April 1, 1934, by Pius XI" },
-      { label: "2027 Sunday", value: "Fourth Sunday in Ordinary Time; Gospel of the Beatitudes" },
+      { label: "2027 Sunday", value: "Fourth Sunday in Ordinary Time; Gospel Mark 1:21–28" },
     ],
     timeline: [
       { when: "1815–1841", what: "Born at Becchi. His father dies when John is about two. His mother, Margaret Occhiena, raises him in poverty. He is ordained in Turin on June 5, 1841." },
@@ -1132,13 +1132,13 @@ export const CBO_COMPANION_JANUARY: LiturgicalFeastGuide[] = [
       },
       {
         id: "sunday-2027-bosco",
-        heading: "Sunday, January 31, 2027: the Beatitudes and Don Bosco",
+        heading: "Sunday, January 31, 2027: Mass First, Then Don Bosco",
         paragraphs: [
-          "Go to Sunday Mass. January 31, 2027, is the Fourth Sunday in Ordinary Time. The Gospel is the Beatitudes, Matthew 5:1–12. A memorial, even of a founder as loved as Bosco, yields to that Sunday. Remember him at the table after Mass: read the Beatitudes, tell the story of Garelli, and pray for a young person by name.",
+          "Go to Sunday Mass. January 31, 2027, is the Fourth Sunday in Ordinary Time. The Gospel is Mark 1:21–28, Jesus teaching with authority. A memorial, even of a founder as loved as Bosco, yields to that Sunday. Remember him at the table after Mass: read that Gospel again, tell the story of Garelli, and pray for a young person by name.",
           "An act of presence is the offering that matches him. Spend an hour with a child who is usually waved toward a screen. Write to a teacher. Support a parish youth group or a school that serves the poor. The [[/blog/catholic-parenting-guide/|Catholic parenting guide]] and the [[/blog/st-john-neumann-prayer-catholic-guide/|Neumann guide]] earlier in the month give two other ways the Church has thought about education. Neumann built a diocesan system in Philadelphia. Bosco built an oratory in Turin. Both believed a child could learn the faith and a skill in the same house. The prayer below asks his intercession for that work. The Sunday collect remains the prayer of the Mass.",
         ],
         list: [
-          "Sunday Mass first. The Gospel is " + `{{${CBO}matthew/5/|Matthew 5:1–12}}` + ".",
+          "Sunday Mass first. The Gospel is " + `{{${CBO}mark/1/|Mark 1:21–28}}` + ".",
           "Tell one story from his life, and mark it as history or as his own dream.",
           "Pray for a child, a student, or a teacher by name.",
           "Give an hour of real presence to a young person.",

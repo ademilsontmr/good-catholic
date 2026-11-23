@@ -21,7 +21,7 @@ export default function ComeHolySpiritPrayer() {
         <meta name="description" content="The Come Holy Spirit prayer with full text, meaning, when to pray it, and a Catholic guide to asking the Holy Spirit for wisdom, courage, and renewal." />
         <meta name="keywords" content="come holy spirit prayer, holy spirit prayer, catholic prayer to the holy spirit, come holy spirit full text, prayer for guidance" />
         <link rel="canonical" href="https://guidecatholic.com/blog/come-holy-spirit-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Come Holy Spirit Prayer: Full Text, Meaning and Catholic Guide"

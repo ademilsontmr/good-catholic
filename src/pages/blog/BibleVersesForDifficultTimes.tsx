@@ -20,7 +20,7 @@ export default function BibleVersesForDifficultTimes() {
         <meta name="description" content={"Bible Verses for Difficult Times for Catholics — Psalm 23 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for difficult times, catholic bible verses for difficult times, bible verses difficult times"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-difficult-times/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Difficult Times: Scriptures Catholics Pray and Memorize"}

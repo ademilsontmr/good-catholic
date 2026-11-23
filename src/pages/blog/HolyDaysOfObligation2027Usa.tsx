@@ -76,7 +76,7 @@ export default function HolyDaysOfObligation2027Usa() {
           content="holy days of obligation 2027, holy days of obligation 2027 usa, catholic holy days 2027, is all saints day a holy day of obligation 2027, christmas 2027 mass obligation, ascension 2027, assumption 2027, immaculate conception 2027"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

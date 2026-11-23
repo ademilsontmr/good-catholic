@@ -21,7 +21,7 @@ export default function WhatIsTheBibleCatholic() {
         <meta name="description" content="How many books are in the Catholic Bible? What does biblical inspiration mean? Why don't Catholics believe in sola scriptura?" />
         <meta name="keywords" content="what is the bible catholic, catholic understanding of the bible, how many books in the catholic bible, deuterocanonical books, bible inspiration catholic, scripture and tradition catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-bible-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is the Bible? The Catholic Understanding of Sacred Scripture"

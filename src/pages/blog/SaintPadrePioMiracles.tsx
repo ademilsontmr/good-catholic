@@ -21,7 +21,7 @@ export default function SaintPadrePioMiracles() {
         <meta name="description" content="Discover the extraordinary miracles of St. Padre Pio - his bilocation, healing miracles, reading of souls, and the stigmata that lasted 50 years." />
         <meta name="keywords" content="St Padre Pio, Padre Pio miracles, stigmata, bilocation, healing miracles, Catholic saints" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-padre-pio-miracles/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="St. Padre Pio: Miracles, Bilocation, and the Stigmata"

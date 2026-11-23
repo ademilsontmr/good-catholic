@@ -21,7 +21,7 @@ export default function CatholicTeachingOnSocialMedia() {
         <meta name="description" content="What does the Catholic Church teach about social media? Learn how to use technology virtuously, avoid its spiritual dangers, and even evangelize online." />
         <meta name="keywords" content="catholic teaching on social media, social media sin catholic, how to use social media as a catholic, technology and faith catholic, screen time catholic, digital detox catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-social-media/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Social Media: How to Use Technology Virtuously"

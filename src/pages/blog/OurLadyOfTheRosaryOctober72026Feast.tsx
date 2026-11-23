@@ -20,7 +20,7 @@ export default function OurLadyOfTheRosaryOctober72026Feast() {
         <meta name="description" content={"Our Lady of the Rosary on October 7, 2026 — Battle of Lepanto, how to pray the Rosary, and October devotion guide for U.S. Catholics."} />
         <meta name="keywords" content={"our lady of the rosary 2026, feast of the rosary october 7, october rosary month, lepanto feast, how to pray rosary catholic"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-the-rosary-october-7-2026-feast-day/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Our Lady of the Rosary (October 7, 2026): Feast Day & How to Pray"}

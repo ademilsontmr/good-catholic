@@ -21,7 +21,7 @@ export default function HowToDoHolyHour() {
         <meta name="description" content="How to do a Holy Hour of Eucharistic Adoration: what to pray, how to structure your time, and why an hour with Jesus transforms your life." />
         <meta name="keywords" content="holy hour catholic, how to do holy hour, eucharistic adoration guide, holy hour prayers, spending time with jesus" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-do-a-holy-hour/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Do a Holy Hour: Complete Catholic Guide to Eucharistic Adoration"

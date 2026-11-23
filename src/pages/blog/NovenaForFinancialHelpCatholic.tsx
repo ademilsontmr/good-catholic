@@ -20,7 +20,7 @@ export default function NovenaForFinancialHelpCatholic() {
         <meta name="description" content="Novena for financial help: a 9-day Catholic prayer for money, debt, and bills, with full prayer text and how to trust God&apos;s providence when struggling." />
         <meta name="keywords" content="novena for financial help, catholic prayer for money, novena debt bills, prayer for financial problems catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-financial-help-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Financial Help: 9-Day Catholic Prayer for Money & Debt" description="Novena for financial help: a 9-day Catholic prayer for money, debt, and bills, with full prayer text and how to trust God&apos;s providence when struggling." url="https://guidecatholic.com/blog/novena-for-financial-help-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

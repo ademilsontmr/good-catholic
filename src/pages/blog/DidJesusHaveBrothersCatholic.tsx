@@ -54,7 +54,7 @@ export default function DidJesusHaveBrothersCatholic() {
           content="did jesus have brothers, did jesus have brothers and sisters, brothers of jesus catholic, perpetual virginity of mary, perpetual virginity of mary bible, james the brother of the lord, matthew 1:25 until, adelphos, mary ever virgin"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

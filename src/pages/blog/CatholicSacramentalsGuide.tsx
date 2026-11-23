@@ -21,7 +21,7 @@ export default function CatholicSacramentalsGuide() {
         <meta name="description" content="Discover the power of Catholic sacramentals. Learn about holy water, blessed objects, scapulars, medals, and how these sacred signs bring grace into daily life." />
         <meta name="keywords" content="catholic sacramentals, holy water, brown scapular, miraculous medal, blessed objects, catholic medals, rosary beads, blessed candles, sacramentals meaning" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-sacramentals-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Sacramentals: Complete Guide to Holy Water, Rosaries, Scapulars & More"

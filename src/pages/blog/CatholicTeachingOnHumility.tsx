@@ -21,7 +21,7 @@ export default function CatholicTeachingOnHumility() {
         <meta name="description" content="Humility is the foundation of the spiritual life. What it is, why pride is the root of all sin, and how to grow in this virtue according to Catholic teaching." />
         <meta name="keywords" content="virtue of humility catholic, what is humility catholic, humility definition catholic, how to grow in humility, humility and pride catholic, saints on humility" />
         <link rel="canonical" href="https://guidecatholic.com/blog/virtue-of-humility-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Virtue of Humility: What the Catholic Church Teaches"

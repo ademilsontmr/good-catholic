@@ -21,7 +21,7 @@ export default function StMichaelsLent2026() {
         <meta name="description" content={"St Michael's Lent 2026 runs August 15–September 29. Expert Catholic guide to dates, penance, spiritual combat, and the daily novena for U.S. parish life."} />
         <meta name="keywords" content={"st michael's lent 2026, st michaels lent 2026, when does st michael's lent start 2026, st michael lent august 15"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michael's Lent 2026: Dates, Meaning & How to Begin"}

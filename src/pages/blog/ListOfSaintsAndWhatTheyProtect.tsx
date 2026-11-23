@@ -20,7 +20,7 @@ export default function ListOfSaintsAndWhatTheyProtect() {
         <meta name="description" content="List of saints and what they protect — Catholic patron directory for health, home, family, travel, students, addiction, and impossible causes. How to pray well." />
         <meta name="keywords" content="list of saints and what they protect, patron saints list, catholic saints by cause, what is each saint the patron of, saints that protect you" />
         <link rel="canonical" href="https://guidecatholic.com/blog/list-of-saints-and-what-they-protect/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="List of Saints and What They Protect: Catholic Patrons by Need"

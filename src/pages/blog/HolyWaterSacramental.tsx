@@ -21,7 +21,7 @@ export default function HolyWaterSacramental() {
         <meta name="description" content="Holy water in Catholic tradition: its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection." />
         <meta name="keywords" content="holy water, Catholic sacramental, holy water blessing, holy water font, holy water use" />
         <link rel="canonical" href="https://guidecatholic.com/blog/holy-water-sacramental/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Holy Water: The Power of This Ancient Catholic Sacramental"

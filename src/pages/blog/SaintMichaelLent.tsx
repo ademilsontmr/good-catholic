@@ -23,7 +23,7 @@ export default function SaintMichaelLent() {
         <meta name="description" content="Where St. Michael's Lent comes from: St. Francis's 1224 fast on Mount La Verna, the seraph and the stigmata, his devotion to angels, and the nine choirs." />
         <meta name="keywords" content="st michael's lent origin, st francis la verna 1224, st francis stigmata st michael, history of st michael's lent, nine choirs of angels, quaresma de sao miguel" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michael-lent-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Origins of St. Michael's Lent: St. Francis, La Verna, and the Nine Choirs of Angels"

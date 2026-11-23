@@ -20,7 +20,7 @@ export default function StMonicaNovenaForChildren() {
         <meta name="description" content="St. Monica Novena for children — 9-day Catholic prayer for wayward sons and daughters, conversion, and return to the faith. Full text for parents in the USA." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-monica-novena-for-children/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="St. Monica Novena for Children: 9-Day Prayer for Conversion & Return" description="St. Monica Novena for children — 9-day Catholic prayer for wayward sons and daughters, conversion, and return to the faith. Full text for parents in the USA." url="https://guidecatholic.com/blog/st-monica-novena-for-children/" datePublished="2026-05-30" />
       <BreadcrumbSchema

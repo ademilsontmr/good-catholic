@@ -22,7 +22,7 @@ export default function CatholicBaptismGuide() {
         <meta name="description" content="How an adult is baptized Catholic through OCIA (RCIA) and the Easter Vigil, and what the Church teaches on baptism of desire and baptism of blood." />
         <meta name="keywords" content="adult baptism catholic, ocia, rcia, easter vigil baptism, catechumen, baptism of desire, baptism of blood, becoming catholic as an adult" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-baptism-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Adult Baptism in the Catholic Church: OCIA, Desire, Blood"

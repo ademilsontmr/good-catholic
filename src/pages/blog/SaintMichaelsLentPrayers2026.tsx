@@ -21,7 +21,7 @@ export default function SaintMichaelsLentPrayers2026() {
         <meta name="description" content={"Saint Michaels Lent 2026 prayers — Leo XIII St. Michael Prayer, full novena structure, chaplet option, intentions, and where to find the US 2026 daily text."} />
         <meta name="keywords" content={"saint michaels lent 2026, saint michaels lent prayers, st michael prayer lent, st michael lent novena prayers"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-michaels-lent-prayers-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Saint Michaels Lent 2026 Prayers: What to Pray Each Day"}

@@ -21,7 +21,7 @@ export default function CatholicMarriagePreparation() {
         <meta name="description" content="Prepare for Catholic marriage with this complete guide. Learn about Pre-Cana, marriage requirements, Natural Family Planning, and building a sacramental union." />
         <meta name="keywords" content="Catholic marriage preparation, engaged couples, Pre-Cana, marriage requirements, sacramental marriage" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-marriage-preparation/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Marriage Preparation: A Complete Guide for Engaged Couples"

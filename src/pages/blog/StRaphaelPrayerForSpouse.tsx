@@ -51,7 +51,7 @@ export default function StRaphaelPrayerForSpouse() {
           content="st raphael prayer for a spouse, prayer to find a spouse catholic, patron saint of finding a husband, patron saint of finding a wife, st raphael novena, st raphael the archangel, patron saint of single people, catholic prayer for future spouse, book of tobit"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

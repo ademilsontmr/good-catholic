@@ -21,7 +21,7 @@ export default function CatholicAndOrthodoxDifferences() {
         <meta name="description" content="Key differences between the Catholic and Orthodox Churches: the Great Schism of 1054, the Filioque, papal authority, and the path toward reunion." />
         <meta name="keywords" content="catholic vs orthodox, differences catholic orthodox, great schism 1054, pope authority orthodox, filioque controversy, catholic orthodox reunion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-vs-orthodox-differences/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic vs Orthodox: Key Differences Between the Two Churches"

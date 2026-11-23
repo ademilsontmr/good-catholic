@@ -20,7 +20,7 @@ export default function CatholicEucharisticFast() {
         <meta name="description" content="Eucharistic fast Catholic rules: canon 919 one hour before Communion, water and medicine, coffee and snacks, elderly exceptions, viaticum, and worthy reception." />
         <meta name="keywords" content="eucharistic fast catholic, how long to fast before communion, canon 919, communion fast water, midnight fast catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-eucharistic-fast/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How Long Do Catholics Fast Before Communion?"

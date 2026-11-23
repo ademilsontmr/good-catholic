@@ -20,7 +20,7 @@ export default function BibleVersesAboutAnxiety() {
         <meta name="description" content={"Bible verses about anxiety for Catholics — Philippians 4, Matthew 6, Psalm 94, and RSV-CE scriptures for calm when worry overwhelms you."} />
         <meta name="keywords" content={"bible verses about anxiety, scripture for anxiety, catholic bible verses anxiety"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-anxiety/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Anxiety: Scriptures for Peace When You Worry"}

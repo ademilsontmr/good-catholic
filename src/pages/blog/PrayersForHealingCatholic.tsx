@@ -21,7 +21,7 @@ export default function PrayersForHealingCatholic() {
         <meta name="description" content="Catholic prayers for healing, physical, emotional, and spiritual: full texts of healing prayers, the Anointing of the Sick, and how to pray for the sick." />
         <meta name="keywords" content="catholic prayers for healing, prayer for healing catholic, healing prayer catholic, anointing of the sick, prayer for the sick catholic, miraculous healing prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prayers-for-healing-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Prayers for Healing: Body, Mind & Soul"

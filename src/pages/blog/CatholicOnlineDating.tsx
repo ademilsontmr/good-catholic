@@ -20,7 +20,7 @@ export default function CatholicOnlineDating() {
         <meta name="description" content="Catholic online dating can be licit when oriented toward vocation, chastity, and marriage — not hookup culture." />
         <meta name="keywords" content="catholic online dating, online dating catholic, catholic dating apps, is online dating a sin catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-online-dating/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Is Online Dating Okay for Catholics?"

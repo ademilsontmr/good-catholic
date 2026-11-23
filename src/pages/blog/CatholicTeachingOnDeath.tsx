@@ -21,7 +21,7 @@ export default function CatholicTeachingOnDeath() {
         <meta name="description" content="What does the Catholic Church teach about death? The Four Last Things, the Particular Judgment, the resurrection of the body, and preparing for a holy death." />
         <meta name="keywords" content="catholic teaching on death, what happens when you die catholic, death and afterlife catholic, particular judgment catholic, four last things catholic, preparing for death catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-death/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Death: What Happens When We Die?"

@@ -20,7 +20,7 @@ export default function AmIReadyToGetMarriedCatholic() {
         <meta name="description" content="Am I ready to get married Catholic? Discern freedom, fidelity, permanence, openness to children, maturity, faith, debt, and family patterns." />
         <meta name="keywords" content="am i ready to get married catholic, ready for marriage catholic, catholic marriage discernment" />
         <link rel="canonical" href="https://guidecatholic.com/blog/am-i-ready-to-get-married-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Am I Ready to Get Married? A Catholic Discernment Guide"

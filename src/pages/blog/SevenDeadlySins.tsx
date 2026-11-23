@@ -17,15 +17,15 @@ export default function SevenDeadlySins() {
   return (
     <>
       <Helmet>
-        <title>What Are the 7 Deadly Sins? Full Catholic List & Virtues | Guide Catholic</title>
-        <meta name="description" content="What are the 7 deadly sins? Pride, greed, lust, envy, gluttony, wrath, and sloth — Catholic meanings and the virtues that overcome each one." />
+        <title>The 7 Deadly Sins: List, Meanings & Opposite Virtues | Guide Catholic</title>
+        <meta name="description" content="The 7 deadly sins are pride, greed, lust, envy, gluttony, wrath and sloth. What each one means, where they appear in Scripture, and the virtue that overcomes each." />
         <meta name="keywords" content="seven deadly sins, 7 deadly sins catholic, what are the deadly sins, pride greed lust envy gluttony wrath sloth, capital sins" />
         <link rel="canonical" href="https://guidecatholic.com/blog/seven-deadly-sins/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
-        title="What Are the 7 Deadly Sins? Full Catholic List & Virtues"
-        description="What are the 7 deadly sins? Pride, greed, lust, envy, gluttony, wrath, and sloth — Catholic meanings and the virtues that overcome each one."
+        title="The 7 Deadly Sins: List, Meanings & Opposite Virtues"
+        description="The 7 deadly sins are pride, greed, lust, envy, gluttony, wrath and sloth. What each one means, where they appear in Scripture, and the virtue that overcomes each."
         url="https://guidecatholic.com/blog/seven-deadly-sins/"
       />
       <BreadcrumbSchema
@@ -75,7 +75,7 @@ export default function SevenDeadlySins() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                What Are the 7 Deadly Sins? Full Catholic List & Virtues
+                The 7 Deadly Sins: List, Meanings & Opposite Virtues
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">

@@ -21,7 +21,7 @@ export default function SignsOfVocation() {
         <meta name="description" content="How do you know if God is calling you to the priesthood or religious life? Discover the signs of a vocation, how to discern, and what to do if you feel called." />
         <meta name="keywords" content="signs of a vocation, how to know if called to priesthood, religious vocation discernment, am i called to be a priest, vocation to religious life, discerning a vocation catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/signs-of-a-vocation-priesthood-religious-life/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Signs of a Vocation: How to Know If God Is Calling You to the Priesthood or Religious Life"

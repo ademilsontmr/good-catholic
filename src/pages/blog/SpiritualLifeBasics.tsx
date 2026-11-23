@@ -21,7 +21,7 @@ export default function SpiritualLifeBasics() {
         <meta name="description" content="Discover the foundations of Catholic spiritual life. Learn essential daily practices, prayer routines, and spiritual disciplines for growing closer to God." />
         <meta name="keywords" content="spiritual life, catholic spirituality, daily prayer, spiritual practices, catholic devotional life, prayer routine" />
         <link rel="canonical" href="https://guidecatholic.com/blog/spiritual-life-basics/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Spiritual Life Basics: Essential Practices for Daily Catholic Living"

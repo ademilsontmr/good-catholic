@@ -27,7 +27,7 @@ export default function Michaelmas2026WhenIsIt() {
           content="michaelmas 2026, when is michaelmas 2026, michaelmas date 2026, what is michaelmas, feast of st michael 2026, september 29 2026 catholic"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/michaelmas-2026-when-is-it/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Michaelmas 2026: When Is It? (September 29 Date)"

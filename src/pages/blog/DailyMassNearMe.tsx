@@ -21,7 +21,7 @@ export default function DailyMassNearMe() {
         <meta name="description" content="Find Daily Mass near you today. Learn how to locate weekday Catholic Mass times, noon Mass, early morning Mass, readings, and parish schedules." />
         <meta name="keywords" content="daily mass near me, catholic mass today, weekday mass near me, noon mass near me, catholic daily mass, find daily mass, mass today near me" />
         <link rel="canonical" href="https://guidecatholic.com/blog/daily-mass-near-me/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Daily Mass Near Me: Find Catholic Mass Today"

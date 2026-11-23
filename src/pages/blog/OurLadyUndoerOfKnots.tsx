@@ -21,7 +21,7 @@ export default function OurLadyUndoerOfKnots() {
         <meta name="description" content="Discover the history of Our Lady Undoer of Knots, why Pope Francis loves this devotion, and how to pray the novena to untie the difficult knots in your life." />
         <meta name="keywords" content="our lady undoer of knots, mary undoer of knots novena, history of undoer of knots, pope francis devotion mary, how to pray undoer of knots" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-undoer-of-knots/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Our Lady Undoer of Knots: History and complete Novena Guide"

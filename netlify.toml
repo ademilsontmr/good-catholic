@@ -29,13 +29,13 @@
 
 [[redirects]]
   from = "/blog/how-to-pray-rosary"
-  to = "/blog/rosary-complete-guide/"
+  to = "/blog/complete-rosary-guide/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/blog/how-to-pray-rosary/"
-  to = "/blog/rosary-complete-guide/"
+  to = "/blog/complete-rosary-guide/"
   status = 301
   force = true
 

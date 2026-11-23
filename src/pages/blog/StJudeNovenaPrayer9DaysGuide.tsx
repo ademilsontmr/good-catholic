@@ -20,7 +20,7 @@ export default function StJudeNovenaPrayer9DaysGuide() {
         <meta name="description" content="St. Jude novena prayer 9 days — step-by-step intention, daily structure, Oct 20–28 2026 timing, traditional excerpt, and thanksgiving custom explained." />
         <meta name="keywords" content="st jude novena prayer 9 days guide, st jude novena 9 days, saint jude novena prayer, novena to st jude impossible cases, how to pray st jude novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-jude-novena-prayer-9-days-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="St. Jude Novena Prayer: 9-Day Guide with Full Intention Steps"

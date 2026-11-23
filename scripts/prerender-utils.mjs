@@ -89,8 +89,11 @@ export function injectPrerenderedHtml(template, bodyHtml, helmet) {
     if (link.includes('rel="canonical"')) {
       html = html.replace(/<link data-rh="true" rel="canonical"[^>]*>\n?/g, "");
     }
-    if (meta.includes('name="robots"') && meta.includes("noindex")) {
+    // The page's own robots tag wins; keeping the template's too would leave two robots tags.
+    if (meta.includes('name="robots"')) {
       html = html.replace(/<meta data-rh="true" name="robots"[^>]*>\n?/g, "");
+    }
+    if (meta.includes('name="robots"') && meta.includes("noindex")) {
       html = html.replace(/<meta data-rh="true" name="googlebot"[^>]*>\n?/g, "");
       html = html.replace(/<meta data-rh="true" name="bingbot"[^>]*>\n?/g, "");
     }

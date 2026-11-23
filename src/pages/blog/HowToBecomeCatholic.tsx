@@ -21,7 +21,7 @@ export default function HowToBecomeCatholic() {
         <meta name="description" content="Learn how to become Catholic through the RCIA process. Complete guide covering the 4 stages of RCIA, Easter Vigil, what to expect, timeline, and FAQs for converts to Catholicism." />
         <meta name="keywords" content="how to become catholic, RCIA process, becoming catholic, convert to catholicism, rcia steps" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-become-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Become Catholic: The RCIA Process Explained"

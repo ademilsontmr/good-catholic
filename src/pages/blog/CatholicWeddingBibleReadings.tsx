@@ -20,7 +20,7 @@ export default function CatholicWeddingBibleReadings() {
         <meta name="description" content="Catholic wedding Bible readings from the Order of Celebrating Matrimony: Old Testament, Epistle, Gospel options, psalms, and how to choose with your priest." />
         <meta name="keywords" content="catholic wedding bible readings, nuptial mass readings, wedding scripture catholic, responsorial psalm wedding" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-bible-readings/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Wedding Bible Readings: Best Scriptures for the Nuptial Mass"

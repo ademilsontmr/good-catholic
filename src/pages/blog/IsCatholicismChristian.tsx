@@ -21,7 +21,7 @@ export default function IsCatholicismChristian() {
         <meta name="description" content="Is Catholicism a form of Christianity? Yes. A clear, honest answer to one of the most searched questions about the Catholic faith, with biblical evidence." />
         <meta name="keywords" content="is catholicism christian, are catholics christian, catholicism vs christianity, is catholic a christian, catholic christian difference, is the catholic church christian" />
         <link rel="canonical" href="https://guidecatholic.com/blog/is-catholicism-christian/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Is Catholicism Christian? The Clear Answer"

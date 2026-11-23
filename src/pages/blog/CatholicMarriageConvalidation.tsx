@@ -20,7 +20,7 @@ export default function CatholicMarriageConvalidation() {
         <meta name="description" content="Catholic marriage convalidation explained: simple convalidation vs radical sanation, documents, consent, and why it is more than a blessing." />
         <meta name="keywords" content="catholic marriage convalidation, convalidation civil marriage, radical sanation marriage, bless civil wedding catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-marriage-convalidation/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Marriage Convalidation: How to Bless a Civil Wedding"

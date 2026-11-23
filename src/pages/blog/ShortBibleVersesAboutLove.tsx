@@ -20,7 +20,7 @@ export default function ShortBibleVersesAboutLove() {
         <meta name="description" content={"Short Bible Verses About Love for Catholics — 1 John 4:8 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"short bible verses about love, catholic short bible verses about love, bible verses short love"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/short-bible-verses-about-love/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Short Bible Verses About Love: Scriptures Catholics Pray and Memorize"}

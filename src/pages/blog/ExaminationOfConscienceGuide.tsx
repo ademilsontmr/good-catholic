@@ -23,7 +23,7 @@ export default function ExaminationOfConscienceGuide() {
         <meta name="description" content="How to pray the daily Ignatian Examen in five steps, how it differs from preparing for Confession, and how to keep a healthy conscience free of scrupulosity." />
         <meta name="keywords" content="daily examen, ignatian examen, examen prayer steps, examination of conscience daily, scrupulosity catholic, healthy conscience" />
         <link rel="canonical" href="https://guidecatholic.com/blog/examination-of-conscience-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="The Daily Examen: St. Ignatius's 5 Steps and Scrupulosity"

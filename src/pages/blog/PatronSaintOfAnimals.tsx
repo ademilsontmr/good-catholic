@@ -75,7 +75,7 @@ export default function PatronSaintOfAnimals() {
           content="patron saint of animals, patron saint of pets, patron saint of dogs, patron saint of cats, patron saint of horses, prayer for a sick pet catholic, prayer when a pet dies catholic, blessing of animals, st francis of assisi animals"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

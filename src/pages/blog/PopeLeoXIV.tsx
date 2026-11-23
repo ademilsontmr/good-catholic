@@ -21,7 +21,7 @@ export default function PopeLeoXIV() {
         <meta name="description" content="Pope Leo XIV is the first American pope. Meet Robert Francis Prevost: his Chicago roots, Augustinian vocation, decades in Peru, and vision for the Church." />
         <meta name="keywords" content="who is pope leo xiv, pope leo xiv, first american pope, robert prevost pope, new pope 2025" />
         <link rel="canonical" href="https://guidecatholic.com/blog/who-is-pope-leo-xiv/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Who Is Pope Leo XIV? The First American Pope Explained"

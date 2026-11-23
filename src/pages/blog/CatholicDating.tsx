@@ -21,7 +21,7 @@ export default function CatholicDating() {
         <meta name="description" content="A guide to Catholic dating and courtship: the purpose of dating, chastity in relationships, finding a Catholic spouse, red flags, and preparing for marriage." />
         <meta name="keywords" content="catholic dating, catholic courtship, dating as a catholic, chastity in dating, catholic relationship advice, finding a catholic spouse" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-dating-and-courtship/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Dating and Courtship: A Guide to Holy Relationships"

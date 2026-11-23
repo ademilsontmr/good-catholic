@@ -21,7 +21,7 @@ export default function BlessedCarloAcutis() {
         <meta name="description" content="Carlo Acutis: his Eucharistic devotion, his website of Eucharistic miracles, his death from leukemia at 15, beatification in 2020, and canonization in 2025." />
         <meta name="keywords" content="blessed carlo acutis, carlo acutis saint, carlo acutis internet, carlo acutis eucharist, millennial saint" />
         <link rel="canonical" href="https://guidecatholic.com/blog/blessed-carlo-acutis/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Blessed Carlo Acutis: The Millennial Saint and Patron of the Internet"

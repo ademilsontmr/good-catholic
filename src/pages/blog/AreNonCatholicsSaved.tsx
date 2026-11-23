@@ -21,7 +21,7 @@ export default function AreNonCatholicsSaved() {
         <meta name="description" content="What does the Catholic Church teach about salvation for non-Catholics? Extra Ecclesiam nulla salus, Vatican II, invincible ignorance, and baptism of desire." />
         <meta name="keywords" content="are non-catholics saved, can non-catholics go to heaven, catholic teaching on non-catholics, outside the church no salvation, extra ecclesiam nulla salus" />
         <link rel="canonical" href="https://guidecatholic.com/blog/are-non-catholics-saved/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Are Non-Catholics Saved? What the Catholic Church Really Teaches"

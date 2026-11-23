@@ -21,7 +21,7 @@ export default function GenZAndCatholicism() {
         <meta name="description" content="Why is Catholicism drawing Gen Z men and women back to the Church? Data, reasons behind the revival, and what it means for young Catholics today." />
         <meta name="keywords" content="gen z catholicism, young people returning to catholic church, gen z converting to catholicism, catholic revival gen z, why young people become catholic, catholic resurgence 2025 2026" />
         <link rel="canonical" href="https://guidecatholic.com/blog/gen-z-and-catholicism/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why Catholicism Is Drawing Gen Z (Young People Returning)"

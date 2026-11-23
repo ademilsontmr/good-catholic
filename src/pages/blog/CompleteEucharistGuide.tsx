@@ -21,7 +21,7 @@ export default function CompleteEucharistGuide() {
         <meta name="description" content="The Eucharist explained: the Real Presence, receiving Communion properly, Eucharistic adoration, Eucharistic miracles, and Spiritual Communion." />
         <meta name="keywords" content="complete guide eucharist, real presence eucharist catholic, how to receive communion, eucharistic adoration guide, what is the eucharist catholic, transubstantiation explained" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-the-eucharist/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Complete Guide to the Eucharist: Real Presence, Adoration & Receiving Communion"

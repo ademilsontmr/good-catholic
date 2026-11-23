@@ -21,7 +21,7 @@ export default function SaintChristopher() {
         <meta name="description" content="Saint Christopher, patron of travelers: the legend of carrying the Christ child, the meaning of his medal, and why Catholics still venerate him today." />
         <meta name="keywords" content="saint christopher catholic, st christopher medal, patron of travelers, saint christopher prayer, saint christopher feast day, carrying christ child" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-christopher/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Christopher: Patron of Travelers — History, Medal & Prayer"

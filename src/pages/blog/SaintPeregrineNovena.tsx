@@ -21,7 +21,7 @@ export default function SaintPeregrineNovena() {
         <meta name="description" content="Pray the Saint Peregrine Novena for healing from cancer and other illnesses, and learn about the 'Cancer Saint' and how to ask for his intercession." />
         <meta name="keywords" content="saint peregrine novena, patron saint of cancer, prayer for cancer patients, st peregrine healing, catholic prayer for healing" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-peregrine-novena/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Peregrine Novena: The Patron Saint for Cancer Patients"

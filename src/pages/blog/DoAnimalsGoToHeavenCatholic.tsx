@@ -26,7 +26,7 @@ export default function DoAnimalsGoToHeavenCatholic() {
           content="do animals go to heaven catholic, catholic teaching on animals, do pets go to heaven catholic, animal souls catholic church, catholic view on animals after death, will i see my dog in heaven catholic"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/do-animals-go-to-heaven-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Do Animals Go to Heaven? What the Catholic Church Teaches"

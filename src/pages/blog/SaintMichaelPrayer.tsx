@@ -23,7 +23,7 @@ export default function SaintMichaelPrayer() {
         <meta name="description" content="Learn the full text of the Prayer to Saint Michael, its history with Pope Leo XIII, why it was written, and how to use it for spiritual protection today." />
         <meta name="keywords" content="prayer to saint michael, saint michael prayer catholic, st michael prayer full text, pope leo xiii prayer, spiritual protection prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-michael-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Prayer to Saint Michael: History, Full Text & How to Pray It"

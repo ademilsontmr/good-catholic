@@ -20,7 +20,7 @@ export default function NovenaForBrokenHeartCatholic() {
         <meta name="description" content="Novena for a broken heart — 9-day Catholic prayer after breakup, divorce, or lost love. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="novena broken heart, catholic prayer after breakup, novena healing heart" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-broken-heart-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for a Broken Heart: 9-Day Catholic Prayer After Breakup" description="Novena for a broken heart — 9-day Catholic prayer after breakup, divorce, or lost love. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-broken-heart-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

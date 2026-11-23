@@ -20,7 +20,7 @@ export default function StGerardNovenaPregnancy() {
         <meta name="description" content="St. Gerard Novena for pregnancy — 9-day Catholic prayer for mothers, safe delivery, and healthy babies. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="st gerard novena pregnancy, novena for safe delivery, st gerard majella prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-gerard-novena-pregnancy/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="St. Gerard Novena for Pregnancy: 9-Day Prayer for Safe Delivery" description="St. Gerard Novena for pregnancy — 9-day Catholic prayer for mothers, safe delivery, and healthy babies. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/st-gerard-novena-pregnancy/" datePublished="2026-05-30" />
       <BreadcrumbSchema

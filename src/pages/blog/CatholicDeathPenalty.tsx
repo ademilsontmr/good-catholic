@@ -21,7 +21,7 @@ export default function CatholicDeathPenalty() {
         <meta name="description" content="What do Catholics believe about the death penalty? Church teaching today, CCC 2267 revision, human dignity, and how the doctrine developed." />
         <meta name="keywords" content="catholic beliefs death penalty, catholic teaching on death penalty, catholic church death penalty, catechism death penalty, pope francis death penalty, capital punishment catholic, ccc 2267" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-death-penalty/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Teaching on the Death Penalty (CCC 2267)"

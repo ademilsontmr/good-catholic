@@ -21,7 +21,7 @@ export default function HowToPrayNovena() {
         <meta name="description" content="Step-by-step guide to praying a novena — what a novena is, how to choose one, the nine days of prayer, and the most popular novenas in the Catholic tradition." />
         <meta name="keywords" content="how to pray a novena, novena guide catholic, nine days prayer, novena for intentions, popular catholic novenas" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-a-novena-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Pray a Novena: Complete Guide for Catholics"

@@ -20,7 +20,7 @@ export default function BibleVersesAboutHappiness() {
         <meta name="description" content={"Bible Verses About Happiness for Catholics — Psalm 16:11 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about happiness, catholic bible verses about happiness, bible verses happiness"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-happiness/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Happiness: Scriptures Catholics Pray and Memorize"}

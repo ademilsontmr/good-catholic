@@ -20,7 +20,7 @@ export default function HowToFightFairCatholicMarriage() {
         <meta name="description" content="How to fight fair in marriage as Catholics: anger vs wrath, Ephesians 4, repair after conflict, and when disagreement becomes abuse requiring safety." />
         <meta name="keywords" content="how to fight fair in marriage, catholic marriage conflict, anger in marriage catholic, Ephesians 4 marriage" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-fight-fair-catholic-marriage/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Fight Fair in a Catholic Marriage"

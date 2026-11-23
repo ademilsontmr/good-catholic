@@ -21,7 +21,7 @@ export default function CatholicTeachingOnMarriage() {
         <meta name="description" content="What does the Catholic Church teach about marriage? The sacrament, indissolubility, the domestic church, and how to build a holy Catholic marriage." />
         <meta name="keywords" content="catholic teaching on marriage, marriage sacrament catholic, indissolubility of marriage catholic, catholic marriage vocation, what makes a catholic marriage valid, marriage catechism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-marriage/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Marriage: Sacrament, Indissolubility & Vocation"

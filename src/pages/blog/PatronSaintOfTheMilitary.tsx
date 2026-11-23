@@ -75,7 +75,7 @@ export default function PatronSaintOfTheMilitary() {
           content="patron saint of the military, patron saint of soldiers, patron saint of veterans, patron saint of the army, patron saint of marines, patron saint of air force, prayer for deployed soldier catholic, catholic prayer for veterans, memorial day prayer catholic"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

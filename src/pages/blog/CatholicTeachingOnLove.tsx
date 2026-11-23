@@ -21,7 +21,7 @@ export default function CatholicTeachingOnLove() {
         <meta name="description" content="What does love really mean? The Catholic understanding of eros, philia, and agape, and why Pope Benedict XVI said they are complementary, not opposites." />
         <meta name="keywords" content="what is love catholic, eros philia agape catholic, deus caritas est, love of god catholic, types of love catholic, benedict xvi love encyclical" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-love-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Love? The Catholic Understanding of Eros, Philia, and Agape"

@@ -75,7 +75,7 @@ export default function PatronSaintOfTravelers() {
           content="patron saint of travelers, patron saint of travel, patron saint of drivers, st christopher medal, prayer for safe travel catholic, prayer before a road trip, prayer before a flight, patron saint of air travel, our lady of loreto, st raphael travel"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

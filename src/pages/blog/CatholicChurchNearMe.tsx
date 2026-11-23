@@ -21,7 +21,7 @@ export default function CatholicChurchNearMe() {
         <meta name="description" content="There are over 17,000 Catholic parishes in the US. Find the right one: parish finders, what to look for, Latin Mass, Eastern Catholic churches, registering." />
         <meta name="keywords" content="catholic church near me, find a catholic church, catholic mass near me, how to find a parish, catholic parish locator usa, returning to catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-find-catholic-church-near-me/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Find a Catholic Church Near You: A Complete Guide for Americans"

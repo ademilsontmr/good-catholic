@@ -21,7 +21,7 @@ export default function HowToReadBible() {
         <meta name="description" content="Learn how to read the Bible as a Catholic: study methods, the Catholic canon, approved translations, and how Scripture fits with Tradition and Magisterium." />
         <meta name="keywords" content="how to read Bible, Catholic Bible study, Scripture reading, Bible guide, Catholic canon" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-read-bible/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Read the Bible: A Catholic Guide to Scripture Study"

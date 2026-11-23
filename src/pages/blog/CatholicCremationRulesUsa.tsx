@@ -21,7 +21,7 @@ export default function CatholicCremationRulesUsa() {
         <meta name="description" content="Catholic teaching on cremation in the United States — what is allowed, funeral Mass with cremated remains, burial requirements, and what the Church forbids." />
         <meta name="keywords" content="catholic cremation rules, can catholics be cremated, cremation catholic church usa, catholic funeral cremation, bury cremated remains catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-cremation-rules-usa/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Catholic Cremation Rules in the USA: What the Church Allows" description="Catholic teaching on cremation in the United States — what is allowed, funeral Mass with cremated remains, burial requirements, and what the Church forbids." url="https://guidecatholic.com/blog/catholic-cremation-rules-usa/" datePublished="2026-05-30" />
       <BreadcrumbSchema

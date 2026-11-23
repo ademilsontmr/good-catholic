@@ -21,7 +21,7 @@ export default function BeatitudesCatholicExplained() {
         <meta name="description" content="The Beatitudes from Matthew 5 explained for Catholics: all eight blessings, what poor in spirit and peacemakers mean, and how to live them today." />
         <meta name="keywords" content="beatitudes catholic, what are the beatitudes, beatitudes meaning, matthew 5 beatitudes, blessed are the poor in spirit" />
         <link rel="canonical" href="https://guidecatholic.com/blog/beatitudes-catholic-explained/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="What Are the Beatitudes? Catholic Meaning of All 8 (Matthew 5)" description="The Beatitudes from Matthew 5 explained for Catholics: all eight blessings, what poor in spirit and peacemakers mean, and how to live them today." url="https://guidecatholic.com/blog/beatitudes-catholic-explained/" datePublished="2026-05-30" />
       <BreadcrumbSchema

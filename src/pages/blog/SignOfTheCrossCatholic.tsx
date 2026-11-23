@@ -22,7 +22,7 @@ export default function SignOfTheCrossCatholic() {
         <meta name="description" content="Learn how to make the Sign of the Cross the Catholic way — the words in English and Latin, left to right, when to use it, and what this ancient gesture means." />
         <meta name="keywords" content="sign of the cross catholic, how to do sign of the cross, sign of the cross words, sign of the cross latin, catholic blessing sign" />
         <link rel="canonical" href="https://guidecatholic.com/blog/sign-of-the-cross-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Sign of the Cross: How Catholics Do It, Words and Meaning"

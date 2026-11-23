@@ -21,7 +21,7 @@ export default function CatholicTeachingOnHell() {
         <meta name="description" content="Does hell exist? What the Catholic Church teaches about hell, its nature, who goes there, and how God's mercy and human freedom relate to eternal punishment." />
         <meta name="keywords" content="does hell exist catholic, catholic teaching on hell, what is hell catholic, hell eternal punishment, catechism hell, jesus teaching on hell" />
         <link rel="canonical" href="https://guidecatholic.com/blog/does-hell-exist-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Does Hell Exist? The Catholic Teaching on Hell Explained"

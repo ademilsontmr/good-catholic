@@ -21,7 +21,7 @@ export default function CatholicTeachingOnTransgender() {
         <meta name="description" content="Catholic teaching on transgender identity and gender ideology, rooted in the Catechism, Dignitas Infinita (2024), and the theology of the body." />
         <meta name="keywords" content="catholic teaching on transgender, catholic church transgender, gender ideology catholic, dignitas infinita, catechism gender, theology of the body gender" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-transgender/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Transgender: What the Church Really Says"

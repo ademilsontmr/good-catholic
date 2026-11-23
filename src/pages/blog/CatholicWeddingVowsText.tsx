@@ -20,7 +20,7 @@ export default function CatholicWeddingVowsText() {
         <meta name="description" content="Official Catholic wedding vows from the Order of Celebrating Matrimony (USA): consent text, priest questions, rings, and why vows are sacramental consent." />
         <meta name="keywords" content="catholic wedding vows, catholic marriage vows text, order of celebrating matrimony vows" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-vows/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Wedding Vows: The Official Consent Text (USA)"

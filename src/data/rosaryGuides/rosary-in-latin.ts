@@ -1,0 +1,246 @@
+import type { LiturgicalFeastGuide } from "../liturgicalFeastGuides";
+
+const CBO = "https://catholicbibleonline.com/bible/";
+
+const guide: LiturgicalFeastGuide = {
+  slug: "rosary-in-latin",
+  title: "Rosary in Latin: Every Prayer With English & Pronunciation",
+  h1: "The Rosary in Latin: Every Prayer in Latin and English, With Pronunciation",
+  description: "Pray the Rosary in Latin: the Ave Maria, Pater Noster, Credo, Gloria Patri, Salve Regina and closing prayer with English, mystery names and pronunciation.",
+  keywords: "rosary in latin, latin rosary prayers, hail mary in latin, ave maria latin, our father in latin, pater noster, salve regina latin, glory be in latin, latin rosary pronunciation, mysteries of the rosary in latin",
+  readTime: "13 min",
+  datePublished: "2026-11-23",
+  crumb: "Rosary in Latin",
+  category: "Prayers & Devotions",
+  lede: "For most of its history the Rosary was prayed in Latin, the language of the Western Church's liturgy. The prayers are short and repeated, so the Rosary is the easiest place to start if you want to learn to pray in Latin.",
+  answer: "To pray the Rosary in Latin, use the same beads, mysteries and order as in English, and say each prayer in its Latin form: Signum Crucis, Symbolum Apostolorum, Pater Noster, Ave Maria, Gloria Patri, the optional Fatima prayer, Salve Regina and the closing Oremus. The Hail Mary in Latin is: Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen. Every text is below with the English beside it; to keep your place on the beads, [[/rosary/|follow the guided Rosary]] while you read the Latin here.",
+  facts: [
+    { label: "Prayers to learn", value: "Eight, of which three (Pater Noster, Ave Maria, Gloria Patri) make up most of the Rosary" },
+    { label: "Pronunciation", value: "Ecclesiastical (Italian-style) Latin, as used in Rome and in chant" },
+    { label: "Mystery sets", value: "Mysteria Gaudiosa, Luminosa, Dolorosa, Gloriosa" },
+    { label: "Church's view", value: "Latin remains the language of the Roman Rite; the faithful are encouraged to know common prayers in it" },
+  ],
+  timelineHeading: "The prayers in order, in Latin",
+  timeline: [
+    { when: "On the crucifix", what: "Signum Crucis, then Symbolum Apostolorum (the Credo)." },
+    { when: "First large bead", what: "Pater Noster." },
+    { when: "Three small beads", what: "Three Ave Marias, for faith, hope and charity (pro fide, spe et caritate)." },
+    { when: "Before each decade", what: "Gloria Patri, announce the mystery in Latin, then Pater Noster on the large bead." },
+    { when: "Ten small beads", what: "Ten Ave Marias while meditating on the mystery." },
+    { when: "After each decade", what: "Gloria Patri, and the Fatima prayer (Domine Iesu or O mi Iesu) if you use it." },
+    { when: "On the medal", what: "Salve Regina with its versicle and response, then the Oremus." },
+    { when: "To finish", what: "Signum Crucis." },
+  ],
+  sections: [
+    {
+      id: "why-pray-the-rosary-in-latin",
+      heading: "Why pray the Rosary in Latin",
+      paragraphs: [
+        "Latin is still the official language of the Roman Rite. The Second Vatican Council, which allowed the vernacular at Mass, also said that the use of Latin is to be preserved in the Latin rites and that the faithful should be able to say or sing together in Latin the parts of the Mass that belong to them (Sacrosanctum Concilium 36 and 54). In 2007 Benedict XVI asked that the faithful be taught the more common prayers in Latin (Sacramentum Caritatis 62). The Rosary is where those common prayers live.",
+        "There are practical reasons too. Latin unites Catholics across languages: a Filipino, a Pole and a Texan can pray the Pater Noster together at an international gathering. The words are fixed and do not change with each new translation. And because Latin is not your everyday language, it can slow you down and set the prayer apart from the noise of the day.",
+        "Nobody is holier for praying in Latin, and you do not need to understand every word for the prayer to be real. But you should know what you are saying, which is why every text below has the English beside it. Learn one prayer at a time, and pray the rest in English until it comes. The [[/rosary/|online Rosary]] keeps count of the beads in English while you work through the Latin from this page.",
+      ],
+    },
+    {
+      id: "signum-crucis-and-credo",
+      heading: "Signum Crucis and Symbolum Apostolorum (Sign of the Cross and Creed)",
+      paragraphs: [
+        "The Rosary opens on the crucifix with the Sign of the Cross and the Apostles' Creed. The Latin Sign of the Cross is short and is the first thing many children learn: In nomine Patris, et Filii, et Spiritus Sancti. Amen. The English meaning and history are in the [[/blog/sign-of-the-cross-catholic/|Sign of the Cross guide]].",
+        "The Apostles' Creed is the longest text in the Rosary and the hardest to memorize in any language. In the table, each line of the Latin sits beside its English, so you can learn it in chunks. Notice that Latin says descendit ad inferos, he descended to the dead (literally, to those below), which older English renders as \"he descended into hell.\" For the meaning of each article, see the [[/blog/apostles-creed-prayer/|Apostles' Creed explained]].",
+      ],
+      table: {
+        caption: "Signum Crucis and Symbolum Apostolorum",
+        headers: ["Latin", "English"],
+        rows: [
+          ["In nomine Patris, et Filii, et Spiritus Sancti. Amen.", "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."],
+          ["Credo in Deum Patrem omnipotentem, Creatorem caeli et terrae.", "I believe in God, the Father almighty, Creator of heaven and earth,"],
+          ["Et in Iesum Christum, Filium eius unicum, Dominum nostrum,", "and in Jesus Christ, his only Son, our Lord,"],
+          ["qui conceptus est de Spiritu Sancto, natus ex Maria Virgine,", "who was conceived by the Holy Spirit, born of the Virgin Mary,"],
+          ["passus sub Pontio Pilato, crucifixus, mortuus, et sepultus,", "suffered under Pontius Pilate, was crucified, died and was buried;"],
+          ["descendit ad inferos, tertia die resurrexit a mortuis,", "he descended into hell; on the third day he rose again from the dead;"],
+          ["ascendit ad caelos, sedet ad dexteram Dei Patris omnipotentis,", "he ascended into heaven, and is seated at the right hand of God the Father almighty;"],
+          ["inde venturus est iudicare vivos et mortuos.", "from there he will come to judge the living and the dead."],
+          ["Credo in Spiritum Sanctum, sanctam Ecclesiam catholicam,", "I believe in the Holy Spirit, the holy catholic Church,"],
+          ["sanctorum communionem, remissionem peccatorum,", "the communion of saints, the forgiveness of sins,"],
+          ["carnis resurrectionem, vitam aeternam. Amen.", "the resurrection of the body, and life everlasting. Amen."],
+        ],
+      },
+    },
+    {
+      id: "pater-noster",
+      heading: "Pater Noster (Our Father in Latin)",
+      paragraphs: [
+        "The Lord's Prayer comes from " + `{{${CBO}matthew/6/|Matthew 6:9–13}}` + " and is prayed six times in a five-decade Rosary. The Latin text is the one sung at the Latin Mass and found in the Vulgate tradition. It has no doxology: the line \"for the kingdom, the power and the glory\" is not part of the prayer in Catholic use, except as a separate acclamation after the Our Father at Mass.",
+        "Two words trip up beginners. Quotidianum (daily) is also printed cotidianum in some books; both are correct spellings of the same word. Debita nostra means literally \"our debts,\" which the traditional English renders \"our trespasses.\" More on the prayer itself is in the [[/blog/our-father-prayer/|Our Father guide]].",
+      ],
+      table: {
+        caption: "Pater Noster",
+        headers: ["Latin", "English"],
+        rows: [
+          ["Pater noster, qui es in caelis,", "Our Father, who art in heaven,"],
+          ["sanctificetur nomen tuum.", "hallowed be thy name;"],
+          ["Adveniat regnum tuum.", "thy kingdom come,"],
+          ["Fiat voluntas tua, sicut in caelo et in terra.", "thy will be done on earth as it is in heaven."],
+          ["Panem nostrum quotidianum da nobis hodie,", "Give us this day our daily bread,"],
+          ["et dimitte nobis debita nostra,", "and forgive us our trespasses,"],
+          ["sicut et nos dimittimus debitoribus nostris.", "as we forgive those who trespass against us;"],
+          ["Et ne nos inducas in tentationem,", "and lead us not into temptation,"],
+          ["sed libera nos a malo. Amen.", "but deliver us from evil. Amen."],
+        ],
+      },
+    },
+    {
+      id: "ave-maria",
+      heading: "Ave Maria (Hail Mary in Latin)",
+      paragraphs: [
+        "You will say the Ave Maria fifty-three times in one set of mysteries, so it is the prayer to learn first. The first half joins two greetings from Luke's Gospel: the angel Gabriel's (" + `{{${CBO}luke/1/|Luke 1:28}}` + ") and Elizabeth's (Luke 1:42). The name Iesus was added in the Middle Ages, and the petition beginning Sancta Maria took its present form in the sixteenth century, appearing in the Roman Breviary of 1568 under St. Pius V.",
+        "Learn it in four phrases: Ave Maria, gratia plena, Dominus tecum / Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus / Sancta Maria, Mater Dei, ora pro nobis peccatoribus / nunc et in hora mortis nostrae. Amen. Say one phrase twenty times aloud, then add the next. Most people have it by heart within a week of daily decades. The meaning of each line is in the [[/blog/hail-mary-prayer/|Hail Mary guide]].",
+      ],
+      table: {
+        caption: "Ave Maria, with an approximate pronunciation",
+        headers: ["Latin", "Say it", "English"],
+        rows: [
+          ["Ave Maria, gratia plena,", "AH-veh mah-REE-ah, GRAH-tsee-ah PLEH-nah", "Hail Mary, full of grace,"],
+          ["Dominus tecum.", "DOH-mee-noos TEH-koom", "the Lord is with thee."],
+          ["Benedicta tu in mulieribus,", "beh-neh-DEEK-tah too een moo-lee-EH-ree-boos", "Blessed art thou among women,"],
+          ["et benedictus fructus ventris tui, Iesus.", "et beh-neh-DEEK-toos FROOK-toos VEN-trees TOO-ee, YEH-soos", "and blessed is the fruit of thy womb, Jesus."],
+          ["Sancta Maria, Mater Dei,", "SAHNK-tah mah-REE-ah, MAH-tehr DEH-ee", "Holy Mary, Mother of God,"],
+          ["ora pro nobis peccatoribus,", "OH-rah proh NOH-bees pek-kah-TOH-ree-boos", "pray for us sinners,"],
+          ["nunc et in hora mortis nostrae. Amen.", "noonk et een OH-rah MOR-tees NOH-streh. AH-men.", "now and at the hour of our death. Amen."],
+        ],
+      },
+    },
+    {
+      id: "gloria-patri-and-fatima-prayer",
+      heading: "Gloria Patri and the Fatima prayer in Latin",
+      paragraphs: [
+        "The Gloria Patri closes every decade and, in the Liturgy of the Hours, every psalm. It is one of the oldest Christian doxologies; the second half, Sicut erat in principio, was in use in the West by the sixth century. See the [[/blog/glory-be-prayer/|Glory Be guide]] for its history.",
+        "The Fatima prayer is different. It is not an ancient Latin text: the children of Fatima reported that Our Lady taught it in Portuguese on July 13, 1917, and the Latin forms in circulation are later translations. That is why you will find more than one. A common version begins Domine Iesu; another begins O mi Iesu and reads libera nos ab igne inferni (deliver us from the fire of hell) and conduc in caelum. No single Latin form has official status, so use the one your group knows. The prayer is optional; see the [[/blog/fatima-prayer-o-my-jesus/|Fatima Prayer guide]].",
+      ],
+      table: {
+        caption: "Gloria Patri and the Fatima prayer",
+        headers: ["Latin", "English"],
+        rows: [
+          ["Gloria Patri, et Filio, et Spiritui Sancto.", "Glory be to the Father, and to the Son, and to the Holy Spirit,"],
+          ["Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen.", "as it was in the beginning, is now, and ever shall be, world without end. Amen."],
+          ["Domine Iesu, dimitte nobis debita nostra,", "O my Jesus (literally: Lord Jesus), forgive us our sins,"],
+          ["salva nos ab igne inferiori,", "save us from the fires of hell,"],
+          ["perduc in caelum omnes animas,", "lead all souls to heaven,"],
+          ["praesertim eas, quae misericordiae tuae maxime indigent.", "especially those in most need of thy mercy."],
+        ],
+      },
+      callout: {
+        label: "In saecula saeculorum",
+        text: "Literally \"into the ages of ages.\" The old English \"world without end\" is a free rendering of the same idea: for ever. You hear the same phrase at the end of most Latin collects.",
+      },
+    },
+    {
+      id: "salve-regina-and-oremus",
+      heading: "Salve Regina and the closing prayer (Oremus)",
+      paragraphs: [
+        "The Salve Regina is a medieval Marian antiphon, sung at the end of Compline, the Church's night prayer, for much of the year. Its authorship is uncertain; it is often credited to Hermann of Reichenau in the eleventh century. A popular legend says St. Bernard of Clairvaux added the final cry, O clemens, O pia, O dulcis Virgo Maria; that story is a pious tradition, not established history. The English and its meaning are in the [[/blog/hail-holy-queen-prayer/|Hail, Holy Queen guide]].",
+        "After the versicle and response comes the closing collect, introduced by Oremus, \"let us pray.\" It sums up the purpose of the whole Rosary: to remember the mysteries of Christ's life, death and resurrection so that we may imitate what they contain and obtain what they promise. Note the spelling Hevae (of Eve) and Genetrix (Mother, sometimes printed Genitrix).",
+      ],
+      table: {
+        caption: "Salve Regina, versicle and Oremus",
+        headers: ["Latin", "English"],
+        rows: [
+          ["Salve, Regina, Mater misericordiae, vita, dulcedo, et spes nostra, salve.", "Hail, holy Queen, Mother of mercy, our life, our sweetness and our hope."],
+          ["Ad te clamamus, exsules filii Hevae.", "To thee do we cry, poor banished children of Eve."],
+          ["Ad te suspiramus, gementes et flentes in hac lacrimarum valle.", "To thee do we send up our sighs, mourning and weeping in this valley of tears."],
+          ["Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte.", "Turn then, most gracious advocate, thine eyes of mercy toward us,"],
+          ["Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende.", "and after this our exile show unto us the blessed fruit of thy womb, Jesus."],
+          ["O clemens, O pia, O dulcis Virgo Maria.", "O clement, O loving, O sweet Virgin Mary."],
+          ["V. Ora pro nobis, sancta Dei Genetrix.", "V. Pray for us, O holy Mother of God."],
+          ["R. Ut digni efficiamur promissionibus Christi.", "R. That we may be made worthy of the promises of Christ."],
+          ["Oremus. Deus, cuius Unigenitus per vitam, mortem et resurrectionem suam nobis salutis aeternae praemia comparavit:", "Let us pray. O God, whose only begotten Son, by his life, death and resurrection, has purchased for us the rewards of eternal salvation,"],
+          ["concede, quaesumus: ut haec mysteria sanctissimo beatae Mariae Virginis Rosario recolentes,", "grant, we beseech thee, that meditating on these mysteries in the most holy Rosary of the Blessed Virgin Mary,"],
+          ["et imitemur quod continent, et quod promittunt, assequamur.", "we may imitate what they contain and obtain what they promise."],
+          ["Per eundem Christum Dominum nostrum. Amen.", "Through the same Christ our Lord. Amen."],
+        ],
+      },
+    },
+    {
+      id: "mysteries-in-latin",
+      heading: "The mysteries of the Rosary in Latin",
+      paragraphs: [
+        "In Latin the four sets are the Mysteria Gaudiosa (Joyful), Mysteria Luminosa (Luminous), Mysteria Dolorosa (Sorrowful) and Mysteria Gloriosa (Glorious). To announce a decade, say the number, the set and the name: Primum mysterium gaudiosum: Annuntiatio. The ordinals are primum, secundum, tertium, quartum, quintum, and the adjective changes with the set: gaudiosum, luminosum, dolorosum, gloriosum.",
+        "The names of the fifteen traditional mysteries are well established. The Luminous Mysteries were added in 2002, after Latin had stopped being the everyday language of Rosary prayer, so the short Latin titles below are common renderings rather than one fixed official form; you will see slightly different wordings in different books. Each set has its own guide: [[/blog/joyful-mysteries-of-the-rosary/|Joyful]], [[/blog/luminous-mysteries-of-the-rosary/|Luminous]], [[/blog/sorrowful-mysteries-of-the-rosary/|Sorrowful]] and [[/blog/glorious-mysteries-of-the-rosary/|Glorious]].",
+      ],
+      table: {
+        caption: "Latin names of the 20 mysteries",
+        headers: ["Set (day)", "Latin", "English"],
+        rows: [
+          ["Mysteria Gaudiosa (Monday, Saturday)", "Annuntiatio; Visitatio; Nativitas; Praesentatio in Templo; Inventio in Templo", "Annunciation; Visitation; Nativity; Presentation in the Temple; Finding in the Temple"],
+          ["Mysteria Luminosa (Thursday)", "Baptismus in Iordane; Nuptiae in Cana; Annuntiatio Regni Dei; Transfiguratio; Institutio Eucharistiae", "Baptism in the Jordan; Wedding at Cana; Proclamation of the Kingdom of God; Transfiguration; Institution of the Eucharist"],
+          ["Mysteria Dolorosa (Tuesday, Friday)", "Agonia in Horto; Flagellatio; Coronatio Spinis; Baiulatio Crucis; Crucifixio et Mors", "Agony in the Garden; Scourging; Crowning with Thorns; Carrying of the Cross; Crucifixion and Death"],
+          ["Mysteria Gloriosa (Wednesday, Sunday)", "Resurrectio; Ascensio; Descensus Spiritus Sancti; Assumptio; Coronatio Beatae Mariae Virginis", "Resurrection; Ascension; Descent of the Holy Spirit; Assumption; Coronation of the Blessed Virgin Mary"],
+        ],
+      },
+    },
+    {
+      id: "latin-pronunciation",
+      heading: "How to pronounce Rosary Latin",
+      paragraphs: [
+        "Catholics praying in Latin normally use ecclesiastical pronunciation, the Italian-influenced style used in Rome, in Gregorian chant and at the [[/blog/traditional-latin-mass-guide/|Traditional Latin Mass]]. It differs from the classical pronunciation taught in many high school Latin classes, where c is always hard and v sounds like w. Neither is wrong, but in prayer the ecclesiastical style is the norm, and it is easier for English speakers.",
+        "Vowels are pure and never swallowed: a as in father, e as in bet, i as in machine, o as in note, u as in rule. Every vowel is sounded, so Dei is DEH-ee and tui is TOO-ee. Double consonants are held a little longer, as in pec-catoribus. The table covers the consonants that most often trip people up.",
+      ],
+      table: {
+        caption: "Ecclesiastical Latin: the sounds that matter in the Rosary",
+        headers: ["Spelling", "Sound", "Example from the prayers"],
+        rows: [
+          ["c before e, i, ae, oe", "ch as in church", "caelis (CHEH-lees), dulcedo (dool-CHEH-doh)"],
+          ["c elsewhere, and ch", "k", "carnis (KAR-nees), Christum (KREE-stoom)"],
+          ["g before e, i", "j as in gem", "Virgine (VEER-jee-neh), Genetrix (jeh-NEH-treeks)"],
+          ["gn", "ny as in canyon", "regnum (REH-nyoom)"],
+          ["sc before e, i", "sh", "descendit (deh-SHEN-deet)"],
+          ["ti before a vowel", "tsee", "gratia (GRAH-tsee-ah), tentationem (ten-tah-tsee-OH-nem)"],
+          ["ae, oe", "eh", "aeternam (eh-TER-nahm), nostrae (NOH-streh)"],
+          ["i or j before a vowel at the start of a word or syllable", "y", "Iesus (YEH-soos), eius (EH-yoos)"],
+          ["h", "silent (except mihi, nihil: k)", "hora (OH-rah), hodie (OH-dee-eh)"],
+          ["qu", "kw", "qui (kwee), quotidianum (kwoh-tee-dee-AH-noom)"],
+        ],
+      },
+    },
+    {
+      id: "how-to-learn-the-latin-rosary",
+      heading: "How to learn the Latin Rosary without getting overwhelmed",
+      paragraphs: [
+        "Start with one prayer, not all eight. Week one, say the Gloria Patri in Latin and everything else in English. Week two, add the Ave Maria. Week three, the Pater Noster. At that point roughly 90 percent of the words in your Rosary are Latin, and the Credo and Salve Regina can come slowly over the following month. Praying one decade a day is enough to learn the three core prayers in a few weeks.",
+        "Older prayer books use different spellings for the same words: coelis for caelis, Jesus for Iesus, cotidianum for quotidianum, Genitrix for Genetrix. These are spelling conventions, not different prayers. Pick one book and stick with it while you learn. If you pray with a family, let the children learn the Ave Maria in Latin first; it often sticks with them faster than with their parents.",
+      ],
+      callout: {
+        label: "The Dominican opening",
+        text: "Some Latin Rosaries, following the Dominican custom, begin with two versicles from the Divine Office in place of (or before) the Creed: Domine, labia mea aperies. R. Et os meum annuntiabit laudem tuam. Deus, in adiutorium meum intende. R. Domine, ad adiuvandum me festina. (O Lord, open my lips; and my mouth shall proclaim your praise. O God, come to my assistance; O Lord, make haste to help me.) Either opening is a legitimate way to begin.",
+      },
+      list: [
+        "Print the Ave Maria and tape it inside your rosary pouch until you no longer need it.",
+        "Listen to a sung Ave Maria or Salve Regina in chant; melody carries the words into memory.",
+        "Pray the prayers aloud. Latin learned silently tends to stay on the page.",
+        "Use the [[/rosary/|guided Rosary on Guide Catholic]] to keep track of the beads and today's mysteries while you read the Latin from this page.",
+        "Pray the [[/blog/scriptural-rosary/|Scriptural Rosary]] in English on days when you want to meditate more and recite less.",
+      ],
+    },
+  ],
+  prayerHeading: "A prayer before praying in Latin",
+  prayer: "Lord Jesus Christ,\nyou were praised in Hebrew, in Greek and in Latin\nabove your Cross on Calvary.\nAccept the words I offer you now in the language of so many saints before me.\nWhere my tongue stumbles, let my heart stay steady;\nwhere I do not understand, let me still believe.\nJoin my small voice to the whole Church,\nin every country and every century,\nthat has greeted your Mother with the angel's words.\nHoly Mary, Mother of God, pray for me as I pray these mysteries,\nand bring me at last to the praise that has no need of words.\nAmen.",
+  related: [
+    { href: "/rosary/", label: "Pray the Rosary online with today's mysteries" },
+    { href: "/blog/hail-mary-prayer/", label: "The Hail Mary: meaning and history" },
+    { href: "/blog/our-father-prayer/", label: "The Our Father explained" },
+    { href: "/blog/hail-holy-queen-prayer/", label: "Hail, Holy Queen (Salve Regina)" },
+    { href: "/blog/traditional-latin-mass-guide/", label: "A guide to the Traditional Latin Mass" },
+    { href: "/blog/history-of-the-rosary/", label: "The history of the Rosary" },
+    { href: "/blog/how-to-pray-the-rosary-step-by-step/", label: "How to pray the Rosary step by step" },
+  ],
+  faqs: [
+    { question: "What is the Hail Mary in Latin?", answer: "Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen." },
+    { question: "What is the Glory Be in Latin?", answer: "Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen." },
+    { question: "Is it better to pray the Rosary in Latin?", answer: "No language makes the Rosary more valid. The Church encourages Catholics to know the common prayers in Latin because it is the language of the Roman Rite and unites Catholics across nations, but a Rosary prayed attentively in English is just as pleasing to God." },
+    { question: "How do you say the mysteries of the Rosary in Latin?", answer: "The sets are the Mysteria Gaudiosa, Luminosa, Dolorosa and Gloriosa. Announce each decade with its number and name, for example Primum mysterium gaudiosum: Annuntiatio, or Tertium mysterium dolorosum: Coronatio Spinis." },
+    { question: "Why are there different spellings of the Latin prayers?", answer: "Older books often use coelis for caelis, Jesus for Iesus, cotidianum for quotidianum and Genitrix for Genetrix. These are spelling conventions from different periods, not different prayers. The Fatima prayer also circulates in several Latin translations because it was first given in Portuguese." },
+    { question: "Should I use ecclesiastical or classical Latin pronunciation?", answer: "For prayer, ecclesiastical pronunciation is the norm. It is the Italian-style pronunciation used in Rome, in Gregorian chant and at the Latin Mass, with a soft c in caelis and a y sound in Iesus." },
+  ],
+};
+
+export default guide;

@@ -21,7 +21,7 @@ export default function SaintTeresaOfAvila() {
         <meta name="description" content="Discover Saint Teresa of Ávila — the great Carmelite mystic, reformer, and Doctor of the Church. Her life, the Interior Castle, and her path of prayer." />
         <meta name="keywords" content="saint teresa of avila, interior castle teresa of avila, doctor of the church teresa, teresa of avila prayer, feast day october 15, carmelite mystic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-teresa-of-avila/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Teresa of Ávila: Doctor of Prayer, Interior Castle & Legacy"

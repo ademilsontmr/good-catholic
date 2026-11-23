@@ -21,7 +21,7 @@ export default function ConsecratYourHome() {
         <meta name="description" content="How to consecrate your home to God as a Catholic: the Epiphany house blessing, blessing vs consecration, sacred objects, and creating a prayer corner." />
         <meta name="keywords" content="consecrate home to god, bless your home catholic, home blessing catholic, consecration of the home, catholic home blessing prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-consecrate-your-home-to-god/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Consecrate Your Home to God: A Catholic Guide"

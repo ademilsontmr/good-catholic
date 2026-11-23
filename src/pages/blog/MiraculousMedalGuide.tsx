@@ -21,7 +21,7 @@ export default function MiraculousMedalGuide() {
         <meta name="description" content="Discover the complete history of the Miraculous Medal, its symbols, the apparitions to St. Catherine Labouré, and why millions of Catholics wear it today." />
         <meta name="keywords" content="miraculous medal, miraculous medal meaning, st catherine laboure, o mary conceived without sin, catholic sacramentals, miraculous medal promises" />
         <link rel="canonical" href="https://guidecatholic.com/blog/miraculous-medal-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Miraculous Medal: History, Symbols, and Promises"

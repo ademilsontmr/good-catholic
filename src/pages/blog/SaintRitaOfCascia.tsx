@@ -21,7 +21,7 @@ export default function SaintRitaOfCascia() {
         <meta name="description" content="Saint Rita of Cascia, patron of impossible causes: her life, her stigmata, her miracles, and the novena that has brought hope to millions." />
         <meta name="keywords" content="saint rita of cascia, patron of impossible causes, saint rita prayer, saint rita novena, feast day may 22, saint rita miracles" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-rita-of-cascia/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Rita of Cascia: Patron of Impossible Causes & Desperate Cases"

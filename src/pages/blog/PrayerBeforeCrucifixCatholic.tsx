@@ -21,7 +21,7 @@ export default function PrayerBeforeCrucifixCatholic() {
         <meta name="description" content="Prayer before a Crucifix with full Catholic text — the indulgenced prayer of St. Francis and when to pray it." />
         <meta name="keywords" content="prayer before crucifix, catholic prayer crucifix full text, st francis crucifix prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prayer-before-crucifix-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Prayer Before a Crucifix: Full Text & Meaning for Catholics" description="Prayer before a Crucifix with full Catholic text — the indulgenced prayer of St. Francis and when to pray it." url="https://guidecatholic.com/blog/prayer-before-crucifix-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

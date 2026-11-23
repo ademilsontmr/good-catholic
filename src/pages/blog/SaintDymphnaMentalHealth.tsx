@@ -21,7 +21,7 @@ export default function SaintDymphnaMentalHealth() {
         <meta name="description" content="Discover the life of Saint Dymphna, the patron saint of those suffering from anxiety, depression, and mental illness. Learn how to ask for her intercession." />
         <meta name="keywords" content="saint dymphna, patron saint of mental health, saint for anxiety, saint for depression, st dymphna prayer, catholic mental health" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-dymphna-mental-health/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Dymphna: Patron Saint of Mental Health and Anxiety"

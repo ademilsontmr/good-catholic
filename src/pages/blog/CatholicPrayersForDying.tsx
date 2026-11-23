@@ -21,7 +21,7 @@ export default function CatholicPrayersForDying() {
         <meta name="description" content="Catholic prayers for the dying: the Sacrament of Anointing, Viaticum, the Apostolic Pardon, prayers at the bedside, and what to do when someone is dying." />
         <meta name="keywords" content="catholic prayers for the dying, prayers for the dying, last rites catholic, anointing of the sick, prayers at death bed" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-prayers-for-the-dying/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Prayers for the Dying: Comfort and Grace at the Hour of Death"

@@ -20,7 +20,7 @@ export default function WhoCanReceiveHolyCommunion() {
         <meta name="description" content="Who can receive Holy Communion? Catholic canon 844, state of grace, non-Catholics, Orthodox, children, divorce, and 1 Cor 11 — explained clearly." />
         <meta name="keywords" content="who can receive holy communion, can non catholics receive communion, catholic communion rules, canon 844, communion in mortal sin" />
         <link rel="canonical" href="https://guidecatholic.com/blog/who-can-receive-holy-communion/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Who Can Receive Holy Communion? Catholic Rules Explained"

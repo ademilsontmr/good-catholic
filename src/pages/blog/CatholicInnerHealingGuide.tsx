@@ -21,7 +21,7 @@ export default function CatholicInnerHealingGuide() {
         <meta name="description" content="The Catholic approach to inner healing prayer: how to heal emotional wounds, break generational curses, and find freedom through Christ's healing power." />
         <meta name="keywords" content="catholic inner healing, emotional healing prayer, generational healing catholic, spiritual healing catholic, healing from trauma catholic, inner healing prayer catholic, emotional wounds healing, spiritual freedom prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-inner-healing-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Inner Healing: Complete Guide to Emotional & Spiritual Freedom"

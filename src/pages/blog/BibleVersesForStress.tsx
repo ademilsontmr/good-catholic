@@ -20,7 +20,7 @@ export default function BibleVersesForStress() {
         <meta name="description" content={"Bible Verses for Stress for Catholics — Matthew 11:28 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for stress, catholic bible verses for stress, bible verses stress"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-stress/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Stress: Scriptures Catholics Pray and Memorize"}

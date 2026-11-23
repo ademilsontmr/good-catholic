@@ -21,7 +21,7 @@ export default function HowToPrayIntercessory() {
         <meta name="description" content="Learn how to pray intercessory prayer as a Catholic: what intercession is, how to pray for others well, and why the Church calls us to be intercessors." />
         <meta name="keywords" content="intercessory prayer catholic, how to pray for others, intercession prayer guide, catholic intercessory prayer, praying for others catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-intercessory-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Pray Intercessory Prayer: A Complete Catholic Guide"

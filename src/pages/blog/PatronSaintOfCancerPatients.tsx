@@ -63,7 +63,7 @@ export default function PatronSaintOfCancerPatients() {
           content="patron saint of cancer, patron saint of cancer patients, patron saint of breast cancer, prayer for someone with cancer catholic, prayer before chemotherapy, st peregrine, st agatha, chiara badano, rose hawthorne lathrop, catholic cancer caregiver prayer"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

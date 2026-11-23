@@ -21,7 +21,7 @@ export default function SaintBernadetteSoubirous() {
         <meta name="description" content="Discover Saint Bernadette Soubirous — the young French girl who saw Our Lady 18 times at Lourdes in 1858, whose body remains incorrupt to this day." />
         <meta name="keywords" content="saint bernadette soubirous, bernadette lourdes visions, our lady lourdes bernadette, bernadette soubirous life, lourdes apparitions 1858, feast day april 16" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-bernadette-soubirous/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Bernadette Soubirous: The Visionary of Lourdes"

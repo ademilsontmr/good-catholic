@@ -20,7 +20,7 @@ export default function BibleVersesForAnxietyAndFear() {
         <meta name="description" content={"Bible Verses for Anxiety and Fear for Catholics — Philippians 4:6 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for anxiety and fear, catholic bible verses for anxiety and fear, bible verses anxiety fear"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-anxiety-and-fear/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Anxiety and Fear: Scriptures Catholics Pray and Memorize"}

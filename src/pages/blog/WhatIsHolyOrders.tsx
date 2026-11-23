@@ -21,7 +21,7 @@ export default function WhatIsHolyOrders() {
         <meta name="description" content="What is the Sacrament of Holy Orders? Learn about the three degrees — bishop, priest, and deacon — the rite of ordination, and why priests are celibate." />
         <meta name="keywords" content="what is holy orders catholic, sacrament of holy orders, priest deacon bishop catholic, ordination catholic, holy orders explained, priesthood catholic sacrament" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-holy-orders-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is the Sacrament of Holy Orders? Priests, Deacons & Bishops Explained"

@@ -20,7 +20,7 @@ export default function BibleVersesAboutLife() {
         <meta name="description" content={"Bible Verses About Life for Catholics — John 10:10 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about life, catholic bible verses about life, bible verses life"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-life/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Life: Scriptures Catholics Pray and Memorize"}

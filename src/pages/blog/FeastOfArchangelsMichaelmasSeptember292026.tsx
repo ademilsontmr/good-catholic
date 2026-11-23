@@ -20,7 +20,7 @@ export default function FeastOfArchangelsMichaelmasSeptember292026() {
         <meta name="description" content={"Michaelmas 2026 is Tuesday, September 29 — Feast of Saints Michael, Gabriel, and Raphael. Date, Mass, St. Michael Prayer, and U.S. customs."} />
         <meta name="keywords" content={"when is michaelmas 2026, michaelmas 2026, feast of the archangels 2026, september 29 st michael, st michael feast day 2026, feast of st michael the archangel 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/feast-of-archangels-michaelmas-september-29-2026-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Feast of the Archangels (September 29, 2026): Michaelmas Guide for U.S. Catholics"}

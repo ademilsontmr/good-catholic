@@ -26,7 +26,7 @@ export default function HolyDaysOfObligation2026Usa() {
           content="holy days of obligation 2026, catholic holy days 2026 usa, is assumption a holy day of obligation 2026, all saints day 2026 obligation, immaculate conception 2026, usccb holy days"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/holy-days-of-obligation-2026-usa/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Holy Days of Obligation 2026 (USA): Full Calendar & Rules"

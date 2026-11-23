@@ -21,7 +21,7 @@ export default function CatholicApologeticsGuide() {
         <meta name="description" content="Learn Catholic apologetics — how to defend the Catholic faith with reason, Scripture, and history. Answers to the most common objections to Catholicism." />
         <meta name="keywords" content="catholic apologetics, defending catholic faith, answers to catholic objections, why be catholic, catholic vs protestant apologetics" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-apologetics-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Apologetics: How to Defend Your Faith with Confidence"

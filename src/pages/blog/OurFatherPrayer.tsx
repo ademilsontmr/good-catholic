@@ -18,15 +18,15 @@ export default function OurFatherPrayer() {
   return (
     <>
       <Helmet>
-        <title>Our Father Prayer: Full Text & Meaning (Lord's Prayer) | Guide Catholic</title>
-        <meta name="description" content="Pray the Our Father with full Catholic text, the seven petitions explained, and how Jesus taught the Lord's Prayer — simple guide for daily devotion." />
+        <title>Our Father Prayer: Full Text, Meaning & Latin (Pater Noster) | Guide Catholic</title>
+        <meta name="description" content="The full Catholic text of the Our Father, where it is in the Bible (Matthew 6, Luke 11), the seven petitions, why Catholics say “trespasses,” and the Latin Pater Noster." />
         <meta name="keywords" content="our father prayer, lord's prayer, our father full text, catholic our father, how to pray the our father, our father meaning" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-father-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
-        title="Our Father Prayer: Full Text & Meaning (Lord's Prayer)"
-        description="Pray the Our Father with full Catholic text, the seven petitions explained, and how Jesus taught the Lord's Prayer — simple guide for daily devotion."
+        title="Our Father Prayer: Full Text, Meaning & Latin (Pater Noster)"
+        description="The full Catholic text of the Our Father, where it is in the Bible (Matthew 6, Luke 11), the seven petitions, why Catholics say “trespasses,” and the Latin Pater Noster."
         url="https://guidecatholic.com/blog/our-father-prayer/"
       />
       <BreadcrumbSchema
@@ -65,7 +65,7 @@ export default function OurFatherPrayer() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Our Father Prayer: Full Text & Meaning (Lord's Prayer)
+                Our Father Prayer: Full Text, Meaning & Latin (Pater Noster)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Our Father, also called the Lord's Prayer, is the prayer Jesus himself taught. It is the model of every Christian prayer and the heart of Catholic worship.

@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay2() {
         <meta name="description" content={"Day 2 of St. Michael's Lent Novena (Sunday, August 16, 2026). Unique Catholic guide with intention, penance tip, and link to today's full novena page."} />
         <meta name="keywords" content={"st michael's lent novena day 2, st michaels lent novena day 2, st michael lent day 2 august 16, michaelmas novena day 2 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-2-august-16-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Day 2 of St. Michael's Lent Novena (August 16, 2026)"}

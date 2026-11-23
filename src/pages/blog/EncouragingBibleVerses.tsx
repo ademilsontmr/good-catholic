@@ -20,7 +20,7 @@ export default function EncouragingBibleVerses() {
         <meta name="description" content={"Encouraging Bible Verses for Catholics — Joshua 1:9 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"encouraging bible verses, catholic encouraging bible verses, bible verses encouragement"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/encouraging-bible-verses/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Encouraging Bible Verses: Scriptures Catholics Pray and Memorize"}

@@ -21,7 +21,7 @@ export default function OurLadyPerpetualHelpNovena() {
         <meta name="description" content="Guide to the Our Lady of Perpetual Help Novena: who she is, the meaning of the icon, how to pray the 9-day novena step by step, and where to pray it online." />
         <meta name="keywords" content="our lady of perpetual help novena, how to pray perpetual help novena, novena to our lady of perpetual help, perpetual help prayer 9 days, june 27 feast day, redemptorist novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-perpetual-help-novena-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Our Lady of Perpetual Help Novena Guide: How to Pray the 9-Day Prayer"

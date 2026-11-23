@@ -40,7 +40,7 @@ export default function PatronSaintOfPregnancy() {
           content="patron saint of pregnancy, patron saint of expectant mothers, patron saint of safe delivery, patron saint of childbirth, prayer for a safe pregnancy catholic, patron saint of difficult pregnancy, st gianna prayer, st gerard majella, st raymond nonnatus"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

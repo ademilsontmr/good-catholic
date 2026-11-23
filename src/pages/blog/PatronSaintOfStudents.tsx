@@ -41,7 +41,7 @@ export default function PatronSaintOfStudents() {
           content="patron saint of students, patron saint of exams, patron saint of test taking, prayer before studying catholic, st thomas aquinas prayer before study, patron saint of college students, st joseph of cupertino, prayer before an exam"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

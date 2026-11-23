@@ -20,7 +20,7 @@ export default function BibleVersesAboutHealing() {
         <meta name="description" content={"Bible Verses About Healing for Catholics — James 5:14 and RSV-CE scriptures for prayer, comfort, and daily discipleship."} />
         <meta name="keywords" content={"bible verses about healing, catholic bible verses about healing, scripture healing"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-healing/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Healing: Scriptures Catholics Turn To in Faith"}

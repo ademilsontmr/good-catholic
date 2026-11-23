@@ -21,7 +21,7 @@ export default function WhatIsCatholicSpirituality() {
         <meta name="description" content="Catholic spirituality is not one-size-fits-all. Explore the Benedictine, Franciscan, Dominican, Ignatian, and Carmelite traditions to find the one for you." />
         <meta name="keywords" content="what is catholic spirituality, schools of catholic spirituality, ignatian spirituality, franciscan spirituality, carmelite spirituality, dominican spirituality, benedictine spirituality" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-catholic-spirituality/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Catholic Spirituality? A Guide to the Different Schools and Traditions"

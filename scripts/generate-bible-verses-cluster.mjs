@@ -235,7 +235,7 @@ export default function ${t.component}() {
         <meta name="description" content={${esc(t.desc)}} />
         <meta name="keywords" content={${esc(t.keywords)}} />
         <link rel="canonical" href="https://guidecatholic.com/blog/${t.slug}/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={${esc(t.h1)}}

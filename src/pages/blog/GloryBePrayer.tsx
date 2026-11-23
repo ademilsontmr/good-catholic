@@ -22,7 +22,7 @@ export default function GloryBePrayer() {
         <meta name="description" content="The Glory Be prayer with full Catholic text, meaning, biblical roots, and how to pray this short doxology in the Rosary, novenas, and daily prayer." />
         <meta name="keywords" content="glory be prayer, glory be full text, glory be catholic prayer, doxology prayer, glory be to the father, rosary prayers" />
         <link rel="canonical" href="https://guidecatholic.com/blog/glory-be-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Glory Be Prayer: Full Text, Meaning and When to Pray It"

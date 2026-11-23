@@ -21,7 +21,7 @@ export default function CompletePrayerGuide() {
         <meta name="description" content="Build a Catholic prayer life: the 5 forms of prayer, a daily routine, essential prayers with full texts, and how to pray when you don't feel like it." />
         <meta name="keywords" content="complete catholic prayer guide, how to pray catholic, catholic prayer life, building prayer habit catholic, types of catholic prayer, daily prayer routine catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-catholic-prayer-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Complete Catholic Prayer Guide: How to Build a Life of Prayer"

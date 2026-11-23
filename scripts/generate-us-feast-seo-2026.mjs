@@ -514,7 +514,7 @@ export default function ${a.component}() {
         <meta name="description" content={${esc(a.desc)}} />
         <meta name="keywords" content={${esc(a.keywords)}} />
         <link rel="canonical" href="https://guidecatholic.com/blog/${a.slug}/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={${esc(a.h1)}}

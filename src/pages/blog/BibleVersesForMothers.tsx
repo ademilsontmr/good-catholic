@@ -20,7 +20,7 @@ export default function BibleVersesForMothers() {
         <meta name="description" content={"Bible Verses for Mothers for Catholics — Proverbs 31 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for mothers, catholic bible verses for mothers, bible verses mothers"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-mothers/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Mothers: Scriptures Catholics Pray and Memorize"}

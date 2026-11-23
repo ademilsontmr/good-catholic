@@ -20,7 +20,7 @@ export default function ExaltationHolyCrossSeptember142026Guide() {
         <meta name="description" content={"Holy Cross Day / Exaltation of the Holy Cross 2026 — September 14 date, meaning, Mass, veneration, and how U.S. Catholics keep the feast."} />
         <meta name="keywords" content={"holy cross day 2026, exaltation of the holy cross 2026, feast of the holy cross 2026, exaltation of the cross 2026, holy cross feast 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/exaltation-of-holy-cross-september-14-2026-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Exaltation of the Holy Cross (September 14, 2026): Catholic Feast Guide"}

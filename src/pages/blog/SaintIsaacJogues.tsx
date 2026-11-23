@@ -44,7 +44,7 @@ export default function SaintIsaacJogues() {
           content="st isaac jogues, isaac jogues, north american martyrs, rene goupil, jean de lalande, jean de brebeuf, auriesville shrine, our lady of martyrs shrine, ossernenon, october 19 feast, jesuit martyrs"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

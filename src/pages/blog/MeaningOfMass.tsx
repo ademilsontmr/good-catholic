@@ -21,7 +21,7 @@ export default function MeaningOfMass() {
                 <meta name="description" content="Discover the deep theological meaning of the Holy Mass. Learn about Transubstantiation, the Unbloody Sacrifice, and why the Mass is Heaven on Earth." />
                 <meta name="keywords" content="meaning of catholic mass, transubstantiation explained, liturgy of the word vs eucharist, in persona christi definition, why go to mass" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/meaning-mass/" />
-                <meta name="robots" content="index, follow" />
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
             </Helmet>
             <ArticleSchema
                 title="The Meaning of Holy Mass: Understanding Each Part of the Liturgy"

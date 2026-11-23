@@ -18,14 +18,14 @@ export default function AshWednesday2026() {
   return (
     <>
       <Helmet>
-        <title>Ash Wednesday 2026 Fasting Rules: Who Must Fast & Abstain | Guide Catholic</title>
+        <title>Ash Wednesday Fasting Rules: Who Must Fast & Abstain | Guide Catholic</title>
         <meta name="description" content="Ash Wednesday fasting and abstinence rules in full: ages 18 to 59 and 14+, what a smaller meal is, what counts as meat, who is exempt, and Lent Fridays." />
-        <meta name="keywords" content="ash wednesday 2026 fasting rules, ash wednesday fasting rules, catholic fasting age, can you eat chicken broth on ash wednesday, who is exempt from fasting catholic, fridays of lent abstinence rules" />
+        <meta name="keywords" content="ash wednesday fasting rules 2027, ash wednesday fasting rules, catholic fasting age, can you eat chicken broth on ash wednesday, who is exempt from fasting catholic, fridays of lent abstinence rules" />
         <link rel="canonical" href="https://guidecatholic.com/blog/ash-wednesday-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
-        title="Ash Wednesday 2026 Fasting and Abstinence Rules, Explained in Full"
+        title="Ash Wednesday Fasting and Abstinence Rules, Explained in Full"
         description="Ash Wednesday fasting and abstinence rules in full: ages 18 to 59 and 14+, what a smaller meal is, what counts as meat, who is exempt, and Lent Fridays."
         url="https://guidecatholic.com/blog/ash-wednesday-2026/"
       />
@@ -65,7 +65,7 @@ export default function AshWednesday2026() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Ash Wednesday 2026 Fasting and Abstinence Rules, Explained in Full
+                Ash Wednesday Fasting and Abstinence Rules, Explained in Full
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 Who has to fast, who only abstains from meat, what &quot;two smaller meals&quot; really means, and who is excused. The rules that applied on Ash Wednesday 2026 are the same rules that apply every year.

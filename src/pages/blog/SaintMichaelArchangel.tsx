@@ -22,7 +22,7 @@ export default function SaintMichaelArchangel() {
         <meta name="description" content="St. Michael the Archangel: his four roles in Scripture, the Prayer to St. Michael and its history with Pope Leo XIII, his Chaplet, and growing in devotion." />
         <meta name="keywords" content="saint michael archangel, st michael prayer, prayer to st michael, archangel michael catholic, st michael the archangel" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-michael-archangel/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="St. Michael the Archangel: Prayer, Devotion and His Role in Scripture"

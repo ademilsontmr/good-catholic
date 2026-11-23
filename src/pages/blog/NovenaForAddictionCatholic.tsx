@@ -20,7 +20,7 @@ export default function NovenaForAddictionCatholic() {
         <meta name="description" content="Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="novena for addiction, catholic prayer sobriety, novena alcohol drug recovery" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-addiction-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Addiction: 9-Day Catholic Prayer for Sobriety" description="Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-addiction-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

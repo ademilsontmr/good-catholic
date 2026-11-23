@@ -21,7 +21,7 @@ export default function JubileePilgrimageGuide() {
         <meta name="description" content="Discover how to continue the Jubilee 2025 spirit. Learn about indulgences, pilgrimage traditions, and carrying the grace of the Holy Year into daily life." />
         <meta name="keywords" content="Jubilee 2025, pilgrimage guide, holy year, jubilee indulgence, pilgrim of hope" />
         <link rel="canonical" href="https://guidecatholic.com/blog/jubilee-pilgrimage-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Jubilee 2025 Pilgrimage Guide: Continuing the Pilgrimage of Hope"

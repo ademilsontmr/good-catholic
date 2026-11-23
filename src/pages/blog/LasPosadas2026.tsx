@@ -46,7 +46,7 @@ export default function LasPosadas2026() {
           content="las posadas, las posadas 2026, las posadas dates, what is las posadas, las posadas meaning, how to celebrate las posadas, posada at home, pedir posada, posadas navideñas, mexican christmas traditions catholic"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema
@@ -168,7 +168,7 @@ export default function LasPosadas2026() {
               </p>
               <p className="text-text leading-relaxed mb-6">
                 Read more about{" "}
-                <Link to="/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/" className={linkClass}>Our Lady of Guadalupe on December 12, 2026</Link>
+                <Link to="/blog/our-lady-of-guadalupe/" className={linkClass}>Our Lady of Guadalupe on December 12, 2026</Link>
                 {" and the rest of the season in our "}
                 <Link to="/blog/complete-catholic-advent-guide/" className={linkClass}>complete Catholic Advent guide</Link>.
               </p>

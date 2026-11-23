@@ -21,7 +21,7 @@ export default function GoodFridayPrayers() {
         <meta name="description" content="Catholic prayers for Good Friday 2026 (April 3): the Seven Last Words of Jesus, the Stabat Mater, prayers before the cross, and how to observe the day." />
         <meta name="keywords" content="good friday prayers, good friday 2026, catholic good friday prayers, seven last words jesus, stabat mater, good friday fasting, veneration of the cross" />
         <link rel="canonical" href="https://guidecatholic.com/blog/good-friday-prayers/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Good Friday Prayers 2026: Prayers for the Passion, Death & the Cross"

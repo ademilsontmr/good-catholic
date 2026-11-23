@@ -21,7 +21,7 @@ export default function CatholicVsProtestant() {
         <meta name="description" content="What are the real differences between Catholic and Protestant faiths? Explore Sola Scriptura, the Canon of the Bible, Purgatory, and the Papacy." />
         <meta name="keywords" content="catholic vs protestant, sola scriptura catholic response, sola fide james 2, why 73 books in catholic bible, purgatory biblical basis" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-vs-protestant-differences/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic vs Protestant: Key Differences Explained"

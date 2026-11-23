@@ -20,7 +20,7 @@ export default function BibleVersesForChildren() {
         <meta name="description" content={"Bible Verses for Children for Catholics — Mark 10:14 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for children, catholic bible verses for children, bible verses children"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-children/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Children: Scriptures Catholics Pray and Memorize"}

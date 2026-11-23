@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay44() {
         <meta name="description" content={"Catholic St. Michael's Lent Novena Day 44 (September 27, 2026). S. Catholics — why this day matters and where to pray the full text free."} />
         <meta name="keywords" content={"st michael's lent novena day 44, st michaels lent novena day 44, st michael lent day 44 september 27, michaelmas novena day 44 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-44-september-27-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Pray St Michael's Lent Novena Day 44 (September 27, 2026)"}

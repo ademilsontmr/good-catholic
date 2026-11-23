@@ -21,7 +21,7 @@ export default function CatholicMorningRoutine() {
         <meta name="description" content="Build a Catholic morning routine with the prayers, habits, and practices that saints used to start their day with God and transform the whole day." />
         <meta name="keywords" content="catholic morning routine, morning prayers catholic, how to start day with god, catholic morning prayer, morning offering catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-morning-routine/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Morning Routine: How to Start Your Day with God"

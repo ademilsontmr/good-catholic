@@ -21,7 +21,7 @@ export default function CatholicWeddingMassVsCeremony() {
         <meta name="description" content="Catholic wedding Mass vs. ceremony without Mass — differences, requirements, and what engaged couples should choose in the United States." />
         <meta name="keywords" content="catholic wedding mass vs ceremony, nuptial mass catholic, wedding without mass catholic, catholic wedding eucharist" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-mass-vs-ceremony/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Catholic Wedding Mass vs. Ceremony: What's the Difference?" description="Catholic wedding Mass vs. ceremony without Mass — differences, requirements, and what engaged couples should choose in the United States." url="https://guidecatholic.com/blog/catholic-wedding-mass-vs-ceremony/" datePublished="2026-05-30" />
       <BreadcrumbSchema

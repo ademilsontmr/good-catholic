@@ -21,7 +21,7 @@ export default function WhatIsTheCatholicChurch() {
         <meta name="description" content="What is the Catholic Church? A complete guide to its founding by Jesus Christ, 2,000-year history, structure, the Pope, sacraments, and global mission." />
         <meta name="keywords" content="what is the catholic church, catholic church history, who founded the catholic church, catholic church structure, pope catholic church, catholic church explained" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-church/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is the Catholic Church? History, Structure & Mission"

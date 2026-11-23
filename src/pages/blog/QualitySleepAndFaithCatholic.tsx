@@ -70,7 +70,7 @@ export default function QualitySleepAndFaithCatholic() {
           content="sleep and faith, Catholic sleep, rest and prayer, sleep cycles bedtime, quality sleep spirituality, morning prayer tired, Catholic mental health sleep"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/quality-sleep-and-faith-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How Quality Sleep Strengthens Your Catholic Faith"

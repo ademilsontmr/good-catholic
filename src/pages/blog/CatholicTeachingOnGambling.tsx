@@ -21,7 +21,7 @@ export default function CatholicTeachingOnGambling() {
         <meta name="description" content="Is gambling a sin? What the Catholic Church teaches about moderate play versus sinful excess, and the path to freedom for those who struggle." />
         <meta name="keywords" content="is gambling a sin catholic, catholic teaching on gambling, gambling mortal sin, casino catholic, lottery catholic sin, problem gambling catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/is-gambling-a-sin-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Is Gambling a Sin? The Catholic Teaching on Gambling"

@@ -21,7 +21,7 @@ export default function CatholicTeachingOnSalvation() {
         <meta name="description" content="Catholic teaching on salvation: justification, sanctification, faith and works, the sacraments, and how Catholics respond when asked 'are you saved' today." />
         <meta name="keywords" content="catholic teaching on salvation, how are catholics saved, catholic salvation doctrine, faith and works catholic, are catholics saved" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-salvation/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Does the Catholic Church Teach About Salvation?"

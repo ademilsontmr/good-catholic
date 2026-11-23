@@ -22,7 +22,7 @@ export default function GuardianAngelPrayer() {
         <meta name="description" content="The Guardian Angel Prayer with full Catholic text, meaning, biblical background, and how to teach it to children or pray it daily for protection." />
         <meta name="keywords" content="guardian angel prayer, angel of god prayer, catholic guardian angel prayer, guardian angel prayer full text, prayer for protection" />
         <link rel="canonical" href="https://guidecatholic.com/blog/guardian-angel-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Guardian Angel Prayer: Full Text, Meaning and Catholic Guide"

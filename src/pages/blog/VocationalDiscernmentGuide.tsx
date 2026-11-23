@@ -21,7 +21,7 @@ export default function VocationalDiscernmentGuide() {
         <meta name="description" content="How to discern God's calling for your life: religious vocations, marriage, single life, and practical steps for discernment in the Catholic tradition." />
         <meta name="keywords" content="catholic vocational discernment, how to know god's will, discerning religious life, catholic marriage vocation, single vocation catholic, signs of vocation, vocational prayer, god's calling" />
         <link rel="canonical" href="https://guidecatholic.com/blog/vocational-discernment-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Vocational Discernment: Complete Guide to Finding God's Will"

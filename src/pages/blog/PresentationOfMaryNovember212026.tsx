@@ -20,7 +20,7 @@ export default function PresentationOfMaryNovember212026() {
         <meta name="description" content={"Presentation of Mary 2026 is Saturday, November 21 — feast before Advent. Protoevangelium tradition, Memorare, Mass tips, and Marian prep for U.S. Catholics."} />
         <meta name="keywords" content={"presentation of mary 2026, november 21 presentation of mary, feast of the presentation of mary, mary presented in the temple"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/presentation-of-mary-november-21-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Presentation of Mary (November 21, 2026): Feast Day Guide"}

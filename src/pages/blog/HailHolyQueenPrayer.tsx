@@ -18,15 +18,15 @@ export default function HailHolyQueenPrayer() {
   return (
     <>
       <Helmet>
-        <title>Hail Holy Queen (Salve Regina): Full Text & Rosary Closing Prayer | Guide Catholic</title>
-        <meta name="description" content="The Hail Holy Queen (Salve Regina) with full Catholic text in English and Latin, meaning, and why Catholics pray it at the end of the Rosary every day." />
+        <title>Hail Holy Queen Prayer: Full Text in English & Latin | Guide Catholic</title>
+        <meta name="description" content="The Hail Holy Queen (Salve Regina) in full, in English and Latin. Who wrote it, what each line means, and how it closes the Rosary." />
         <meta name="keywords" content="hail holy queen prayer, salve regina full text, hail holy queen rosary, salve regina latin, marian antiphon catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/hail-holy-queen-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
-        title="Hail Holy Queen (Salve Regina): Full Text & Rosary Closing Prayer"
-        description="The Hail Holy Queen (Salve Regina) with full Catholic text in English and Latin, meaning, and why Catholics pray it at the end of the Rosary every day."
+        title="Hail Holy Queen Prayer: Full Text in English & Latin"
+        description="The Hail Holy Queen (Salve Regina) in full, in English and Latin. Who wrote it, what each line means, and how it closes the Rosary."
         url="https://guidecatholic.com/blog/hail-holy-queen-prayer/"
         datePublished="2026-05-30"
       />
@@ -66,7 +66,7 @@ export default function HailHolyQueenPrayer() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Hail Holy Queen (Salve Regina): Full Text & Rosary Closing Prayer
+                Hail Holy Queen Prayer: Full Text in English & Latin
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 After the last decade of the Rosary, Catholics turn to Mary as Mother of Mercy with the Hail Holy Queen — one of the Church's most sung and prayed Marian antiphons.

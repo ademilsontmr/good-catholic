@@ -21,7 +21,7 @@ export default function QueenshipOfMaryCatholicGuide() {
         <meta name="description" content="Queenship of Mary — Catholic teaching on Mary as Queen, feast day meaning, and prayers for August 22." />
         <meta name="keywords" content="queenship of mary, mary queen catholic, august 22 marian feast" />
         <link rel="canonical" href="https://guidecatholic.com/blog/queenship-of-mary-catholic-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Queenship of Mary: Catholic Feast Day Guide (August 22)" description="Queenship of Mary — Catholic teaching on Mary as Queen, feast day meaning, and prayers for August 22." url="https://guidecatholic.com/blog/queenship-of-mary-catholic-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema

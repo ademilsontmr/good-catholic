@@ -20,7 +20,7 @@ export default function NovenaForExamsCatholic() {
         <meta name="description" content="Novena for exams — 9-day Catholic prayer before tests, finals, boards, and school challenges. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="novena for exams, catholic prayer before test, novena for students" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-exams-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Exams: 9-Day Catholic Prayer Before a Test" description="Novena for exams — 9-day Catholic prayer before tests, finals, boards, and school challenges. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-exams-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

@@ -50,7 +50,7 @@ export default function GeorgiaMartyrsPedroDeCorpa() {
           content="georgia martyrs, pedro de corpa, blessed pedro de corpa and companions, guale missions, tolomato, franciscan martyrs georgia, martyrs for marriage, september 22 feast, diocese of savannah, la florida missions"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

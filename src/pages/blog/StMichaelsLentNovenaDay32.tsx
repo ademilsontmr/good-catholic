@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay32() {
         <meta name="description" content={"Day 32 of St. Michael's Lent Novena (Tuesday, September 15, 2026). Unique Catholic guide with intention, penance tip, and link to today's full novena page."} />
         <meta name="keywords" content={"st michael's lent novena day 32, st michaels lent novena day 32, st michael lent day 32 september 15, michaelmas novena day 32 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-32-september-15-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Day 32 of St. Michael's Lent Novena (September 15, 2026)"}

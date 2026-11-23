@@ -21,7 +21,7 @@ export default function LivingVirtue() {
         <meta name="description" content="Discover how to live the Christian life with practical guidance on virtues, daily holiness, and growing closer to Christ in ordinary circumstances." />
         <meta name="keywords" content="Christian life, Catholic virtue, living virtue, daily holiness, practical Christianity" />
         <link rel="canonical" href="https://guidecatholic.com/blog/living-virtue/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Living the Christian Life: A Practical Guide to Catholic Virtue"

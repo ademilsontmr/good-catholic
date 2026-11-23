@@ -21,7 +21,7 @@ export default function SevenSorrowsRosaryGuide() {
         <meta name="description" content="Guide to the Seven Sorrows Rosary (Servite Rosary): the seven sorrows of Mary, how to pray each group of seven Hail Marys, and the devotion's graces." />
         <meta name="keywords" content="seven sorrows rosary, how to pray seven sorrows rosary, servite rosary, dolors of mary, our lady of sorrows devotion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/seven-sorrows-rosary-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Seven Sorrows Rosary: How to Pray It, Mysteries and Promises"

@@ -21,7 +21,7 @@ export default function CatholicTeachingOnSuffering() {
         <meta name="description" content="Why does God allow suffering? The Catholic answer is not a simple explanation but a Person, Jesus Christ, who entered human suffering and transformed it." />
         <meta name="keywords" content="why does god allow suffering catholic, problem of suffering catholic, why does god allow pain, suffering and faith catholic, salvifici doloris, meaning of suffering catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-does-god-allow-suffering-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Why Does God Allow Suffering? The Catholic Answer"

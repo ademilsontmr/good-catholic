@@ -21,7 +21,7 @@ export default function OurLadyImmaculateConceptionUSA() {
         <meta name="description" content="Why Our Lady of the Immaculate Conception is patroness of the USA: the 1846 declaration, the National Shrine in Washington D.C., and how to honor her." />
         <meta name="keywords" content="patroness of the united states, immaculate conception patroness usa, our lady immaculate conception america, december 8 catholic, national shrine immaculate conception, patroness america catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-immaculate-conception-patroness-usa/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Our Lady of the Immaculate Conception: Patroness of the United States"

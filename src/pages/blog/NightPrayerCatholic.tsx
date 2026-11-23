@@ -22,7 +22,7 @@ export default function NightPrayerCatholic() {
         <meta name="description" content="Learn how to pray Catholic night prayer. Full texts for evening prayer, Compline, examination of conscience, and bedtime prayers for adults and children." />
         <meta name="keywords" content="night prayer catholic, evening prayer catholic, compline prayer, bedtime prayer catholic, catholic night prayers, examination of conscience evening" />
         <link rel="canonical" href="https://guidecatholic.com/blog/night-prayer-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Night Prayer Catholic: Complete Guide to Evening Prayer & Compline"

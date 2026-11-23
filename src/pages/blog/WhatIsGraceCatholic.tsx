@@ -21,7 +21,7 @@ export default function WhatIsGraceCatholic() {
         <meta name="description" content="What is grace? Learn the Catholic teaching on sanctifying grace, actual grace, and how God's free gift transforms the soul and makes salvation possible." />
         <meta name="keywords" content="what is grace catholic, sanctifying grace, actual grace, types of grace catholic, grace and free will, catholic teaching on grace" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-grace-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is Grace? The Catholic Teaching on God's Gift of Salvation"

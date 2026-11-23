@@ -16,15 +16,15 @@ export default function Advent2026StartDateWhenDoesAdventBegin() {
   return (
     <>
       <Helmet>
-        <title>{"Advent 2026 Start Date: When Does Advent Begin? | Guide Catholic"}</title>
-        <meta name="description" content={"When does Advent 2026 start? First Sunday is November 29, 2026. Advent calendar, wreath, Mass schedule, and preparation guide for U.S. Catholics."} />
+        <title>{"When Does Advent Start in 2026? Sunday, November 29 | Guide Catholic"}</title>
+        <meta name="description" content={"Advent 2026 begins Sunday, November 29 and ends Thursday, December 24. All four Sunday dates, the wreath candles and Gaudete Sunday on December 13."} />
         <meta name="keywords" content={"when does advent start 2026, advent 2026 dates, first sunday of advent 2026, advent calendar catholic, advent begins 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/advent-2026-start-date-when-does-advent-begin/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"When Does Advent 2026 Start? Dates, Calendar & Catholic Guide"}
-        description={"When does Advent 2026 start? First Sunday is November 29, 2026. Advent calendar, wreath, Mass schedule, and preparation guide for U.S. Catholics."}
+        description={"Advent 2026 begins Sunday, November 29 and ends Thursday, December 24. All four Sunday dates, the wreath candles and Gaudete Sunday on December 13."}
         url="https://guidecatholic.com/blog/advent-2026-start-date-when-does-advent-begin/"
         datePublished="2026-08-31"
       />
@@ -107,7 +107,7 @@ export default function Advent2026StartDateWhenDoesAdventBegin() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Advent 2026 calendar at a glance</h2>
-              <div className="text-text leading-relaxed mb-6" dangerouslySetInnerHTML={{ __html: "<table class=\"w-full text-sm mb-6 border border-border\"><thead><tr class=\"bg-muted\"><th class=\"p-2 text-left\">Date</th><th class=\"p-2 text-left\">Milestone</th></tr></thead><tbody><tr><td class=\"p-2 border-t\">Nov 29, 2026</td><td class=\"p-2 border-t\">First Sunday of Advent — Year A cycle begins</td></tr><tr><td class=\"p-2 border-t\">Dec 6, 2026</td><td class=\"p-2 border-t\">Second Sunday of Advent</td></tr><tr><td class=\"p-2 border-t\">Dec 13, 2026</td><td class=\"p-2 border-t\">Gaudete Sunday (Third Sunday — rose vestments)</td></tr><tr><td class=\"p-2 border-t\">Dec 20, 2026</td><td class=\"p-2 border-t\">Fourth Sunday of Advent</td></tr><tr><td class=\"p-2 border-t\">Dec 24, 2026</td><td class=\"p-2 border-t\">Christmas Eve — Vigil Masses</td></tr><tr><td class=\"p-2 border-t\">Dec 25, 2026</td><td class=\"p-2 border-t\">Christmas Day — Holy Day of Obligation</td></tr></tbody></table>" }} />
+              <div className="text-text leading-relaxed mb-6" dangerouslySetInnerHTML={{ __html: "<table class=\"w-full text-sm mb-6 border border-border\"><thead><tr class=\"bg-muted\"><th class=\"p-2 text-left\">Date</th><th class=\"p-2 text-left\">Milestone</th></tr></thead><tbody><tr><td class=\"p-2 border-t\">Nov 29, 2026</td><td class=\"p-2 border-t\">First Sunday of Advent — Year B (Gospel of Mark) begins</td></tr><tr><td class=\"p-2 border-t\">Dec 6, 2026</td><td class=\"p-2 border-t\">Second Sunday of Advent</td></tr><tr><td class=\"p-2 border-t\">Dec 13, 2026</td><td class=\"p-2 border-t\">Gaudete Sunday (Third Sunday — rose vestments)</td></tr><tr><td class=\"p-2 border-t\">Dec 20, 2026</td><td class=\"p-2 border-t\">Fourth Sunday of Advent</td></tr><tr><td class=\"p-2 border-t\">Dec 24, 2026</td><td class=\"p-2 border-t\">Christmas Eve — Vigil Masses</td></tr><tr><td class=\"p-2 border-t\">Dec 25, 2026</td><td class=\"p-2 border-t\">Christmas Day — Holy Day of Obligation</td></tr></tbody></table>" }} />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Advent is (and is not)</h2>
               <div className="text-text leading-relaxed mb-6" dangerouslySetInnerHTML={{ __html: "Advent is a season of <em>waiting</em>, not early Christmas. Violet vestments, restrained decor, and penitential fasting (especially Ember Days where observed) train desire for Christ. U.S. culture rushes Christmas music; Catholics can keep Advent Advent." }} />

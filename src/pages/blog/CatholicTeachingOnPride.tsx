@@ -21,7 +21,7 @@ export default function CatholicTeachingOnPride() {
         <meta name="description" content="Is pride the root of all sin? Catholic guide to the capital sin, Lucifer's fall, Catechism teaching, how pride shows up today, and how to grow in humility." />
         <meta name="keywords" content="catholic encyclopedia pride root of all sin, pride sin catholic, pride root of all sin, capital sin pride, overcoming pride catholic, humility vs pride catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/pride-root-of-sin-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Pride: Root of All Sin — Catholic Encyclopedia Guide"

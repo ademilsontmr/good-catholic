@@ -20,7 +20,7 @@ export default function BibleVersesAboutPrayer() {
         <meta name="description" content={"Bible Verses About Prayer for Catholics — Matthew 6:9 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about prayer, catholic bible verses about prayer, bible verses prayer"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Prayer: Scriptures Catholics Pray and Memorize"}

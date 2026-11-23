@@ -21,7 +21,7 @@ export default function StMichaelsLentMeaning2026() {
         <meta name="description" content={"What St Michaels Lent 2026 means, myths to ignore, Lent vs novena vs chaplet, and a balanced Catholic way to keep August 15–September 29."} />
         <meta name="keywords" content={"st michaels lent 2026, what is st michaels lent, st michaels lent meaning, is st michaels lent catholic"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-meaning-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michaels Lent 2026 Explained: Meaning, Myths & How Catholics Keep It"}

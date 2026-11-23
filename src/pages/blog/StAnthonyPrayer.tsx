@@ -21,7 +21,7 @@ export default function StAnthonyPrayer() {
         <meta name="description" content="Prayers to St. Anthony of Padua — patron of lost things. The traditional prayer, the Responsory, novena, and how to ask St." />
         <meta name="keywords" content="st anthony prayer, saint anthony prayer, prayer to st anthony for lost things, st anthony lost things, tony tony look around prayer, st anthony novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-anthony-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="St. Anthony Prayer: For Lost Things, Lost People & Impossible Causes"

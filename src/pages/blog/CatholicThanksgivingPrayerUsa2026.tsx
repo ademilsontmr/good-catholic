@@ -20,7 +20,7 @@ export default function CatholicThanksgivingPrayerUsa2026() {
         <meta name="description" content={"Thanksgiving 2026 is Thursday, Nov 26. Catholic table grace, the Eucharist as thanksgiving, Mass tips, works of mercy, and a family gratitude rite."} />
         <meta name="keywords" content={"catholic thanksgiving prayer, thanksgiving prayer 2026, catholic grace before meals thanksgiving, thanksgiving mass 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-thanksgiving-prayer-usa-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Catholic Thanksgiving Prayer (USA 2026): Grace, Mass & Family Rites"}

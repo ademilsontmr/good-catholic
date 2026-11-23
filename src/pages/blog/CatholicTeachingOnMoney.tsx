@@ -21,7 +21,7 @@ export default function CatholicTeachingOnMoney() {
         <meta name="description" content="Is it a sin to be rich? What does the Church teach about tithing, stewardship, and the proper use of wealth? A complete guide to Catholic teaching on money." />
         <meta name="keywords" content="catholic teaching on money, tithing catholic, is it a sin to be rich catholic, catholic teaching on wealth, stewardship catholic, giving to the church catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-money-and-wealth/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Money, Wealth & Tithing: What the Church Says"

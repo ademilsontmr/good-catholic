@@ -20,7 +20,7 @@ export default function CatholicTeachingOnMaritalIntimacy() {
         <meta name="description" content="Catholic teaching on sex in marriage: unitive and procreative meaning, consent, marital chastity, and why the Church rejects pornography and contraception." />
         <meta name="keywords" content="catholic teaching on sex in marriage, marital intimacy catholic, conjugal love catechism, unitive procreative" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-marital-intimacy/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Marital Intimacy and Conjugal Love"

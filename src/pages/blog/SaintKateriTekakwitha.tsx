@@ -21,7 +21,7 @@ export default function SaintKateriTekakwitha() {
         <meta name="description" content="Saint Kateri Tekakwitha, the first Native American to be canonized: her life, her faith, her miracles, and why Catholics across the United States love her." />
         <meta name="keywords" content="saint kateri tekakwitha, lily of the mohawks, first native american saint, kateri tekakwitha canonized, native american catholic saint, kateri feast day july 14" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-kateri-tekakwitha/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Kateri Tekakwitha: The Lily of the Mohawks & First Native American Saint"

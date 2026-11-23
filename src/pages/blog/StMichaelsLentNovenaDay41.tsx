@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay41() {
         <meta name="description" content={"St Michael's Lent Novena Day 41 for September 24, 2026. Why pray today, how to begin, and the free daily prayer text on Catholic Bible Online."} />
         <meta name="keywords" content={"st michael's lent novena day 41, st michaels lent novena day 41, st michael lent day 41 september 24, michaelmas novena day 41 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-41-september-24-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michael's Lent Novena Day 41: September 24, 2026"}

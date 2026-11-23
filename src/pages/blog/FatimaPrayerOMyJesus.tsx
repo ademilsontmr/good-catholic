@@ -21,7 +21,7 @@ export default function FatimaPrayerOMyJesus() {
         <meta name="description" content="The Fatima Prayer (O My Jesus) with full text, meaning, when Our Lady asked for it in the Rosary, and how Catholics pray it after each decade." />
         <meta name="keywords" content="fatima prayer, o my jesus prayer, fatima rosary prayer, our lady of fatima prayer, pray after each decade fatima" />
         <link rel="canonical" href="https://guidecatholic.com/blog/fatima-prayer-o-my-jesus/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Fatima Prayer (O My Jesus): Full Text, Meaning and When to Pray It"

@@ -21,7 +21,7 @@ export default function GrowingInHumility() {
         <meta name="description" content="Humility in Catholic spirituality: the 12 degrees of humility from St. Benedict, Jesus as the model of humility, and practical exercises to grow in it." />
         <meta name="keywords" content="how to grow in humility, catholic humility, virtue of humility, humility in catholic spirituality, st benedict humility" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-grow-in-humility-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="How to Grow in Humility: The Catholic Path to True Greatness"

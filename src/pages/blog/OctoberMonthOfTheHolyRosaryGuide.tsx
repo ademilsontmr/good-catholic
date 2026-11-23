@@ -26,7 +26,7 @@ export default function OctoberMonthOfTheHolyRosaryGuide() {
           content="month of the holy rosary, october rosary catholic, our lady of the rosary 2026, feast of our lady of the rosary, how to pray the rosary october, rosary october devotion"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/october-month-of-the-holy-rosary-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="October Month of the Holy Rosary 2026: Feast & How to Pray"

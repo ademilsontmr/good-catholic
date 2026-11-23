@@ -21,7 +21,7 @@ export default function CorpusChristiFeastGuideCatholic() {
         <meta name="description" content="Corpus Christi feast day guide — Real Presence, Mass, Eucharistic processions, and how U.S. Catholics celebrate." />
         <meta name="keywords" content="corpus christi catholic, corpus christi feast day, eucharistic procession" />
         <link rel="canonical" href="https://guidecatholic.com/blog/corpus-christi-feast-guide-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Corpus Christi: Catholic Feast Day Guide (Meaning, Mass & Processions)" description="Corpus Christi feast day guide — Real Presence, Mass, Eucharistic processions, and how U.S. Catholics celebrate." url="https://guidecatholic.com/blog/corpus-christi-feast-guide-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

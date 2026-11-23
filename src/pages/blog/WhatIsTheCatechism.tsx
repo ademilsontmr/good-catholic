@@ -21,7 +21,7 @@ export default function WhatIsTheCatechism() {
         <meta name="description" content="What the Catechism of the Catholic Church is, how it is organized, and how to use it: a complete guide to the CCC for Catholics and the curious." />
         <meta name="keywords" content="catechism of the catholic church, what is the catechism, CCC catholic, catechism guide, catholic catechism explained" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catechism-of-the-catholic-church/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="What Is the Catechism of the Catholic Church? Complete Guide"

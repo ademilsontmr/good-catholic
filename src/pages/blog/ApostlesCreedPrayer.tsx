@@ -22,7 +22,7 @@ export default function ApostlesCreedPrayer() {
         <meta name="description" content="The Apostles' Creed with full Catholic text, meaning, history, and a clear explanation of each article of faith for prayer, RCIA, and the Rosary." />
         <meta name="keywords" content="apostles creed, apostles creed prayer, apostles creed catholic, apostles creed full text, what is the apostles creed, apostles creed meaning" />
         <link rel="canonical" href="https://guidecatholic.com/blog/apostles-creed-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Apostles' Creed: Full Text, Meaning and Catholic Explanation"

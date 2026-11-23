@@ -21,7 +21,7 @@ export default function EucharisticAdorationNearMe() {
         <meta name="description" content="Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit." />
         <meta name="keywords" content="eucharistic adoration near me, adoration near me, holy hour near me, perpetual adoration near me, catholic adoration chapel, blessed sacrament adoration" />
         <link rel="canonical" href="https://guidecatholic.com/blog/eucharistic-adoration-near-me/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Eucharistic Adoration Near Me: How to Find a Holy Hour"

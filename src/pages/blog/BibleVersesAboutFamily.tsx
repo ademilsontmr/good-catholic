@@ -20,7 +20,7 @@ export default function BibleVersesAboutFamily() {
         <meta name="description" content={"Bible Verses About Family for Catholics — Joshua 24:15 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses about family, catholic bible verses about family, bible verses family"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-about-family/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses About Family: Scriptures Catholics Pray and Memorize"}

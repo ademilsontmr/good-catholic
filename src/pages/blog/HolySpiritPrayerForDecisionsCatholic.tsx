@@ -21,7 +21,7 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
         <meta name="description" content="Holy Spirit prayer for decisions — full Catholic text for discernment, big choices, and guidance." />
         <meta name="keywords" content="holy spirit prayer for decisions, catholic prayer discernment, come holy spirit decision" />
         <link rel="canonical" href="https://guidecatholic.com/blog/holy-spirit-prayer-for-decisions-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Holy Spirit Prayer for Decisions: Full Text & When to Pray It" description="Holy Spirit prayer for decisions — full Catholic text for discernment, big choices, and guidance." url="https://guidecatholic.com/blog/holy-spirit-prayer-for-decisions-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

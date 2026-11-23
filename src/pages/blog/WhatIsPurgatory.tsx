@@ -17,15 +17,15 @@ export default function WhatIsPurgatory() {
   return (
     <>
       <Helmet>
-        <title>What Is Purgatory? The Definitive Catholic Guide to Purification</title>
-        <meta name="description" content="Discover the complete Catholic teaching on Purgatory. Explore biblical evidence, the 'fire' of divine love, the Museum of Souls, and how to help the poor souls." />
+        <title>What Is Purgatory? Catholic Teaching, Bible Basis & How to Help Souls</title>
+        <meta name="description" content="Purgatory is the final purification of those who die in God's grace. The Catholic teaching, its roots in Scripture, whether it lasts forever, and how to help the holy souls." />
         <meta name="keywords" content="what is purgatory, purgatory catholic, is purgatory in the bible, catholic teaching purgatory, prayers for souls in purgatory, museum of souls purgatory, gregorian masses" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-purgatory/" />
       </Helmet>
 
       <ArticleSchema
-        title="What Is Purgatory? The Definitive Catholic Guide to Purification"
-        description="An expert exploration of Purgatory—the masterpiece of Divine Mercy. Learn about the theology, history, and practice of praying for the holy souls."
+        title="What Is Purgatory? Catholic Teaching, Bible Basis & How to Help Souls"
+        description="Purgatory is the final purification of those who die in God's grace. The Catholic teaching, its roots in Scripture, whether it lasts forever, and how to help the holy souls."
         url="https://guidecatholic.com/blog/what-is-purgatory/"
         datePublished="2026-04-16"
         author="Catholic Faith Guide Team"

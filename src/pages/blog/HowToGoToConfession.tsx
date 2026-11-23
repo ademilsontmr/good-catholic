@@ -22,7 +22,7 @@ export default function HowToGoToConfession() {
         <meta name="description" content="Haven't been to Confession in years? What to expect when you go back, how to find a time, what to tell the priest, and how to return to Communion afterward." />
         <meta name="keywords" content="going back to confession after many years, returning to confession, confession after 20 years, haven't been to confession in years, coming back to the catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-go-to-confession/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Going Back to Confession After Many Years: What to Expect"

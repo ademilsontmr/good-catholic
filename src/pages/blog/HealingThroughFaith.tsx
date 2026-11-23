@@ -21,7 +21,7 @@ export default function HealingThroughFaith() {
         <meta name="description" content="How faith brings healing: Catholic prayers for healing, the ministry of the sick, the sacraments of healing, and biblical foundations for divine healing." />
         <meta name="keywords" content="healing through faith, catholic healing prayers, divine healing, sacrament of anointing, prayer for healing, faith and healing" />
         <link rel="canonical" href="https://guidecatholic.com/blog/healing-through-faith/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Healing Through Faith: Catholic Prayers for Physical and Emotional Recovery"

@@ -21,7 +21,7 @@ export default function BrownScapularGuide() {
         <meta name="description" content="Discover the deep history of the Brown Scapular. From St. Simon Stock to the Sabbatine Privilege, learn the requirements and promises of this Carmelite habit." />
         <meta name="keywords" content="brown scapular guide, sabbatine privilege, st simon stock 1251, wearing the scapular requirements, our lady of mount carmel promises" />
         <link rel="canonical" href="https://guidecatholic.com/blog/brown-scapular-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Brown Scapular: A Complete Guide to the Garment of Grace"

@@ -21,7 +21,7 @@ export default function CanCatholicsKeepAshesAtHome() {
         <meta name="description" content="Can Catholics keep ashes at home? What the Church allows and forbids about cremated remains in the United States." />
         <meta name="keywords" content="can catholics keep ashes at home, catholic cremation ashes rules, church teaching cremated remains" />
         <link rel="canonical" href="https://guidecatholic.com/blog/can-catholics-keep-ashes-at-home/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Can Catholics Keep Ashes at Home? Church Rules in the USA" description="Can Catholics keep ashes at home? What the Church allows and forbids about cremated remains in the United States." url="https://guidecatholic.com/blog/can-catholics-keep-ashes-at-home/" datePublished="2026-05-30" />
       <BreadcrumbSchema

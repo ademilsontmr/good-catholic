@@ -21,7 +21,7 @@ export default function JesusPrayerCatholic() {
         <meta name="description" content="The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner): full text, meaning, and how Catholics use it with the Rosary and lectio divina." />
         <meta name="keywords" content="jesus prayer catholic, lord jesus christ son of god have mercy, jesus prayer meaning, catholic repetitive prayer, hesychasm" />
         <link rel="canonical" href="https://guidecatholic.com/blog/jesus-prayer-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Jesus Prayer: Text, Meaning & Catholic Use (Breath of the Heart)"

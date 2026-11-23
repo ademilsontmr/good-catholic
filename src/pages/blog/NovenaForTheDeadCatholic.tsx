@@ -20,7 +20,7 @@ export default function NovenaForTheDeadCatholic() {
         <meta name="description" content="Novena for the dead — 9-day Catholic prayer for souls in purgatory and deceased loved ones. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="novena for the dead, catholic prayer for deceased, novena souls purgatory" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-the-dead-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for the Dead: 9-Day Catholic Prayer for Souls in Purgatory" description="Novena for the dead — 9-day Catholic prayer for souls in purgatory and deceased loved ones. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-the-dead-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

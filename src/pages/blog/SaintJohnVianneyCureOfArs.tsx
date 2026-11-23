@@ -21,7 +21,7 @@ export default function SaintJohnVianneyCureOfArs() {
         <meta name="description" content="Discover the life of Saint John Vianney, the humble priest who converted thousands through the confessional and battled the demonic in his small village of Ars." />
         <meta name="keywords" content="st john vianney, cure of ars, patron saint of priests, st john vianney spiritual warfare, miracles of st john vianney, confessional miracle" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-john-vianney-cure-of-ars/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint John Vianney: The Curé of Ars and the Power of the Confessional"

@@ -40,7 +40,7 @@ export default function PatronSaintOfTeachers() {
           content="patron saint of teachers, catholic prayer for teachers, teacher prayer before class, patron saint of catholic schools, st john baptist de la salle, catholic schools week, blessing of teachers, catholic gift for teacher"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

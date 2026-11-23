@@ -69,7 +69,7 @@ export default function PatronSaintOfMothers() {
           content="patron saint of mothers, patron saint of moms, st monica prayer for children, prayer for mothers catholic, mother's day prayer catholic, patron saint of mothers of wayward children, st anne, st gianna, st zelie martin"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

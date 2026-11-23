@@ -21,7 +21,7 @@ export default function ContemplativePrayer() {
         <meta name="description" content="Contemplative prayer in the Catholic tradition: meditation vs contemplation, the Carmelite tradition, infused vs acquired contemplation, and how to begin." />
         <meta name="keywords" content="contemplative prayer catholic, what is contemplative prayer, silent prayer catholic, centering prayer vs contemplation, infused contemplation" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-contemplative-prayer/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="What Is Contemplative Prayer? A Catholic Guide to Silent Prayer"

@@ -21,7 +21,7 @@ export default function WhatAgeFirstCommunionCatholicUsa() {
         <meta name="description" content="What age is First Communion in the USA? Typical ages, preparation requirements, and diocesan norms explained." />
         <meta name="keywords" content="what age first communion, first communion age catholic usa, when do catholics receive communion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-age-first-communion-catholic-usa/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="What Age Is First Communion in the Catholic Church? USA Guide" description="What age is First Communion in the USA? Typical ages, preparation requirements, and diocesan norms explained." url="https://guidecatholic.com/blog/what-age-first-communion-catholic-usa/" datePublished="2026-05-30" />
       <BreadcrumbSchema

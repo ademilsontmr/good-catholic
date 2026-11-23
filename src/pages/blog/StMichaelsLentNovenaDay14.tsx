@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay14() {
         <meta name="description" content={"Catholic St. Michael's Lent Novena Day 14 (August 28, 2026). S. Catholics — why this day matters and where to pray the full text free."} />
         <meta name="keywords" content={"st michael's lent novena day 14, st michaels lent novena day 14, st michael lent day 14 august 28, michaelmas novena day 14 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-14-august-28-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Pray St Michael's Lent Novena Day 14 (August 28, 2026)"}

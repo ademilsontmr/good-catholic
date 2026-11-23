@@ -26,7 +26,7 @@ export default function NationalEucharisticRevivalGuide2026() {
           content="national eucharistic revival, eucharistic revival 2026, real presence catholic, eucharistic adoration guide, eucharistic congress, corpus christi revival, catholic eucharist renewal"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/national-eucharistic-revival-complete-guide-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="National Eucharistic Revival: Complete Guide for Catholics (2026)"

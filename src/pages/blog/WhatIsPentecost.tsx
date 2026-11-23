@@ -21,7 +21,7 @@ export default function WhatIsPentecost() {
         <meta name="description" content="What is Pentecost in the Catholic Church? Descent of the Holy Spirit, Acts 2, how Catholics celebrate, and why it is the birthday of the Church." />
         <meta name="keywords" content="pentecost, what is pentecost catholic, pentecost feast holy spirit, pentecost sunday 2026, descent holy spirit pentecost, pentecost meaning catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-pentecost-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Pentecost Explained: Holy Spirit Feast for Catholics"

@@ -21,7 +21,7 @@ export default function NaturalFamilyPlanning() {
         <meta name="description" content="What Natural Family Planning (NFP) is, the Church's teaching in Humanae Vitae, the three main methods, effectiveness, and how NFP differs from contraception." />
         <meta name="keywords" content="natural family planning catholic, NFP catholic, catholic birth control, humanae vitae, why catholics use NFP" />
         <link rel="canonical" href="https://guidecatholic.com/blog/natural-family-planning-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Natural Family Planning: What the Catholic Church Teaches and Why"

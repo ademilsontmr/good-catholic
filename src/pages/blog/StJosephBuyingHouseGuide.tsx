@@ -22,7 +22,7 @@ export default function StJosephBuyingHouseGuide() {
         <meta name="description" content="The St. Joseph statue custom for buying or selling a house: where it comes from, how Catholic families do it, and why it must never become a charm." />
         <meta name="keywords" content="st joseph novena buying house, saint joseph prayer for house, bury st joseph statue, novena to st joseph real estate, catholic prayer for buying home, st joseph patron of homes" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-buying-house-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Burying a St. Joseph Statue: The Catholic Custom Explained"

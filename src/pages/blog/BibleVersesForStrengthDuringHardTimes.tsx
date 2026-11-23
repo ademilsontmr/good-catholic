@@ -20,7 +20,7 @@ export default function BibleVersesForStrengthDuringHardTimes() {
         <meta name="description" content={"Bible Verses for Strength During Hard Times for Catholics — Isaiah 40:31 and RSV-CE scriptures for prayer, comfort, and daily faith."} />
         <meta name="keywords" content={"bible verses for strength during hard times, catholic bible verses for strength during hard times, bible verses hard times"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/bible-verses-for-strength-during-hard-times/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"Bible Verses for Strength During Hard Times: Scriptures Catholics Pray and Memorize"}

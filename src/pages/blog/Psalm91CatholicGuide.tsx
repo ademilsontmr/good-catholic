@@ -30,7 +30,7 @@ export default function Psalm91CatholicGuide() {
           content="psalm 91, psalm 91 catholic, psalm 91 meaning, psalm 91 prayer, psalm of protection, qui habitat, psalm 91 angels, how to pray psalm 91, psalm 91 vs psalm 90"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-16" />
       <BreadcrumbSchema

@@ -49,7 +49,8 @@ async function main() {
       if (!html || html.length < 200) {
         throw new Error(`Empty or tiny HTML (${html?.length ?? 0} bytes)`);
       }
-      const pageHtml = injectPrerenderedHtml(template, html, helmet);
+      // React SSR occasionally emits a stray NUL inside multi-byte characters (seen in the footer heart).
+      const pageHtml = injectPrerenderedHtml(template, html.replace(/\u0000/g, ""), helmet);
       const outFile = routeToOutputFile(route);
       fs.mkdirSync(path.dirname(outFile), { recursive: true });
       fs.writeFileSync(outFile, pageHtml);
@@ -67,6 +68,19 @@ async function main() {
   }
 
   console.log(`Done: ${ok} prerendered, ${fail} failed`);
+
+  // Quiz and checkout screens only make sense once someone is taking the assessment. Give them an
+  // empty, noindex shell so they never receive the homepage's prerendered HTML (wrong content,
+  // homepage canonical, and a hydration mismatch); the app renders them in the browser.
+  const shell = template
+    .replace(/<meta data-rh="true" name="robots"[^>]*>/, '<meta data-rh="true" name="robots" content="noindex, follow" />')
+    .replace(/<link data-rh="true" rel="canonical"[^>]*>\n?/, "");
+  for (const route of ["/quiz/", "/checkout/", "/result/", "/get-result/"]) {
+    const outFile = routeToOutputFile(route);
+    fs.mkdirSync(path.dirname(outFile), { recursive: true });
+    fs.writeFileSync(outFile, shell);
+  }
+  console.log("Wrote noindex app shells for /quiz/, /checkout/, /result/, /get-result/");
   if (errors.length > 0) {
     console.log("First failures:");
     errors.slice(0, 10).forEach((e) => console.log(`  ${e.route}: ${e.message}`));

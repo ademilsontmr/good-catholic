@@ -22,7 +22,7 @@ export default function CatholicMassGuide() {
         <meta name="description" content="The Order of Mass as a one-page outline: each part in sequence with a one-line description and the people's main responses, ready to follow along or print." />
         <meta name="keywords" content="order of mass, order of the mass outline, order of mass printable, mass responses list, catholic mass order of service, parts of the mass in order" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-mass-complete-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Order of Mass at a Glance: A Printable Outline"

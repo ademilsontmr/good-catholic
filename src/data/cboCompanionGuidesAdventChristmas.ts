@@ -1118,7 +1118,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "label": "Gospels",
-        "value": "Matthew and Luke years alternate; 2026 follows Year A, Matthew at Mass"
+        "value": "Matthew, Mark and Luke rotate over three years; Advent 2026 opens Year B, Mark at Mass"
       },
       {
         "label": "Home practice",
@@ -1140,7 +1140,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
     "timeline": [
       {
         "when": "November 29, 2026",
-        "what": "Year A cycle; eschatological Matthew readings open Advent."
+        "what": "Year B begins; Mark's call to watchfulness (Mark 13:33–37) opens Advent."
       },
       {
         "when": "First week",
@@ -1169,7 +1169,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "How the lectionary orders Advent weeks",
         "paragraphs": [
           "Catholics approaching Advent Scripture reading need clarity before sentiment. The Church reads time backward and forward: Christ will come in glory and has come in Bethlehem. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Isaiah supplies the vocabulary of longing.",
-          "Matthew in Year A stresses vigilance. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Homilies should connect pews to kitchens.",
+          "Mark in Year B stresses vigilance. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Homilies should connect pews to kitchens.",
           "A household that never hears Isaiah in Advent hears anemic carols only. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Advent Scripture reading surfaces sin you have avoided naming."
         ]
       },
@@ -1185,7 +1185,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "gospels",
         "heading": "Sunday Gospels for Advent 2026",
         "paragraphs": [
-          "Catholics approaching Advent Scripture reading need clarity before sentiment. Matthew 24 opens with watchfulness; do not turn it into bunker anxiety. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Luke's Annunciation on December 20 weekend deserves family reading even if you miss Mass once.",
+          "Catholics approaching Advent Scripture reading need clarity before sentiment. Mark 13 opens with watchfulness; do not turn it into bunker anxiety. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Luke's Annunciation on December 20 weekend deserves family reading even if you miss Mass once.",
           "Confess gossip before reading John the Baptist's fire metaphors. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching."
         ]
       },

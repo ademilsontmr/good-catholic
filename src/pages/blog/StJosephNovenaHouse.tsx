@@ -22,7 +22,7 @@ export default function StJosephNovenaHouse() {
         <meta name="description" content="Catholic prayers to St. Joseph for every housing situation: a first home, renting, relocating for work, financing trouble, bidding wars, and selling." />
         <meta name="keywords" content="st joseph novena house, st joseph novena buying house, prayer to st joseph for house, st joseph home buyer novena, catholic prayer for house" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-house/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Prayers to St. Joseph for a House: First Home, Renting, Moving"

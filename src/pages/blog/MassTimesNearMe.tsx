@@ -21,7 +21,7 @@ export default function MassTimesNearMe() {
         <meta name="description" content="How to find Mass times near you — the best tools, apps, and websites to locate a Catholic church, check Mass schedules, and find confession times in your area." />
         <meta name="keywords" content="mass times near me, catholic church near me, find mass near me, catholic mass schedule, mass finder, masstimes.org, catholic mass today" />
         <link rel="canonical" href="https://guidecatholic.com/blog/mass-times-near-me/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Mass Times Near Me: How to Find a Catholic Church & Mass Schedule"

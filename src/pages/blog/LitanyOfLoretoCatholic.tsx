@@ -21,7 +21,7 @@ export default function LitanyOfLoretoCatholic() {
         <meta name="description" content="The Litany of Loreto with full Catholic text, titles of Mary explained, and when to pray this Marian devotion." />
         <meta name="keywords" content="litany of loreto, litany of loreto full text, marian litany catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/litany-of-loreto-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Litany of Loreto: Full Text & Meaning for Catholics" description="The Litany of Loreto with full Catholic text, titles of Mary explained, and when to pray this Marian devotion." url="https://guidecatholic.com/blog/litany-of-loreto-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

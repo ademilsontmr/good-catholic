@@ -21,7 +21,7 @@ export default function CorporalWorksOfMercyCatholic() {
         <meta name="description" content="The seven corporal works of mercy explained, from feeding the hungry to visiting the sick and burying the dead, and practical ways to live mercy today." />
         <meta name="keywords" content="corporal works of mercy, 7 corporal works of mercy catholic, works of mercy list, feed the hungry catholic, visit the sick" />
         <link rel="canonical" href="https://guidecatholic.com/blog/corporal-works-of-mercy-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Corporal Works of Mercy: Catholic List & How to Live Them (USA)" description="The seven corporal works of mercy explained, from feeding the hungry to visiting the sick and burying the dead, and practical ways to live mercy today." url="https://guidecatholic.com/blog/corporal-works-of-mercy-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

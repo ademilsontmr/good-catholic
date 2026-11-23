@@ -53,7 +53,7 @@ export default function ${component}() {
         <meta name="description" content={${JSON.stringify(desc)}} />
         <meta name="keywords" content={${JSON.stringify(keywords)}} />
         <link rel="canonical" href="https://guidecatholic.com/blog/${slug}/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={${JSON.stringify(h1)}}

@@ -22,7 +22,7 @@ export default function PrayerBeforeMealsCatholic() {
         <meta name="description" content="Learn the traditional Catholic grace before meals, prayers after eating, family meal prayers, and the spiritual meaning of blessing food. Full texts included." />
         <meta name="keywords" content="prayer before meals catholic, grace before meals catholic, blessing before meals, catholic grace prayer, bless us o lord prayer, family meal prayer catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prayer-before-meals-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Prayer Before Meals: Grace Before and After Eating"

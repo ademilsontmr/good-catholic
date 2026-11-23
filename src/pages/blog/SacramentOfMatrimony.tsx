@@ -21,7 +21,7 @@ export default function SacramentOfMatrimony() {
         <meta name="description" content="Discover the theology of Catholic marriage. Learn about sacramental marriage, the vows, indissolubility, and how spouses participate in God's creative love." />
         <meta name="keywords" content="sacrament of matrimony, catholic marriage, sacramental marriage, marriage theology, catholic wedding" />
         <link rel="canonical" href="https://guidecatholic.com/blog/sacrament-of-matrimony/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="The Sacrament of Matrimony: Catholic Marriage Theology"

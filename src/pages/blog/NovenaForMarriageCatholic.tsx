@@ -20,7 +20,7 @@ export default function NovenaForMarriageCatholic() {
         <meta name="description" content="Novena for marriage: a 9-day Catholic prayer for your spouse, a struggling relationship, or healing, with full prayer text, a step-by-step guide, and FAQs." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-marriage-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Marriage: 9-Day Catholic Prayer for Your Spouse & Relationship" description="Novena for marriage: a 9-day Catholic prayer for your spouse, a struggling relationship, or healing, with full prayer text, a step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-marriage-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

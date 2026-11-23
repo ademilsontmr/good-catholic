@@ -22,7 +22,7 @@ export default function CompleteMassGuide() {
         <meta name="description" content="Every part of the Catholic Mass explained in order, from the Entrance to the Dismissal, with what the priest says, the people's responses, and U.S. postures." />
         <meta name="keywords" content="parts of the mass explained, catholic mass step by step, mass responses and postures, what happens at each part of mass, liturgy of the word, liturgy of the eucharist" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-the-catholic-mass/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Every Part of the Catholic Mass Explained, Step by Step"

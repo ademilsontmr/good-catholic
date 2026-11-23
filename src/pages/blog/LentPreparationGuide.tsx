@@ -21,7 +21,7 @@ export default function LentPreparationGuide() {
         <meta name="description" content="Prepare for Lent with this complete guide: choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation." />
         <meta name="keywords" content="Lent preparation, Lent guide, Lenten season, preparing for Lent, Lent sacrifices" />
         <link rel="canonical" href="https://guidecatholic.com/blog/lent-preparation-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Lent Preparation Guide: How to Make the Most of the Season"

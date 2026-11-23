@@ -21,7 +21,7 @@ export default function SaintAnneAndJoachim() {
         <meta name="description" content="Saints Anne and Joachim, parents of the Virgin Mary and grandparents of Jesus: their story, their shrines, and why they are patrons of grandparents." />
         <meta name="keywords" content="saints anne and joachim, grandparents of jesus, saint anne patron saint, joachim and anne feast day, parents of mary, saint anne prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saints-anne-and-joachim/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saints Anne and Joachim: The Grandparents of Jesus"

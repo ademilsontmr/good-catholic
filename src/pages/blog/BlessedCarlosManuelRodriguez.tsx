@@ -41,7 +41,7 @@ export default function BlessedCarlosManuelRodriguez() {
           content="blessed carlos manuel rodriguez, beato charlie rodriguez, carlos manuel rodriguez feast day, puerto rico blessed, we live for that night, vivimos para esa noche, easter vigil saint, catholic layman liturgy, caguas"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

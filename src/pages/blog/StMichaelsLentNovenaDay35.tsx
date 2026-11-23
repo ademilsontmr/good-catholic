@@ -20,7 +20,7 @@ export default function StMichaelsLentNovenaDay35() {
         <meta name="description" content={"St Michael Lent Novena Day 35: September 18, 2026 prayer guide: today's reflection for spiritual courage and the full novena on Catholic Bible Online."} />
         <meta name="keywords" content={"st michael's lent novena day 35, st michaels lent novena day 35, st michael lent day 35 september 18, michaelmas novena day 35 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-35-september-18-2026/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title={"St Michaels Lent Day 35 Novena Prayer — September 18, 2026"}

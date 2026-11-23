@@ -21,7 +21,7 @@ export default function TeDeumPrayerCatholic() {
         <meta name="description" content="The Te Deum laudamus in full English text, its history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations)." />
         <meta name="keywords" content="te deum prayer, te deum laudamus, te deum full text, catholic hymn of thanksgiving, te deum english" />
         <link rel="canonical" href="https://guidecatholic.com/blog/te-deum-prayer-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Te Deum Prayer: Full Catholic Text & When the Church Sings It" description="The Te Deum laudamus in full English text, its history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations)." url="https://guidecatholic.com/blog/te-deum-prayer-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

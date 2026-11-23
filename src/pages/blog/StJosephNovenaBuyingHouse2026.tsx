@@ -21,7 +21,7 @@ export default function StJosephNovenaBuyingHouse2026() {
         <meta name="description" content="St. Joseph novena for buying a house — 9-day prayer, buried statue tradition without superstition, virtue checklist, home blessing, and trust in Providence." />
         <meta name="keywords" content="st joseph novena for buying a house, st joseph prayer house, burying st joseph statue, novena for home buyers catholic, st joseph real estate prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-for-buying-a-house/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="St. Joseph Novena for Buying a House: The Complete Catholic Guide"

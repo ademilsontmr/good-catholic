@@ -21,7 +21,7 @@ export default function HowToPrayForSomeone() {
         <meta name="description" content="How do you pray for someone effectively? A complete Catholic guide to intercessory prayer — for the sick, the lost, enemies, and those you love most." />
         <meta name="keywords" content="how to pray for someone catholic, intercessory prayer catholic, praying for others catholic, prayer for a friend catholic, how to intercede for someone, catholic prayer for someone you love" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-for-someone-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="How to Pray for Someone: Catholic Intercessory Prayer Guide"

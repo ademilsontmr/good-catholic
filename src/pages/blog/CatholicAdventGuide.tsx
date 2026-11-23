@@ -21,7 +21,7 @@ export default function CatholicAdventGuide() {
         <meta name="description" content="How to observe Advent as a Catholic: the Advent wreath, a week-by-week guide, family traditions, a prayer schedule, and a complete Advent checklist." />
         <meta name="keywords" content="catholic advent guide, how to observe advent catholic, advent wreath catholic, advent prayer guide, preparing for christmas catholic, advent practices" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-catholic-advent-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Complete Catholic Advent Guide: Preparing Your Heart for Christmas"

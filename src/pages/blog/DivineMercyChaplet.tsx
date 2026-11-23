@@ -21,7 +21,7 @@ export default function DivineMercyChaplet() {
         <meta name="description" content="How to pray the Divine Mercy Chaplet step by step — full prayers, rosary beads, 3 o'clock Hour of Mercy, and St. Faustina's promises." />
         <meta name="keywords" content="divine mercy chaplet, how to pray divine mercy chaplet, st faustina diary, hour of mercy 3pm, divine mercy image meaning, promises of divine mercy" />
         <link rel="canonical" href="https://guidecatholic.com/blog/divine-mercy-chaplet/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Divine Mercy Chaplet: How to Pray (Full Guide)"

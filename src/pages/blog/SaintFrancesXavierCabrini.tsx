@@ -21,7 +21,7 @@ export default function SaintFrancesXavierCabrini() {
         <title>Saint Frances Xavier Cabrini: Patron of Immigrants | Guide Catholic</title>
         <meta name="description" content="S. citizen canonized: her life, the hospitals and schools she founded, her November 13 feast, and why immigrants still ask her help." />
         <link rel="canonical" href={PAGE} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Frances Xavier Cabrini: Patron Saint of Immigrants"

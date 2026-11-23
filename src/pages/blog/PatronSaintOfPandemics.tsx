@@ -42,7 +42,7 @@ export default function PatronSaintOfPandemics() {
           content="patron saint of pandemics, patron saint of epidemics, patron saint of plague, patron saint against contagious disease, st roch prayer, st sebastian plague, st corona, catholic prayer during an epidemic, prayer for healthcare workers"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

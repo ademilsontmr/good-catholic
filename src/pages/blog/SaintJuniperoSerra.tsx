@@ -21,7 +21,7 @@ export default function SaintJuniperoSerra() {
         <title>Saint Junípero Serra: California Missions and Canonization | Guide Catholic</title>
         <meta name="description" content="Who Saint Junípero Serra was: Mallorca, the nine California missions he founded, his 1773 appeal for native people, the 2015 canonization, and the July 1 feast." />
         <link rel="canonical" href={PAGE} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Saint Junípero Serra: The Franciscan of the California Missions"

@@ -21,7 +21,7 @@ export default function CatholicBibleVerses() {
         <meta name="description" content="50 essential Catholic Bible verses by theme — love, prayer, strength, Mary, Eucharist, and hope. RSV-CE quotes every Catholic should know." />
         <meta name="keywords" content="catholic bible verses, important bible verses catholic, scripture verses catholic, bible quotes catholic, bible verses for prayer, most important bible verses" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-bible-verses/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="Catholic Bible Verses: 50 Essential Scriptures by Theme"

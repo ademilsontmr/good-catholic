@@ -20,7 +20,7 @@ export default function NovenaForClarityCatholic() {
         <meta name="description" content="Pray the Novena for Clarity over 9 days — full Catholic prayer text, when to start, and how to ask God for direction in decisions, work, and relationships." />
         <meta name="keywords" content="novena for clarity, 9 day novena clarity, catholic prayer for direction, novena when confused, prayer for discernment novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-clarity-catholic/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title="Novena for Clarity: 9-Day Catholic Prayer When You Need Direction" description="Pray the Novena for Clarity over 9 days — full Catholic prayer text, when to start, and how to ask God for direction in decisions, work, and relationships." url="https://guidecatholic.com/blog/novena-for-clarity-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema

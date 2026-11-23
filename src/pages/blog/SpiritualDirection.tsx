@@ -21,7 +21,7 @@ export default function SpiritualDirection() {
         <meta name="description" content="What Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director." />
         <meta name="keywords" content="catholic spiritual direction, spiritual director catholic, how to find spiritual director, what is spiritual direction, spiritual director vs therapist" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-spiritual-direction/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
         <ArticleSchema
           title="Catholic Spiritual Direction: What It Is and How to Find a Director"

@@ -58,7 +58,7 @@ export default function PatronSaintOfTeeth() {
           content="patron saint of teeth, patron saint of toothache, patron saint of dentists, st apollonia, st apollonia prayer, prayer before dental surgery, prayer for wisdom teeth removal, prayer before root canal, catholic prayer for toothache"
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema title={TITLE} description={DESCRIPTION} url={PAGE_URL} datePublished="2026-11-20" />
       <BreadcrumbSchema

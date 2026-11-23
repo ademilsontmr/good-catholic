@@ -21,7 +21,7 @@ export default function TraditionalLatinMassGuide() {
         <meta name="description" content="The Traditional Latin Mass: how it differs from the Novus Ordo, how to follow it as a beginner, how to find a TLM, and why young Americans are drawn to it." />
         <meta name="keywords" content="traditional latin mass guide, how to follow the latin mass, tlm near me, extraordinary form mass, tridentine mass guide, latin mass for beginners" />
         <link rel="canonical" href="https://guidecatholic.com/blog/traditional-latin-mass-guide/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The Traditional Latin Mass: A Complete Guide for American Catholics"

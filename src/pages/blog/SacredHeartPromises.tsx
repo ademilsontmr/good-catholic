@@ -21,7 +21,7 @@ export default function SacredHeartPromises() {
         <meta name="description" content="Master the 12 promises of the Sacred Heart of Jesus. Learn the history of Paray-le-Monial, the 9 First Fridays, and the theology of reparation." />
         <meta name="keywords" content="12 promises of sacred heart, st margaret mary alacoque, sacred heart of jesus devotion, 9 first fridays, catholic reparation, Paray-le-Monial, Sacred Heart theology" />
         <link rel="canonical" href="https://guidecatholic.com/blog/sacred-heart-promises/" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <ArticleSchema
         title="The 12 Promises of the Sacred Heart of Jesus: A Guide to Divine Mercy"
